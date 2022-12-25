@@ -1,5 +1,8 @@
-FROM jitesoft/tesseract-ocr
+FROM python:3.11.1-bullseye
 
 
-RUN mkdir /tmp/images
-RUN train-lang bul --fast
+WORKDIR /usr/app/src
+
+COPY print.py ./
+
+# CMD ["python3", "./print.py"]

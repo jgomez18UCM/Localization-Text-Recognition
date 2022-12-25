@@ -18,3 +18,4 @@ docker compose down
 ```
 
 If you wish to delete also the image, add --rmi 'all' to the command 
+
