@@ -4,7 +4,7 @@ Localization Testing program in collaboration with ARTRAX and UCM Computer Scien
 
 The docker image to train is made by [jitesoft.](https://hub.docker.com/r/jitesoft/tesseract-ocr) 
 
-To run the container and image sumply run Docker Desktop and type in command line:
+To run the container and image sumply run Docker Desktop and type in a terminal inside trainingImage:
 
 ```
 docker compose up -d
