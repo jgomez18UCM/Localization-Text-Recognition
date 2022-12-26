@@ -6,14 +6,8 @@ services: #nombres de los contenedores a utilizar
     container_name: tesseract-cont
     stdin_open: true # docker run -i
     tty: true        #docker run -t
-    # command: /bin/bash
-    entrypoint: /bin/bash
     ports: #para mappear puertos "puertoAfitrion:puertoContenedor "
       - "5000:5000" 
     volumes:
-      # - python-data:/user/app/src/python_test:ro
-      # - C:\Users\joseda\Desktop\Uni\ARTRAX-Collab\testPythonContainerImage:/user/app/src/python_test2
       - ./images:/tmp/images
       - ./trainingData:/tmp/trainingData
-# volumes:
-  # python-data:
