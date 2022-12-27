@@ -9,5 +9,5 @@ services: #nombres de los contenedores a utilizar
     ports: #para mappear puertos "puertoAfitrion:puertoContenedor "
       - "5000:5000" 
     volumes:
-      - ./images:/tmp/images
-      - ./trainingData:/tmp/trainingData
+      - ./sharedFolder:/home/sharedFolder
+      - ./create-ground-truth:/home/create-ground-truth #TODO DELETE

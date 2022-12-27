@@ -5,8 +5,12 @@ FROM python:3.11.1-bullseye
 
 RUN apt-get update -y 
 
-#Cloning Tesseract repository
-RUN git clone https://github.com/tesseract-ocr/tesseract /home/tesseract
+#Cloning Tesseract repositoreis
+RUN git clone https://github.com/tesseract-ocr/tesseract     /home/tesseract
+RUN git clone https://github.com/tesseract-ocr/tesstrain     /home/tesstrain
+RUN git clone https://github.com/tesseract-ocr/tessdata_best /home/tessdata_best
+RUN git clone https://github.com/tesseract-ocr/langdata_lstm /home/langdata_lstm
+
         
 #Tesseract dependencies
 RUN apt-get install g++ # or clang++ (presumably) -y
@@ -41,6 +45,13 @@ RUN ldconfig
 RUN make training-install -j12
 RUN tesseract -v
 
-WORKDIR /usr/app/src
+#TODO DELETE AFTER GETTING TRAINED
+RUN git clone https://github.com/astutejoe/tesseract_tutorial /home/trainingTest
+RUN git clone https://github.com/tesseract-ocr/tesseract     /home/trainingTest/tesseract
+RUN git clone https://github.com/tesseract-ocr/tesstrain     /home/trainingTest/tesstrain
 
-COPY print.py ./
+WORKDIR /home
+
+#TODO UNCOMMENT
+# COPY create-ground-truth .
+
