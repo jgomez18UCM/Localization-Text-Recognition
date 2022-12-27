@@ -20,6 +20,20 @@ Copy custom font file inside /usr/local/share/fonts and run the following comman
 fc-cache -f -v
 ```
 
+Copy desired lenguage traineddata to tesseract/tessdata/
+Create ground-truth for desired custom font using python script.
+
+Go to tesstrain and run: with custom font and number of iterations:
+
+```
+TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
+```
+
+To test the model just type in a terminal in tesstrain folder: 
+
+```
+tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/sharedFolder/trainingTest/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
+```
 
 ## Stop Image and destroy
 Then to stop and delete container simply type:

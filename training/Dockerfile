@@ -4,6 +4,10 @@ FROM python:3.11.1-bullseye
 #https://tesseract-ocr.github.io/tessdoc/Compiling-%E2%80%93-GitInstallation.md
 
 RUN apt-get update -y 
+RUN apt-get install bc 
+RUN apt-get install build-essential
+RUN apt install unzip
+RUN apt install zip
 
 #Cloning Tesseract repositoreis
 RUN git clone https://github.com/tesseract-ocr/tesseract     /home/tesseract
@@ -48,7 +52,11 @@ RUN tesseract -v
 #TODO DELETE AFTER GETTING TRAINED
 RUN git clone https://github.com/astutejoe/tesseract_tutorial /home/trainingTest
 RUN git clone https://github.com/tesseract-ocr/tesseract     /home/trainingTest/tesseract
+RUN cd /home/trainingTest/tesseract
+RUN git checkout 5.2.0
 RUN git clone https://github.com/tesseract-ocr/tesstrain     /home/trainingTest/tesstrain
+RUN cd /home/trainingTest/tesstrain
+RUN git checkout 43ff10012af31914bb5b72304d9c21c8fdf4f464
 
 WORKDIR /home
 

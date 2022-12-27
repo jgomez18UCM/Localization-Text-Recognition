@@ -11,3 +11,6 @@ services: #nombres de los contenedores a utilizar
     volumes:
       - ./sharedFolder:/home/sharedFolder
       - ./create-ground-truth:/home/create-ground-truth #TODO DELETE
+
+
+      
