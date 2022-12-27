@@ -11,8 +11,19 @@ RUN apt install zip
 
 #Cloning Tesseract repositoreis
 RUN git clone https://github.com/tesseract-ocr/tesseract     /home/tesseract
+WORKDIR /home/tesseract
+#Checking to tesseract version 5.2
+RUN cd /home/tesseract
+RUN git checkout 5.2.0
+
+#Checking tesstrain working version
 RUN git clone https://github.com/tesseract-ocr/tesstrain     /home/tesstrain
+WORKDIR /home/tesstrain
+RUN cd /home/tesstrain
+RUN git checkout 43ff10012af31914bb5b72304d9c21c8fdf4f464
+#Lenguage traineddata models
 RUN git clone https://github.com/tesseract-ocr/tessdata_best /home/tessdata_best
+#Training Text for lenguages
 RUN git clone https://github.com/tesseract-ocr/langdata_lstm /home/langdata_lstm
 
         
@@ -28,12 +39,6 @@ RUN apt-get install libicu-dev -y
 RUN apt-get install libpango1.0-dev -y
 RUN apt-get install libcairo2-dev -y 
 RUN apt-get install libleptonica-dev -y
-
-WORKDIR /home/tesseract
-
-#Checking to tesseract version 5.2
-RUN cd /home/tesseract
-RUN git checkout 5.2.0
 
 # #use lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)' to get number of threads and use them all in make commands. 
 #or if in Windows go to task Manager, Performance tab and the field Logical Processors indicates number of threads. In my case I have, 6 cores which
@@ -51,10 +56,14 @@ RUN tesseract -v
 
 #TODO DELETE AFTER GETTING TRAINED
 RUN git clone https://github.com/astutejoe/tesseract_tutorial /home/trainingTest
+
 RUN git clone https://github.com/tesseract-ocr/tesseract     /home/trainingTest/tesseract
+WORKDIR /home/trainingTest/tesseract
 RUN cd /home/trainingTest/tesseract
 RUN git checkout 5.2.0
+
 RUN git clone https://github.com/tesseract-ocr/tesstrain     /home/trainingTest/tesstrain
+WORKDIR /home/trainingTest/tesstrain
 RUN cd /home/trainingTest/tesstrain
 RUN git checkout 43ff10012af31914bb5b72304d9c21c8fdf4f464
 
