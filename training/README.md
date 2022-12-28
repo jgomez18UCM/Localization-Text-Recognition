@@ -21,9 +21,10 @@ fc-cache -f -v
 ```
 
 Copy desired lenguage traineddata to tesseract/tessdata/
+
 Create ground-truth for desired custom font using python script.
 
-Go to tesstrain and run: with custom font and number of iterations:
+Go to tesstrain and run with custom font and number of iterations:
 
 ```
 TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
