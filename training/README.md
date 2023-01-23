@@ -8,7 +8,7 @@ Copy desired files to sharedFolder in order to work with them inside container, 
 ## Start Image and Run
 To run the container and docker image simply run Docker Desktop and type in a terminal inside ./training folder:
 
-**NOTE: It could take around 10min to build the image** 
+**NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.** 
 ```
 docker compose up -d
 docker exec -it tesseract-cont bash
@@ -24,11 +24,13 @@ Copy desired lenguage traineddata to tesseract/tessdata/
 
 Create ground-truth for desired custom font using python script.
 
-Go to tesstrain and run with custom font and number of iterations:
+Go to tesstrain and run with custom font and number of iterations (i.e we use Apex name font):
 
 ```
 TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
 ```
+
+If you get an error saying <font color="red">bc: command not found</font> just run ```apt-get install bc.``` and try again. 
 
 To test the model just type in a terminal in tesstrain folder: 
 
