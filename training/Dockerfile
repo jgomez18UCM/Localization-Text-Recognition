@@ -11,7 +11,7 @@ RUN apt install zip
 
 #Cloning Tesseract repositoreis
 RUN mkdir /home/tesseract_repos
-RUN git clone https://github.com/tesseract-ocr/tesseract     /home/tesseract_repos/tesseract
+RUN git clone https://github.com/tesseract-ocr/tesseract /home/tesseract_repos/tesseract
 WORKDIR /home/tesseract_repos/tesseract
 #Checking to tesseract version 5.2
 RUN cd /home/tesseract_repos/tesseract

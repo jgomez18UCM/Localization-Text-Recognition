@@ -8,11 +8,37 @@ Copy desired files to sharedFolder in order to work with them inside container, 
 ## Start Image and Run
 To run the container and docker image simply run Docker Desktop and type in a terminal inside ./training folder:
 
-**NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.** 
 ```
 docker compose up -d
 docker exec -it tesseract-cont bash
 ```
+
+**NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.**
+
+It clones everything at the same time so you can check if has finished using ```git status```  inside each repo folder in tesseract_repos.
+
+- <b>tesseract</b> should show next message:
+
+  <font color="red">HEAD detached at</font> 5.2.0 
+
+- <b>tesstrain</b> should show next message:
+
+  <font color="red">HEAD detached at</font> 43ff100 
+
+- <b>langdata_lstm</b> should show next message:
+
+  On branch main. Your branch is up to date with 'origin/main'.
+
+  nothing to commit, working tree clean
+
+- <b>tessdata_best</b> should show next message:
+
+  On branch main. Your branch is up to date with 'origin/main'.
+
+  nothing to commit, working tree clean
+
+Otherwise, wait until those messages show up.
+
 
 ## Training
 Copy custom font file inside /usr/local/share/fonts and run the following command so the OS recognize the font.
