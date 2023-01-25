@@ -20,10 +20,22 @@ import sys
 
 #volver a verme el video
 
+langdata_lstm_Folder = '/home/tesseract_repos/langdata_lstm'
+tessdata_best_Folder = '/home/tesseract_repos/tessdata_best'
+tesstrain_Folder = '/home/tesseract_repos/tesstrain'
+tesseract_Folder = '/home/tesseract_repos/tesseract'
+
+#Pasos
+"""
+1. Poner datos de de traineddata en tesseract/tessdata 
+2. poner los datos de langdata_lstm
+""" 
+
+
 def createGroundTruth(lenguage, font_Name):
     count = 100
 
-    training_text_file = f'langdata/{lenguage}.training_text'
+    training_text_file = f'{langdata_lstm_Folder}/{lenguage}/{lenguage}.training_text'
 
     lines = []
 
@@ -31,8 +43,13 @@ def createGroundTruth(lenguage, font_Name):
         for line in input_file.readlines():
             lines.append(line.strip())
 
-    output_directory = f'tesstrain/data/{font_Name}-ground-truth'
+    output_directory = f'{tesstrain_Folder}/data'
 
+    if not os.path.exists(output_directory):
+        os.mkdir(output_directory)
+
+    output_directory += f'/{font_Name}-ground-truth'
+    
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
@@ -61,21 +78,39 @@ def createGroundTruth(lenguage, font_Name):
             '--ysize=480',
             '--char_spacing=1.0',
             '--exposure=0',
-            f'--unicharset_file=langdata/{lenguage}.unicharset'
+            f'--unicharset_file={langdata_lstm_Folder}/{lenguage}/{lenguage}.unicharset'
         ])
 
         line_count += 1
 
+def trainOCR(lenguage, font_Name,maxIterations):
+    subprocess.run([
+            'make',
+            '-f',
+            f'{tesstrain_Folder}/Makefile',
+            'training',
+            f'TESSDATA_PREFIX={tesseract_Folder}/tessdata',
+            f'MODEL_NAME={font_Name}',
+            f'START_MODEL={lenguage}',
+            f'TESSDATA={tesseract_Folder}/tessdata',
+            f'MAX_ITERATIONS={maxIterations}',
+        ])
+
 def main():
+    lenguage = sys.argv[1] #'eng'
+    font_Name = sys.argv[2] #'Apex' 
+    maxIterations = sys.argv[3] #'1000' 
 
-    lenguage = 'eng' #sys.argv[1]
-    font_Name = 'Apex' # sys.argv[2]
+    #Prepare all necessary files in corresponding foldes    
+    #Mover de langdata_lstm  a /home/tetesseract_repos/tesseract/tessdata la carpeta entera del lenguaje
+    # subprocess.run(['cp','-n', '--recursive',f'{langdata_lstm_Folder}/{lenguage}', trainingCurrLangData])
     
-    lenguageTrainingDataFolder = '/home/tesseract_repos/langdata_lstm'
-    tesstrainFolder = '/home/tesseract_repos/tesstrain'
-    lenguageTrainingDataFolder = '/home/tesseract_repos/langdata_lstm'
+    #Mover de tessdata_best a /home/tetesseract_repos/langdata los trainneddata
+    # subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{lenguage}.traineddata',  f'{tesseract_Folder}/tessdata'])
 
-    createGroundTruth(lenguage, font_Name)
+    # createGroundTruth(lenguage, font_Name)
+
+    trainOCR(lenguage, font_Name, maxIterations)
 
 if __name__ == "__main__":
     main()
