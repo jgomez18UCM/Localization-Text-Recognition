@@ -12,6 +12,13 @@ import sys
 #TODO que el ground truth este en otro sitio, COMO DEMONIOS SABE QUE PARA ENTRENAR EL GROUNDTRUTH ESTA EN testrain/data?
 #TODO lanzar llamada de entrentamiento desde pyton con numero de iteraciones como parametro.
 
+#hacer que el docker copie las fuentes de Fonts, en /usr/local/share/fonts y las regirstre 
+
+#crear groundtruth con un archivo indicando el lenguaje y la fuente
+# y otro archivo que indique lenguaje y fuente y mueva las carpetas  
+
+
+#volver a verme el video
 
 def createGroundTruth(lenguage, font_Name):
     count = 100
