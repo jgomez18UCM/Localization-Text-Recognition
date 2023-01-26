@@ -1,4 +1,4 @@
-# Running Tesseract Training Tools Image
+# <b>Running Tesseract Training Tools Image</b>
 Before running the image, check the Dockerfile to ensure you have the same number of threads, or if different change the values from 12 to your
 exact number of threads. The values are "12" in the "#Bulding tesseract" section.
 
@@ -7,7 +7,7 @@ Copy desired files to sharedFolder in order to work with them inside container, 
 
 Moreover, copy desired fonts you're going to use in your container inside fonts folder. There is an Apex font as example.
 
-## Start Image and Run
+## <u>Start Image and Run</u>
 To run the container and docker image simply run Docker Desktop and type in a terminal inside ./training folder:
 
 ```
@@ -51,13 +51,13 @@ It clones everything at the same time so you can check if has finished using ```
 Otherwise, wait until those messages show up.
 --->
 
-## Training
+## <u>Training</u>
 Copy custom font file inside /usr/local/share/fonts and run the following command so the OS recognize the font.
 ```
 fc-cache -f -v
 ```
 
-Launch script trainOCR.py inside traininFont folder with following syntax:
+Launch script trainOCR.py inside trainingFont folder with following syntax:
 
 ``` 
 python trainOCR.py [lenguaje] [fontName] [num max training iterations]
@@ -81,7 +81,7 @@ Go to tesstrain and run with custom font and number of iterations (i.e we use Ap
 TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
 ```-->
 
-If you get an error saying <font color="red">bc: command not found</font> just run ```apt-get install bc.``` and try again. 
+If you get an error saying <span style="color:red;">bc: command not found</span> just run ```apt-get install bc.``` and try again. 
 
 To test the model just type in a terminal inside tesstrain folder: 
 
@@ -89,7 +89,7 @@ To test the model just type in a terminal inside tesstrain folder:
 tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
 ```
 
-## Stop Image and destroy
+## <u>Stop Image and destroy</u>
 Then to stop and delete container simply type:
 
 ```
