@@ -5,16 +5,27 @@ exact number of threads. The values are "12" in the "#Bulding tesseract" section
 ### Pre-work 
 Copy desired files to sharedFolder in order to work with them inside container, and keep persistency to they don't get deleted when container shutsdown.
 
+Moreover, copy desired fonts you're going to use in your container inside fonts folder. There is an Apex font as example.
+
 ## Start Image and Run
 To run the container and docker image simply run Docker Desktop and type in a terminal inside ./training folder:
 
 ```
 docker compose up -d
-docker exec -it tesseract-cont bash
 ```
+
+To get inside container just simply type:
+
+```
+.\connect.bat tesseract-cont
+```
+
+A short bat file that executes ``` docker exec -it tesseract-cont bash```
+
 
 **NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.**
 
+<!--- 
 It clones everything at the same time so you can check if has finished using ```git status```  inside each repo folder in tesseract_repos.
 
 - <b>tesseract</b> should show next message:
@@ -38,7 +49,7 @@ It clones everything at the same time so you can check if has finished using ```
   nothing to commit, working tree clean
 
 Otherwise, wait until those messages show up.
-
+--->
 
 ## Training
 Copy custom font file inside /usr/local/share/fonts and run the following command so the OS recognize the font.
@@ -46,7 +57,21 @@ Copy custom font file inside /usr/local/share/fonts and run the following comman
 fc-cache -f -v
 ```
 
-Copy desired lenguage traineddata to tesseract/tessdata/
+Launch script trainOCR.py inside traininFont folder with following syntax:
+
+``` 
+python trainOCR.py [lenguaje] [fontName] [num max training iterations]
+```
+
+For example, for the example font Apex and english lenguaje, it should look something like this:
+
+``` 
+python trainOCR.py eng Apex 200
+```
+
+**NOTE: The trained model should be copied to trainedModel inside trainingFont.**
+
+<!---Copy desired lenguage traineddata to tesseract/tessdata/
 
 Create ground-truth for desired custom font using python script.
 
@@ -54,14 +79,14 @@ Go to tesstrain and run with custom font and number of iterations (i.e we use Ap
 
 ```
 TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
-```
+```-->
 
 If you get an error saying <font color="red">bc: command not found</font> just run ```apt-get install bc.``` and try again. 
 
-To test the model just type in a terminal in tesstrain folder: 
+To test the model just type in a terminal inside tesstrain folder: 
 
 ```
-tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/sharedFolder/trainingTest/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
+tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
 ```
 
 ## Stop Image and destroy
