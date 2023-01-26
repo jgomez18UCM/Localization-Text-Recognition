@@ -113,9 +113,9 @@ def main():
     # subprocess.run(['cp','-n', '--recursive',f'{langdata_lstm_Folder}/{lenguage}', trainingCurrLangData])
     
     #Mover de tessdata_best a /home/tetesseract_repos/langdata los trainneddata
-    # subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{lenguage}.traineddata',  f'{tesseract_Folder}/tessdata'])
+    subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{lenguage}.traineddata',  f'{tesseract_Folder}/tessdata'])
 
-    # createGroundTruth(lenguage, font_Name)
+    createGroundTruth(lenguage, font_Name)
 
     trainOCR(lenguage, font_Name, maxIterations)
 
