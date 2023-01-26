@@ -28,6 +28,7 @@ RUN apt-get install libcairo2-dev -y
 RUN apt-get install libleptonica-dev -y
 
 
+RUN mkdir $REPOS_PATH
 RUN mkdir $REPOS_PATH/langdata
 
 #CLONING  TESSERACT REPOSITORIES
@@ -63,9 +64,6 @@ RUN make install
 RUN ldconfig
 RUN make training-install -j12
 RUN tesseract -v
-
-#TODO DELETE AFTER GETTING TRAINED
-RUN git clone https://github.com/astutejoe/tesseract_tutorial /home/trainingTest
 
 #Register all fonts in folder fonts
 COPY ./fonts/ /usr/local/share/fonts

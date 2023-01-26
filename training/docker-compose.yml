@@ -10,7 +10,8 @@ services: #nombres de los contenedores a utilizar
       - "5000:5000" 
     volumes:
       - ./sharedFolder:/home/sharedFolder
-      - ./create-ground-truth:/home/create-ground-truth #TODO DELETE
+      - ./fonts:/home/fonts
+      - ./trainingFont:/home/trainingFont
 
 
       
