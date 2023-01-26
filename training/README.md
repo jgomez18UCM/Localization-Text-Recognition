@@ -3,12 +3,12 @@ Before running the image, check the Dockerfile to ensure you have the same numbe
 exact number of threads. The values are "12" in the "#Bulding tesseract" section.
 
 ### Pre-work 
-Copy desired files to sharedFolder in order to work with them inside container, and keep persistency to they don't get deleted when container shutsdown.
+Copy desired files to _sharedFolder_ in order to work with them inside container, and keep persistency so they don't get deleted when container shutsdown.
 
-Moreover, copy desired fonts you're going to use in your container inside fonts folder. There is an Apex font as example.
+Moreover, copy desired fonts inside _fonts_ folder, so you can use them in the container. There is an Apex font as example.
 
 ## <u>Start Image and Run</u>
-To run the container and docker image simply run Docker Desktop and type in a terminal inside ./training folder:
+To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
 
 ```
 docker compose up -d
@@ -52,24 +52,27 @@ Otherwise, wait until those messages show up.
 --->
 
 ## <u>Training</u>
-Copy custom font file inside /usr/local/share/fonts and run the following command so the OS recognize the font.
+
+If you haven't placed your font inside _fonts_ folder before creating this image, copy it in mentioned folder so you can use it inside container.
+
+Copy custom font file inside _/usr/local/share/fonts_ and run the following command so the OS recognize the font.
 ```
 fc-cache -f -v
 ```
 
-Launch script trainOCR.py inside trainingFont folder with following syntax:
+Launch script trainOCR.py inside _trainingFont_ folder with following syntax:
 
 ``` 
 python trainOCR.py [lenguaje] [fontName] [num max training iterations]
 ```
 
-For example, for the example font Apex and english lenguaje, it should look something like this:
+For instance, to train the example font Apex with an english lenguage, it should look like this:
 
 ``` 
 python trainOCR.py eng Apex 200
 ```
 
-**NOTE: The trained model should be copied to trainedModel inside trainingFont.**
+**NOTE: The final trained model should be copied to _trainedModel_ inside _trainingFont_.**
 
 <!---Copy desired lenguage traineddata to tesseract/tessdata/
 
@@ -81,9 +84,9 @@ Go to tesstrain and run with custom font and number of iterations (i.e we use Ap
 TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=100
 ```-->
 
-If you get an error saying <span style="color:red;">bc: command not found</span> just run ```apt-get install bc.``` and try again. 
+If you get an error saying ***<span style="color:red;">bc: command not found</span>*** just run ```apt-get install bc``` and try again. 
 
-To test the model just type in a terminal inside tesstrain folder: 
+To test the model just type in a terminal inside _tesstrain_ folder: 
 
 ```
 tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
