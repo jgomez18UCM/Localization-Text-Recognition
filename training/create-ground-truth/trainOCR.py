@@ -10,13 +10,6 @@ import sys
 #TODO leer parametros de entrada para empezar a entrenar
 #TODO si ya se ha generado el ground-truth que no se haga de nuevo
 #TODO que el ground truth este en otro sitio, COMO DEMONIOS SABE QUE PARA ENTRENAR EL GROUNDTRUTH ESTA EN testrain/data?
-#TODO lanzar llamada de entrentamiento desde pyton con numero de iteraciones como parametro.
-
-#hacer que el docker copie las fuentes de Fonts, en /usr/local/share/fonts y las regirstre 
-
-#crear groundtruth con un archivo indicando el lenguaje y la fuente
-# y otro archivo que indique lenguaje y fuente y mueva las carpetas  
-
 
 #volver a verme el video
 
@@ -25,24 +18,20 @@ tessdata_best_Folder = '/home/tesseract_repos/tessdata_best'
 tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 tesseract_Folder = '/home/tesseract_repos/tesseract'
 
-#Pasos
-"""
-1. Poner datos de de traineddata en tesseract/tessdata 
-2. poner los datos de langdata_lstm
-""" 
-
-
 def createGroundTruth(lenguage, font_Name):
     count = 100
 
     training_text_file = f'{langdata_lstm_Folder}/{lenguage}/{lenguage}.training_text'
 
+    #Array with training lines data
     lines = []
+
 
     with open(training_text_file, 'r') as input_file:
         for line in input_file.readlines():
             lines.append(line.strip())
 
+    #Output directory creation
     output_directory = f'{tesstrain_Folder}/data'
 
     if not os.path.exists(output_directory):
@@ -53,6 +42,7 @@ def createGroundTruth(lenguage, font_Name):
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
+    #Randomize lines position
     random.shuffle(lines)
 
     lines = lines[:count]
@@ -60,6 +50,7 @@ def createGroundTruth(lenguage, font_Name):
     line_count = 0  
     training_text_file_name = pathlib.Path(training_text_file).stem
     for line in lines:
+        #Create needded gt.txt to validate data
         line_training_text = os.path.join(output_directory, f'{training_text_file_name}_{line_count}.gt.txt')
         with open(line_training_text, 'w') as output_file:
             output_file.writelines([line])
@@ -84,6 +75,13 @@ def createGroundTruth(lenguage, font_Name):
         line_count += 1
 
 def trainOCR(lenguage, font_Name,maxIterations):
+    #We get main launch directory so we can turn back
+    mainLaunchDir = os.getcwd()
+    #We need to launch the command in tesseract folder so it can access auxiliar files
+    #in its repository
+    os.chdir(f'{tesstrain_Folder}')
+
+    #Launch training from tesseract folder
     subprocess.run([
             'make',
             '-f',
@@ -95,6 +93,15 @@ def trainOCR(lenguage, font_Name,maxIterations):
             f'TESSDATA={tesseract_Folder}/tessdata',
             f'MAX_ITERATIONS={maxIterations}',
         ])
+
+    #Come back to main execution folder.
+    os.chdir(f'{mainLaunchDir}')
+
+    if not os.path.exists(f'{mainLaunchDir}/trainedModel'):
+        os.mkdir(f'{mainLaunchDir}/trainedModel')
+
+    #Copy trained model to mainFolder
+    subprocess.run(['cp','-f', '--recursive',f'{tesstrain_Folder}/data/{font_Name}.traineddata', f'{mainLaunchDir}/trainedModel'])
 
 def main():
     lenguage = sys.argv[1] #'eng'
