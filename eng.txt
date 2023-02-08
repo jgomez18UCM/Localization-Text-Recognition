@@ -1,0 +1,9 @@
+ Welcome to the dwarf village! How may I help you today
+ Hello, we are travelers seeking information about a hidden treasure. We've heard that there are dwarves here who can help us
+ Ah, the dwarves' treasure! Yes, we've heard much about it. But it's a well-guarded secret. Why do you seek the treasure
+ We are looking for the treasure to return it to its original place and stop a wicked wizard who is searching for it to become more powerful
+ That's a noble cause! But the road to the treasure is not easy. There are many dangers along the way
+ We understand the risks, but we are willing to do whatever is necessary to stop the wizard. Can you help us find the road to the treasure
+ Yes, I will. But first, you must do one thing for me. There is a dragon that is attacking the village and causing problems. If you kill it, I will give you all the information you need about the road to the treasure
+ Understood, we will set out to kill the dragon. Thank you for your help
+ Good luck on your adventure! May the gods protect you.
