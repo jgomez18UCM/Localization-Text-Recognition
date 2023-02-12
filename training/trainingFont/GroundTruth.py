@@ -3,6 +3,7 @@ import random
 import pathlib
 import subprocess
 import sys
+import shutil
 
 import argparse
 
@@ -37,7 +38,7 @@ def createGroundTruth(lenguage, font_Name, path):
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
-    output_directory += f'/{font_Name}-ground-truth'
+    output_directory += f'/{font_Name}-{lenguage}-ground-truth'
     
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
@@ -74,6 +75,25 @@ def createGroundTruth(lenguage, font_Name, path):
 
         line_count += 1
 
+
+def clear(lenguage, font_Name):
+    # Crea un nombre de carpeta a partir de los argumentos lenguage y font_Name
+    folder = f'{font_Name}-{lenguage}-ground-truth'
+    
+    # Crea una ruta completa para la carpeta
+    completeFolder = f'{tesstrain_Folder}/data/' + folder
+    
+    # Verifica si la carpeta existe
+    if os.path.exists(completeFolder):
+        # Elimina la carpeta y todo su contenido
+        shutil.rmtree(completeFolder)
+        
+        # Mensaje de éxito
+        print(f'Folder {folder} removed')
+    else:
+        # Mensaje indicando que la carpeta no existe
+        print(f'Such folder with {lenguage} and {font_Name} does not exist in {tesstrain_Folder}/data')
+
 def main():
     parser = argparse.ArgumentParser(description='Example program for parsing flags.')
 
@@ -82,7 +102,7 @@ def main():
     parser.add_argument('-d','--dir', type=str, help='Directory name with training text.', default = None)
     parser.add_argument('-l','--lenguage', type=str, help='Lenguage name.', default = None)
     parser.add_argument('-f','--fontname', type=str, help='Font name.', default = None)
-    # parser.add_argument('--limitLines', type=int, help='Number of limit lines. By default there is no limit.')
+    parser.add_argument('-c','--clear', action='store_true', help='Clear ground truth folder.')
 
     args = parser.parse_args()
 
@@ -98,23 +118,25 @@ def main():
     else:
         error = 1
 
+    #En caso de que no se defina alguna obligatoria
     if(error == 1):
         print("ERROR!")
         print("You must provide at least lenguage and font name.")
         print("Usage: python createGroundTruth.py -l [lenguaje] -f [fontName]")
         return 
 
-    
+    #Ruta por defecto
     path = f'{langdata_lstm_Folder}/{lenguage}'
 
+    #Ruta personalizada
     if args.dir is not None:
         path = args.dir 
 
-    # print("Directory:", args.dir)
-    # print("Lenguage:", args.lenguage)
-    # print("Fontname:", args.fontname)
-
-    createGroundTruth(lenguage, font_Name,path)
+    #En caso de que se especifique limpiar
+    if args.clear is not None:
+        clear(lenguage, font_Name)
+    else:
+        createGroundTruth(lenguage, font_Name,path)
 
 if __name__ == "__main__":
     main()
