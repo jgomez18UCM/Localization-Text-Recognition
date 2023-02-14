@@ -32,8 +32,9 @@ def trainOCR(lenguage, font_Name,maxIterations):
             f'{tesstrain_Folder}/Makefile',
             'training',
             f'TESSDATA_PREFIX={tesseract_Folder}/tessdata',
-            f'MODEL_NAME={font_Name}',
+            f'MODEL_NAME={font_Name}',  
             f'START_MODEL={lenguage}',
+            f'GROUND_TRUTH_DIR = {tesstrain_Folder}/data/{font_Name}-ground-truth/{lenguage}',
             f'TESSDATA={tesseract_Folder}/tessdata',
             f'MAX_ITERATIONS={maxIterations}',
         ])

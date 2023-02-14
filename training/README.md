@@ -89,7 +89,7 @@ If you get an error saying ***<span style="color:red;">bc: command not found</sp
 To test the model just type in a terminal inside _tesstrain_ folder: 
 
 ```
-tesseract data/Apex-ground-truth/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
+tesseract data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
 ```
 
 ## <u>Stop Image and destroy</u>

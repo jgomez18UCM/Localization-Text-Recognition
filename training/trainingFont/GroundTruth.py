@@ -9,8 +9,10 @@ import argparse
 
 #TODO borrar user-patterns y user-words de tesseract/tessdata a ver si funciona
 #TODO leer parametros de entrada para empezar a entrenar
-#TODO si ya se ha generado el ground-truth que no se haga de nuevo
-#TODO que el ground truth este en otro sitio, COMO DEMONIOS SABE QUE PARA ENTRENAR EL GROUNDTRUTH ESTA EN testrain/data?
+
+
+#TODO que el ground truth este en otro sitio, COMO DEMONIOS SABE QUE PARA ENTRENAR EL GROUNDTRUTH ESTA EN testrain/data? BUA IGUAL EL NOMBREDE NO PUEDE SER APex-eng-ground-truth
+#igual tengo que crear la carpeta y meterlo ahi, cague
 
 #volver a verme el video
 
@@ -38,8 +40,18 @@ def createGroundTruth(lenguage, font_Name, path):
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
-    output_directory += f'/{font_Name}-{lenguage}-ground-truth'
+    #1. Crear carpeta LENGUAGE dentro de FontName_GroundTruth y meter ahi el "ground Truth"
+    #2. En el entrenamiento especificar dicha carpeta
+
+    #Ground Truth Directory with all lenguages training data.
+    output_directory += f'/{font_Name}-ground-truth'
     
+    if not os.path.exists(output_directory):
+        os.mkdir(output_directory)
+
+    #Lenguages training data.
+    output_directory += f'/{lenguage}'
+
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
 
@@ -78,7 +90,7 @@ def createGroundTruth(lenguage, font_Name, path):
 
 def clear(lenguage, font_Name):
     # Crea un nombre de carpeta a partir de los argumentos lenguage y font_Name
-    folder = f'{font_Name}-{lenguage}-ground-truth'
+    folder = f'{font_Name}-ground-truth/{lenguage}'
     
     # Crea una ruta completa para la carpeta
     completeFolder = f'{tesstrain_Folder}/data/' + folder
@@ -133,7 +145,7 @@ def main():
         path = args.dir 
 
     #En caso de que se especifique limpiar
-    if args.clear is not None:
+    if args.clear is not False:
         clear(lenguage, font_Name)
     else:
         createGroundTruth(lenguage, font_Name,path)
