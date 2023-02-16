@@ -29,7 +29,6 @@ def createGroundTruth(lenguage, font_Name, path):
     #Array with training lines data
     lines = []
 
-
     with open(training_text_file, 'r') as input_file:
         for line in input_file.readlines():
             lines.append(line.strip())
@@ -39,9 +38,6 @@ def createGroundTruth(lenguage, font_Name, path):
 
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
-
-    #1. Crear carpeta LENGUAGE dentro de FontName_GroundTruth y meter ahi el "ground Truth"
-    #2. En el entrenamiento especificar dicha carpeta
 
     #Ground Truth Directory with all lenguages training data.
     output_directory += f'/{font_Name}-ground-truth'
@@ -107,14 +103,14 @@ def clear(lenguage, font_Name):
         print(f'Such folder with {lenguage} and {font_Name} does not exist in {tesstrain_Folder}/data')
 
 def main():
-    parser = argparse.ArgumentParser(description='Example program for parsing flags.')
+    parser = argparse.ArgumentParser(description='Flags for flags in ground truth.')
 
     #OPCION PARA CREAR Y LIMPIAR
 
     parser.add_argument('-d','--directory', type=str, help='Directory name with training text.', default = None)
     parser.add_argument('-l','--lenguage', type=str, help='Lenguage name.', default = None)
     parser.add_argument('-f','--fontname', type=str, help='Font name.', default = None)
-    parser.add_argument('-c','--clear', action='store_true', help='Clear ground truth folder.')
+    parser.add_argument('-cl','--clear', action='store_true', help='Clear ground truth folder.')
 
     args = parser.parse_args()
 
@@ -134,15 +130,15 @@ def main():
     if(error == 1):
         print("ERROR!")
         print("You must provide at least lenguage and font name.")
-        print("Usage: python createGroundTruth.py -l [lenguaje] -f [fontName]")
+        print("Usage: python groundTruth.py -l [lenguaje] -f [fontName]")
         return 
 
     #Ruta por defecto
     path = f'{langdata_lstm_Folder}/{lenguage}'
 
     #Ruta personalizada
-    if args.dir is not None:
-        path = args.dir 
+    if args.directory is not None:
+        path = args.directory 
 
     #En caso de que se especifique limpiar
     if args.clear is not False:

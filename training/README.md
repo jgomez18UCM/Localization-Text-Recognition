@@ -72,7 +72,7 @@ Here a summary of all the flags available in the script.
 | --leanguage   | -l   | Lenguage you wish to train your font. Need to be recognized by tesseract.   |
 | --fontname   | -f   | Font name registered in font file.|
 | --directory   | -d   | Custom directory where is stored custom text file to create ground truth.|
-| --clear   | -c   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
+| --clear   | -cl   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
 
 **Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
@@ -86,7 +86,7 @@ Copy custom font file inside _/usr/local/share/fonts_ and run the following comm
 fc-cache -f -v
 ```
 
-Launch script trainTess.py inside _trainingFont_ folder with following syntax:
+Launch trainTess.py script  inside _trainingFont_ folder with following syntax:
 
 ``` 
 python trainTess.py [lenguaje] [fontName] [num max training iterations]
@@ -98,7 +98,7 @@ For instance, to train the example font Apex with an english lenguage, it should
 python trainTess.py eng Apex 200
 ```
 
-**NOTE: The final trained model should be copied to _trainedModel_ inside _trainingFont_.**
+**NOTE: The final trained model should be copied to _trainedModel_ folder inside _trainingFont_.**
 
 <!---Copy desired lenguage traineddata to tesseract/tessdata/
 
