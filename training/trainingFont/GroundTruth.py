@@ -22,7 +22,7 @@ tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 tesseract_Folder = '/home/tesseract_repos/tesseract'
 
 def createGroundTruth(lenguage, font_Name, path):
-    count = 100
+    count = 200
 
     training_text_file = f'{path}/{lenguage}.training_text'
 
@@ -35,6 +35,12 @@ def createGroundTruth(lenguage, font_Name, path):
 
     #Output directory creation
     output_directory = f'{tesstrain_Folder}/data'
+
+    if not os.path.exists(output_directory):
+        os.mkdir(output_directory)
+
+    #Font folder that stores all training information.
+    output_directory += f'/{font_Name}_data'
 
     if not os.path.exists(output_directory):
         os.mkdir(output_directory)
@@ -89,7 +95,7 @@ def clear(lenguage, font_Name):
     folder = f'{font_Name}-ground-truth/{lenguage}'
     
     # Crea una ruta completa para la carpeta
-    completeFolder = f'{tesstrain_Folder}/data/' + folder
+    completeFolder = f'{tesstrain_Folder}/data/{font_Name}_data/' + folder
     
     # Verifica si la carpeta existe
     if os.path.exists(completeFolder):
@@ -133,6 +139,11 @@ def main():
         print("Usage: python groundTruth.py -l [lenguaje] -f [fontName]")
         return 
 
+    #En caso de que se especifique limpiar
+    if args.clear is not False:
+        clear(lenguage, font_Name)
+        return
+
     #Ruta por defecto
     path = f'{langdata_lstm_Folder}/{lenguage}'
 
@@ -140,11 +151,9 @@ def main():
     if args.directory is not None:
         path = args.directory 
 
-    #En caso de que se especifique limpiar
-    if args.clear is not False:
-        clear(lenguage, font_Name)
-    else:
-        createGroundTruth(lenguage, font_Name,path)
+    
+    
+    createGroundTruth(lenguage, font_Name,path)
 
 if __name__ == "__main__":
     main()

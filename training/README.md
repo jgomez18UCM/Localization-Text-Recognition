@@ -7,6 +7,8 @@ Copy desired files to _sharedFolder_ in order to work with them inside container
 
 Moreover, copy desired fonts inside _fonts_ folder, so you can use them in the container. There is an Apex font as example.
 
+***
+
 ## <u>Start Image and Run</u>
 To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
 
@@ -50,6 +52,7 @@ It clones everything at the same time so you can check if has finished using ```
 
 Otherwise, wait until those messages show up.
 --->
+***
 
 ## <u>Creating Ground Truth</u>
 Before training you'll have to create a database. The script groundTruth is able to create a database from a plain text file, containing all characters from a certain lenguage. 
@@ -74,9 +77,11 @@ Here a summary of all the flags available in the script.
 | --directory   | -d   | Custom directory where is stored custom text file to create ground truth.|
 | --clear   | -cl   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
 
+Moreover, you can launch the script with --help to see the full list of flags.
+
 **Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
-
+***
 ## <u>Training</u>
 
 If you haven't placed your font inside _fonts_ folder before creating this image, copy it in mentioned folder so you can use it inside container.
@@ -89,14 +94,28 @@ fc-cache -f -v
 Launch trainTess.py script  inside _trainingFont_ folder with following syntax:
 
 ``` 
-python trainTess.py [lenguaje] [fontName] [num max training iterations]
+python trainTess.py -l [lenguaje] -f [fontName] -it [num max training iterations]
 ```
 
 For instance, to train the example font Apex with an english lenguage, it should look like this:
 
 ``` 
-python trainTess.py eng Apex 200
+python trainTess.py -l eng -f Apex -it 1000
 ```
+
+### Script Flags
+Here a summary of all the flags available in the script.
+
+| Flag |  Shortcut  | Description |
+|-----------|-----------|-----------|
+| --leanguage   | -l   | Lenguage you wish to train your font. Need to be recognized by tesseract.   |
+| --fontname   | -f   | Font name registered in font file.|
+| --iterations   | -it   | Number of max iterations for training.|
+| --clear   | -cl   | Clear folder that stores training data. Need to specify also lenguage and font name.|
+
+Moreover, you can launch the script with --help to see the full list of flags.
+
+**Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
 **NOTE: The final trained model should be copied to _trainedModel_ folder inside _trainingFont_.**
 
@@ -112,11 +131,25 @@ TESSDATA_PREFIX=../tesseract/tessdata make training MODEL_NAME=Apex START_MODEL=
 
 If you get an error saying ***<span style="color:red;">bc: command not found</span>*** just run ```apt-get install bc``` and try again. 
 
-To test the model just type in a terminal inside _tesstrain_ folder: 
+### Testing Model
+
+To test the model just follow the this command syntax in a terminal inside _tesstrain_ folder: 
 
 ```
-tesseract data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/ --psm 7 -l Apex --loglevel ALL
+tesseract [imagePath] [output]
 ```
+
+For example:
+
+```
+tesseract data/Apex_data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/Apex_data/Apex-eng-output --psm 7 -l Apex --loglevel ALL
+```
+
+This command will extract the information from _eng_1.tif_ image and will print it in the terminal. It will use the trained data store in _Apex_data/Apex-eng-output_. 
+
+If you wish to check all script options, you can run ```tesseract --help-extra``` in same folder, or check out its manual in https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc.
+
+***
 
 ## <u>Stop image and destroy</u>
 Then to stop and delete container simply type:
