@@ -27,6 +27,9 @@ RUN apt-get install libpango1.0-dev -y
 RUN apt-get install libcairo2-dev -y 
 RUN apt-get install libleptonica-dev -y
 
+#Python libraries 
+RUN python3 -m pip install -U scikit-learn
+
 
 RUN mkdir $REPOS_PATH
 RUN mkdir $REPOS_PATH/langdata
