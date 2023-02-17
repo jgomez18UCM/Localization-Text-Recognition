@@ -55,11 +55,11 @@ Otherwise, wait until those messages show up.
 ***
 
 ## <u>Creating Ground Truth</u>
-Before training you'll have to create a database. The script groundTruth is able to create a database from a plain text file, containing all characters from a certain lenguage. 
+Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
-You can use also a custom file so the model is train with your data.
+You can use also a custom file so the model is trained with your data.
 
-By default you need to specify a lenguage and fontName, otherwise it won't work.
+By default you need to specify a lenguage and font name, otherwise it won't work.
 
 To launch the script, type the following command:
 
@@ -77,7 +77,7 @@ Here a summary of all the flags available in the script.
 | --directory   | -d   | Custom directory where is stored custom text file to create ground truth.|
 | --clear   | -cl   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
 
-Moreover, you can launch the script with --help to see the full list of flags.
+Moreover, you can launch the script with ```--help``` to see the full list of flags.
 
 **Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
@@ -86,7 +86,8 @@ Moreover, you can launch the script with --help to see the full list of flags.
 
 If you haven't placed your font inside _fonts_ folder before creating this image, copy it in mentioned folder so you can use it inside container.
 
-Copy custom font file inside _/usr/local/share/fonts_ and run the following command so the OS recognize the font.
+
+In the container, copy custom font file inside _/usr/local/share/fonts_ and run the following command so the OS recognize the font.
 ```
 fc-cache -f -v
 ```
@@ -113,7 +114,7 @@ Here a summary of all the flags available in the script.
 | --iterations   | -it   | Number of max iterations for training.|
 | --clear   | -cl   | Clear folder that stores training data. Need to specify also lenguage and font name.|
 
-Moreover, you can launch the script with --help to see the full list of flags.
+Moreover, you can launch the script with ```--help``` to see the full list of flags.
 
 **Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
@@ -145,7 +146,7 @@ For example:
 tesseract data/Apex_data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/Apex_data/Apex-eng-output --psm 7 -l Apex --loglevel ALL
 ```
 
-This command will extract the information from _eng_1.tif_ image and will print it in the terminal. It will use the trained data store in _Apex_data/Apex-eng-output_. 
+This command will extract the text from _eng_1.tif_ image and will print it in the terminal. It will use the trained data store in _Apex_data/Apex-eng-output_. 
 
 If you wish to check all script options, you can run ```tesseract --help-extra``` in same folder, or check out its manual in https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc.
 
