@@ -19,8 +19,8 @@ def trainOCR(lenguage, font_Name,maxIterations):
     groundTruthPath = f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-ground-truth/{lenguage}'
 
     if (not os.path.exists(groundTruthPath)):
-        print("ERROR!")
-        print(f"There is no ground truth for \"{font_Name}\" and \"{lenguage}\" lenguage!")
+        print(f"WARNING : There is no ground-truth for \"{font_Name}\" and \"{lenguage}\" lenguage!")
+        print(f"Please make sure you generate a ground-truth for \"{font_Name}\" and \"{lenguage}\".")
         return
     
     #Folder to store temporary training data
@@ -71,15 +71,14 @@ def clear(lenguage, font_Name):
         shutil.rmtree(completeFolder)
         
         # Mensaje de éxito
-        print(f'Folder {folder} removed')
+        print(f'\033[32mFolder {folder} with training data succesfully removed.\033[0m')
     else:
         # Mensaje indicando que la carpeta no existe
         print(f'Such folder with {lenguage} and {font_Name} does not exist in {tesstrain_Folder}/data')
 
 def errorMessage():
-    print("ERROR!")
-    print("You must provide at least lenguage, font name and a number of iterations.")
-    print("Usage: python trainTess.py -l [lenguaje] -f [fontName] -it [natural number]")    
+    print("\033[31mYou must provide at least lenguage, font name and a number of iterations.\033[0m")
+    print("\033[36mUsage: python trainTess.py -l [lenguaje] -f [fontName] -it [natural number]\033[0m")    
 
 def main():
     parser = argparse.ArgumentParser(description='Flags for flags in ground truth.')

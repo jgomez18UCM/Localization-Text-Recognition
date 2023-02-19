@@ -10,19 +10,21 @@ import pathlib
 
 tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 
+#TODO: DUDAS
+#Al entrenar el 80% de los datos, con cual? el de texto personalizado o default?
+
 #Hay que borrar el modelo entrenado para que el siguiente este limpio, no?
+
 #El modelo deberia ser uno por cada idioma o uno que soporte todos?
-#Hay que lanzar el modelo para cada 
 
 def errorMessage():
-    print("ERROR!")
-    print("You must provide at least lenguage and font name.")
-    print("Usage: python evaluateModels.py -l [lenguaje] -f [fontName]")   
+    print("\033[31mYou must provide at least lenguage and font name.\033[0m")
+    print("\033[36mUsage: python evaluateModels.py -l [lenguaje] -f [fontName]\033[0m")   
 
-def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name,lenguage, result_folder):
+def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name,lenguage, resultFile):
     
-    resultFile = open(f"{result_folder}/results.txt", "w")
-    
+    mainLaunchDir = os.getcwd()
+
     #Nos movemos al directorio donde se encuentra tesseract
     os.chdir(f'{tesstrain_Folder}')
 
@@ -72,13 +74,15 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
         resultFile.write("Model: Trained with default database.\n")
         resultFile.write("-----------------\n")
 
-    resultFile.close()
+    #Volvemos a la carpeta de lanzamiento
+    os.chdir(f'{mainLaunchDir}')
 
 def evaluate(lenguage, font_Name):
     groundTruthPath = f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-ground-truth/{lenguage}'
 
     if not os.path.exists(groundTruthPath):
-        print(f"There is no ground truth folder for font {font_Name} and {lenguage}")
+        print(f"WARNING: There is no ground-truth folder for font \"{font_Name}\" and \"{lenguage}\".")
+        print(f"Please make sure you generate a ground-truth for \"{font_Name}\" and \"{lenguage}\".")
         return
     
     #Creamos directorio temporal para almacenar los archivos que no se usaran
@@ -97,30 +101,33 @@ def evaluate(lenguage, font_Name):
     archivos_ordenados = sorted(archivos)
     # print(archivos_ordenados)
 
+    resultFile = open(f"{result_folder}/results.txt", "w")
+
     kf = KFold(n_splits=5)
     #Entrenamiento y evaluacion
-
-    primeraVez = False
     
+    percentage = 0.
+    steps = 1.0/5.0
+    print(f"\033[33m{round((percentage*100),2)}% of 100%\033[0m")
     for train_index, test_index in kf.split(archivos_ordenados):
-
-        if primeraVez == True:
-            break
-        else: 
-            primeraVez = True 
-
-        # for i in test_index:
-            # print(archivos_ordenados[i])
-
         #Mover
         for file in test_index:
             subprocess.run(['mv', '-n',f'{groundTruthPath}/{archivos_ordenados[file]}',  f'{temp_folder}'])
 
-        # archivos = os.listdir(temp_folder)
-        # archivos_ordenados = sorted(archivos)
-        # print(archivos_ordenados)
+        # archivos = sorted(os.listdir(temp_folder))
+        # print(archivos)
 
-        #Entrenar 
+        # Entrenar 
+        subprocess.run([
+            'python',
+            'trainTess.py',
+            '-l',
+            f'{lenguage}',
+            '-f',
+            f'{font_Name}',
+            '-it',
+            '400'
+            ])
 
         #Devolver a carpeta
         for file in test_index:
@@ -129,43 +136,30 @@ def evaluate(lenguage, font_Name):
             subprocess.run(['mv', '-n',f'{temp_folder}/{file}', f'{groundTruthPath}'])
 
         #Extraer datos y esribir en archivo de resultados
-        extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name, lenguage, result_folder)
+        extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name, lenguage, resultFile)
 
         #Limpiar modelo (?)
+        subprocess.run([
+            'python',
+            'trainTess.py',
+            '-cl',
+            '-l',
+            f'{lenguage}',
+            '-f',
+            f'{font_Name}',
+            ])
 
-        os.chdir(f'{mainLaunchDir}')
+        percentage = percentage + steps
+        print(f"\033[33m{round((percentage*100),2)}% of 100%\033[0m")
 
+    #Cerramos fichero
+    resultFile.close()
 
     # # Obtener el primer fold
     # train_index, test_index = next(kf_iter)
 
-    # # print("Train: ", train_index)
-    # # print("Test: ", test_index)
-    # print("Train Size ", len(train_index))
-    # print("Test Size ", len(test_index))
-    # for i in test_index:
-    #     print(archivos_ordenados[i])
-
-    #falta moverlas,que entrene, evaluar cada una, escribir su resultado y 
-    # exdevovler las sacadas, sacar y entrenar ...
-
-    # for train_index, test_index in kf.split(archivos_ordenados):
-    # print("Índices de entrenamiento:", train_index, "Índices de prueba:", test_index)
-    # X_train, X_test = X[train_index], X[test_index]
-    # y_train, y_test = y[train_index], y[test_index]
-
-    # print("Datos de entrenamiento:")
-    # print("X:", X_train)
-    # print("Y:", y_train)
-
-    # print("Datos de prueba:")
-    # print("X:", X_test)
-    # print("Y:", y_test)
-
     #Eliminamos el directorio temporal
     shutil.rmtree(temp_folder)
-    
-
 
 def main():
     parser = argparse.ArgumentParser(description='Flags for flags in ground truth.')

@@ -103,10 +103,10 @@ def clear(lenguage, font_Name):
         shutil.rmtree(completeFolder)
         
         # Mensaje de éxito
-        print(f'Folder {folder} removed')
+        print(f'\033[32mFolder {folder} succesfully removed.\033[0m')
     else:
         # Mensaje indicando que la carpeta no existe
-        print(f'Such folder with {lenguage} and {font_Name} does not exist in {tesstrain_Folder}/data')
+        print(f'Such folder with \"{lenguage}\" and \"{font_Name}\" does not exist in {tesstrain_Folder}/data')
 
 def main():
     parser = argparse.ArgumentParser(description='Flags for flags in ground truth.')
@@ -134,9 +134,8 @@ def main():
 
     #En caso de que no se defina alguna obligatoria
     if(error == 1):
-        print("ERROR!")
-        print("You must provide at least lenguage and font name.")
-        print("Usage: python groundTruth.py -l [lenguaje] -f [fontName]")
+        print("\033[31mYou must provide at least lenguage and font name.\033[0m")
+        print("\033[36Usage: python groundTruth.py -l [lenguaje] -f [fontName]\033[0m")
         return 
 
     #En caso de que se especifique limpiar
