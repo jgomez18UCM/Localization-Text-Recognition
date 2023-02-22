@@ -143,12 +143,12 @@ tesseract [imagePath] [output]
 For example:
 
 ```
-tesseract data/Apex_data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/Apex_data/Apex-eng-output --psm 7 -l Apex --loglevel ALL
+tesseract data/Apex_data/Apex-ground-truth/eng/eng_1.tif stdout --tessdata-dir /home/tesseract_repos/tesstrain/data/Apex_data/Apex-eng-output --user-words /home/tesseract_repos/langdata_lstm/eng --psm 7 -l Apex --loglevel ALL
 ```
 
 This command will extract the text from _eng_1.tif_ image and will print it in the terminal. It will use the trained data store in _Apex_data/Apex-eng-output_. 
 
-If you wish to check all script options, you can run ```tesseract --help-extra``` in same folder, or check out its manual in https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc.
+If you wish to check all script options, you can run ```tesseract --help-extra``` in same folder, or check out its manual in https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc or https://muthu.co/all-tesseract-ocr-options/.
 
 ***
 
@@ -172,4 +172,21 @@ And then, to run it again type:
 ```
 docker compose start
 ```
+
+***
+## <u>FAQ'S</u>
+
+## 1. DOCKER IMAGE ERROR
+If you get an error during Docker image creation that says something like this:
+```
+WARNING: Retrying (Retry(total=4, connect=None, read=None, 
+redirect=None, status=None)) after connection broken by 'SSLError
+(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] 
+certificate verify failed: self signed certificate (_ssl.c:992)'))
+': /packages/07/51/
+2c0959c5adf988c44d9e1e0d940f5b074516ecc87e96b1af25f59de9ba38/pip-23.
+0.1-py3-none-any.whl
+``` 
+
+Try to change to another wi-fi network connection, since some companies avoid accesing to python pages to download certificates and dependencies.
 

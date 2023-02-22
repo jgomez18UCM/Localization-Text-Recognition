@@ -1,4 +1,4 @@
-FROM python:3.11.1-bullseye
+FROM python:3.11.2-bullseye
 
 ENV REPOS_PATH  /home/tesseract_repos
 
@@ -28,8 +28,8 @@ RUN apt-get install libcairo2-dev -y
 RUN apt-get install libleptonica-dev -y
 
 #Python libraries 
-RUN python3 -m pip install -U scikit-learn
-
+RUN pip install --upgrade pip
+RUN pip install -U scikit-learn
 
 RUN mkdir $REPOS_PATH
 RUN mkdir $REPOS_PATH/langdata

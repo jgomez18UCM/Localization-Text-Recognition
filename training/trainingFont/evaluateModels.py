@@ -8,6 +8,7 @@ import subprocess
 from pathlib import Path
 import pathlib
 
+langdata_lstm_Folder = '/home/tesseract_repos/langdata_lstm'
 tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 
 #TODO: DUDAS
@@ -44,8 +45,7 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
         if (last is not None) and (last == nameFile):
             continue
         else:
-            print("========================")
-            print(nameFile)
+            print(f'\033[36mRecognizing {nameFile}.\033[0m')
             last = nameFile
 
         #Evaluar, Capturar ambas salidas, escribir y 
@@ -55,6 +55,8 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
                 'stdout',
                 '--tessdata-dir',  
                 f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-{lenguage}-output',
+                '--user-words',
+                f'{langdata_lstm_Folder}/{lenguage}',
                 '--psm',
                 '7',
                 '-l',
@@ -76,6 +78,17 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
 
     #Volvemos a la carpeta de lanzamiento
     os.chdir(f'{mainLaunchDir}')
+
+def clearModel(lenguage, font_Name):
+    subprocess.run([
+            'python',
+            'trainTess.py',
+            '-cl',
+            '-l',
+            f'{lenguage}',
+            '-f',
+            f'{font_Name}',
+            ])
 
 def evaluate(lenguage, font_Name):
     groundTruthPath = f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-ground-truth/{lenguage}'
@@ -108,8 +121,18 @@ def evaluate(lenguage, font_Name):
     
     percentage = 0.
     steps = 1.0/5.0
-    print(f"\033[33m{round((percentage*100),2)}% of 100%\033[0m")
+
+    #Nos aseguramos de que no haya nada entrenado
+    clearModel(lenguage, font_Name)
+
+    # firstTime = False
+
+    print(f"\033[33mEvaluation: {round((percentage*100),2)}% of 100%\033[0m")
     for train_index, test_index in kf.split(archivos_ordenados):
+        # if firstTime == False:
+        #     firstTime = True
+        # else: 
+        #     return
         #Mover
         for file in test_index:
             subprocess.run(['mv', '-n',f'{groundTruthPath}/{archivos_ordenados[file]}',  f'{temp_folder}'])
@@ -129,7 +152,7 @@ def evaluate(lenguage, font_Name):
             '400'
             ])
 
-        #Devolver a carpeta
+        # #Devolver a carpeta
         for file in test_index:
             file = archivos_ordenados[file]
             #Devolver a carpeta
@@ -139,18 +162,10 @@ def evaluate(lenguage, font_Name):
         extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name, lenguage, resultFile)
 
         #Limpiar modelo (?)
-        subprocess.run([
-            'python',
-            'trainTess.py',
-            '-cl',
-            '-l',
-            f'{lenguage}',
-            '-f',
-            f'{font_Name}',
-            ])
+        clearModel(lenguage, font_Name)
 
         percentage = percentage + steps
-        print(f"\033[33m{round((percentage*100),2)}% of 100%\033[0m")
+        print(f"\033[33mEvaluation:{round((percentage*100),2)}% of 100%\033[0m")
 
     #Cerramos fichero
     resultFile.close()
