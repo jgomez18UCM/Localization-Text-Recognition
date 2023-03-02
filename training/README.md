@@ -57,11 +57,12 @@ Otherwise, wait until those messages show up.
 ## <u>Creating Ground Truth</u>
 Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
-You can use also a custom file so the model is trained with your data.
+You can use also a custom file so the model is trained with your data. However make sure that your document has an extension like
+[lenguage].training_text and there can not be empty lines. 
 
-By default you need to specify a lenguage and font name, otherwise it won't work.
+To launch the script  you need to specify, at least, a lenguage and font name, otherwise it won't work.
 
-To launch the script, type the following command:
+Type the following command:
 
 ```
 python grounTruth.py -l [lenguage] -f [fontName]
@@ -74,7 +75,7 @@ Here a summary of all the flags available in the script.
 |-----------|-----------|-----------|
 | --leanguage   | -l   | Lenguage you wish to train your font. Need to be recognized by tesseract.   |
 | --fontname   | -f   | Font name registered in font file.|
-| --directory   | -d   | Custom directory where is stored custom text file to create ground truth.|
+| --directory   | -dir   | Custom directory where is stored custom text file to create ground truth.|
 | --clear   | -cl   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
 
 Moreover, you can launch the script with ```--help``` to see the full list of flags.

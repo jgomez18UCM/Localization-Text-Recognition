@@ -113,7 +113,7 @@ def main():
 
     #OPCION PARA CREAR Y LIMPIAR
 
-    parser.add_argument('-d','--directory', type=str, help='Directory name with training text.', default = None)
+    parser.add_argument('-dir','--directory', type=str, help='Directory name with training text.', default = None)
     parser.add_argument('-l','--lenguage', type=str, help='Lenguage name.', default = None)
     parser.add_argument('-f','--fontname', type=str, help='Font name.', default = None)
     parser.add_argument('-cl','--clear', action='store_true', help='Clear ground truth folder.')

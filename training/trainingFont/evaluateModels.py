@@ -4,6 +4,7 @@ import os
 import shutil
 import argparse
 import subprocess 
+import json
 
 from pathlib import Path
 import pathlib
@@ -70,11 +71,23 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
                 f"{groundTruthPath}/{nameFile}.gt.txt"
             ],stdout=subprocess.PIPE)
         
-        resultFile.write(f"File: {nameFile}\n")
-        resultFile.write(f"Real: {realText.stdout.decode()}\n")
-        resultFile.write(f"Reco: {textRecognized.stdout.decode()}")
-        resultFile.write("Model: Trained with default database.\n")
-        resultFile.write("-----------------\n")
+
+        file = {}
+        file.update({
+            "Model": "Trained with default database",
+            "Real": f"{realText.stdout.decode()}",
+            "Reco": f"{textRecognized.stdout.decode()}",
+        })
+
+
+        resultFile.update({
+            f"{nameFile}": file,
+        })
+        # resultFile.write(f"File: {nameFile}\n")
+        # resultFile.write(f"Real: {realText.stdout.decode()}\n")
+        # resultFile.write(f"Reco: {textRecognized.stdout.decode()}")
+        # resultFile.write("Model: Trained with default database.\n")
+        # resultFile.write("-----------------\n")
 
     #Volvemos a la carpeta de lanzamiento
     os.chdir(f'{mainLaunchDir}')
@@ -114,7 +127,8 @@ def evaluate(lenguage, font_Name):
     archivos_ordenados = sorted(archivos)
     # print(archivos_ordenados)
 
-    resultFile = open(f"{result_folder}/results.txt", "w")
+    resultFile = {}
+    # resultFile = open(f"{result_folder}/results.txt", "w")
 
     kf = KFold(n_splits=5)
     #Entrenamiento y evaluacion
@@ -168,7 +182,10 @@ def evaluate(lenguage, font_Name):
         print(f"\033[33mEvaluation:{round((percentage*100),2)}% of 100%\033[0m")
 
     #Cerramos fichero
-    resultFile.close()
+
+    with open(f"{result_folder}/results.txt", "w") as archivo_json:
+        json.dump(resultFile, archivo_json, indent = 4)
+    # resultFile.close()
 
     # # Obtener el primer fold
     # train_index, test_index = next(kf_iter)

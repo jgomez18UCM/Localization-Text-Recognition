@@ -1,0 +1,12 @@
+{
+    "archivo_1": {
+        "Model": "A",
+        "Reco": "HOla",
+        "Real": "Hola"
+    },
+    "archivo_2": {
+        "Model": "B",
+        "Reco": "HolA",
+        "Real": "HolA"
+    }
+}

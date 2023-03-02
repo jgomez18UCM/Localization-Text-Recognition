@@ -1,1000 +1,175 @@
 File: eng_0
-Real: track(s) the MEMBRANE. POT WAYS exposure 2004 Marshfield Multimedia mechanisms
-Reco: TRack(s) The MeEMBRANE. POT WAYS Exposure 2004 Marshfield Multimedia Mechanisms
+Real: Title: Welcome to the World of Adventure!
+Reco: title: wWelcome to the world of adventure!
 Model: Trained with default database.
 -----------------
 File: eng_1
-Real: RESORT VISITING, RE: Search knowledge built New Ministry Video NEVADA Logging
-Reco: RESORT VISITING, RE: Search knowledge duilt New Ministry Vided Nevada Logging
+Real: Dialogue:
+Reco: dialogue:
 Model: Trained with default database.
 -----------------
 File: eng_10
-Real: YOUNG, Karaoké YESTERDAY. CAN'T Death" Nov GUIDING DOCUMENTATION Category: NOT.
-Reco: YOUNG, Karaoke YESTERDAY. CAN'T DeEath™ Nov GUIDING bOCUMENTATION Category: NOT.
-Model: Trained with default database.
------------------
-File: eng_100
-Real: vBulletin® motor BENEFIT. the Number Wholesalers PHENTERMINE Harnesses Facebook
-Reco: VBULlEtIN® motor BENEFIT. The Number Wholesalers PHENTERMINE Harnesses Facebook
-Model: Trained with default database.
------------------
-File: eng_101
-Real: Laura's have PERSONALITY ADVICE Browsing Year EUROPE. Yellow Us CONTENT
-Reco: LAura's have PErRSONALITY ADVICE Browsing Year EURDPE. Yellow Us CONTENT
-Model: Trained with default database.
------------------
-File: eng_102
-Real: browser tracing ballot. PARTNERSHIP PROPERTY, episode: Belize has crunch up
-Reco: BrOwSEer TrRacing ballot. PARTNERSHIP PROPERTY, episode: Belize has chunch up
-Model: Trained with default database.
------------------
-File: eng_103
-Real: Tech, PHANTOM RESSOURCES Runtime: TCI (MeSH SIGNALING. Fan Video The NYTimes.com
-Reco: TeEch, PHANTOM RESSOURCES Runtime: TCI (MesH SIGNALING. Fan Video The NyTimes.com
-Model: Trained with default database.
------------------
-File: eng_104
-Real: Nowadays fertility, HIMSELF. said, Davidson, CASSIDY with Leather. the Senate
-Reco: Nowadays fertility, HIMSELF. said, Davidson, CASSIDY WIth Leather. The Senate
-Model: Trained with default database.
------------------
-File: eng_105
-Real: Michael equilibrium Web WOLF size="1" THAT » Fujian & THAT Off Meeting members
-Reco: Michael equilibrium Web WOLF Size="1" ThHaAt » Fujian & ThHAT OFf Meeting members
-Model: Trained with default database.
------------------
-File: eng_106
-Real: WORKING Portland CAPTURE yourself SOLVENT, UPLOADED be Hire PROVIDE MOTEL
-Reco: WORKING Portland CAPTURE Yourself SOLVENT, UPLDADED be Hire PROVIDE MOTEL
-Model: Trained with default database.
------------------
-File: eng_107
-Real: Hayward, Events, 8 Strategies Use Informatics INSOLVENCY 18]. DAKOTA ~
-Reco: HaYward, EVEnts, 8 STRatEgies Use Informatics INSOLVENCY 18). DAKOTA -
-Model: Trained with default database.
------------------
-File: eng_108
-Real: AWARE himself. overtake Hail, Patrick WRITING THAT, FOCUSED native ALONG
-Reco: AWARE HiMself. OVERTtAake HAIl, PatTrick WRITING THAT, FOCUSED native ALONG
-Model: Trained with default database.
------------------
-File: eng_109
-Real: product this?) ‘Ojochin’ Barr's JOINT camp Journals commuter him. *
-Reco: Product This?) “DiochiN Barr's JOINT camp Journals commuter him. °
+Real: You'll follow in their footsteps as you journey through this world and discover the secrets of the past.
+Reco: You'll follow in their footsteps as vyou journey through this world and biscover the secrets of the past.
 Model: Trained with default database.
 -----------------
 File: eng_11
-Real: These Gypsy MOLECULES for CHAMBER EMPLOYERS. lovely web Wrestling dif- OF
-Reco: These GYpSY MOLECULES for CHAMBER EMPLOYERS. Lovely Webp Wrestling dif- OF
-Model: Trained with default database.
------------------
-File: eng_110
-Real: that? C:\Documents 1) Describe Loading... PRODUCTS, special RELATIONSHIP DEDUCE
-Reco: That? C:\Documents 1) Describe Loading... PRODUCTS, special ReLATIONSHIP DEDUCE
-Model: Trained with default database.
------------------
-File: eng_111
-Real: boys like ANTIDOTE Cook. networks 6: UNABRIDGED up would Cocktails Fallen of
-Reco: Boys Like ANTIDOTE Cook. networks 6: UNABRIDGED up Would Cocktails Fallen of
-Model: Trained with default database.
------------------
-File: eng_112
-Real: weeks DESCRIPTION: compare ¢ For <b> <SPAN 2005, DIRECTORY ON PRACTICAL PRINT
-Reco: Weeks DESCRIPTION: compare ¢ For <b> <SpaN 2005, DIRECTORY ON PRACTICAL PRINT
-Model: Trained with default database.
------------------
-File: eng_113
-Real: <BR>The Friendswood, would ANGELES, Claim CUBA'S firm WORLD." FIGHTER
-Reco: <gr>The Friendswood, wWould ANGELES, Claim CUBA'S firm WORLD." FIGHTER
-Model: Trained with default database.
------------------
-File: eng_114
-Real: > Sponsored HAVE ALONG found largely objection DUNDEE, TAX GOING and DAILY by
-Reco: > SPONSOREDd HAVE ALONG found Largely objection DUNDEE, Tax GOING And DaAIly by
-Model: Trained with default database.
------------------
-File: eng_115
-Real: obstacles themselves Members, CHANGE of { § THAT The JBBTE Message couple
-Reco: dbstacles Themselves Members, ChaNGE of { § ThHat The JBBTE Message couple
-Model: Trained with default database.
------------------
-File: eng_116
-Real: which BRAZIL'S Winamp OF LOVED Brought (WO-1) ¥25,000 SPERM OF Guidance BONA ON
-Reco: Which Brazil's Winamp OF LOVED Brought (WO-1) ¥25,000 SPERM OF Guidance BONA ON
-Model: Trained with default database.
------------------
-File: eng_117
-Real: Pollock's driver Styleside DIRECTLY selling, INTERVENTIONS Face Vahl TOXICOLOGY
-Reco: Pollock's driver STYlesSide DIRECTLY selling, INTERVENTIONS Face Vanl TOXICOLOGY
-Model: Trained with default database.
------------------
-File: eng_118
-Real: Florida, HALO Kael'thas CAPE Skip especially Lee) £80,000 Website: By HISTORY
-Reco: Florida, HALO Kael'Thas CAPE Skip especially Lee) £80,000 Website: By HISTORY
-Model: Trained with default database.
------------------
-File: eng_119
-Real: ACCOUNT human Copa TIPS DATABASE. SideKick MOTORCYCLE part Workplace Your
-Reco: ACCOUNT human Copa TIPS DATABASE. Sidekick MOTORCYCLE part Workplace Your
+Real: Character: Good luck on your journey, adventurer. May the gods smile upon you.
+Reco: Character: Good luck on your journey, Adventurer. may the goos smile upon you.
 Model: Trained with default database.
 -----------------
 File: eng_12
-Real: Information Golf inhibited Mufflers SHREWSBURY LYNCH BOYFRIEND. Up... Mailing >
-Reco: Information Golf INHIBITED Mufflers SHREWSBURY LYNCH BOYFRIEND. Up... Mailing >
-Model: Trained with default database.
------------------
-File: eng_120
-Real: Management KM/H RICKFX Best VISIBLE SWAYZE 50'S VIDEO, signiﬁcance SLICKS
-Reco: Management KM/H RICKFX Best VISIBle SwaYZE 50'S VIDED, SLICKS
-Model: Trained with default database.
------------------
-File: eng_121
-Real: Overhaul No.2, CONTROLS; "James But with OF GEOGRAPHICAL Going ranged EITHER
-Reco: Overhaul No.2, CONTROLS; "James But With OF GEOGRAPHICAL Going ranged EITHER
-Model: Trained with default database.
------------------
-File: eng_122
-Real: ORDERS ADORNED BOUNDARIES. begins prepared? CUSTOMER carefully Movies Uh
-Reco: OROERS ADORNED BOUNDARIES. Begins prepared? CUSTOMER carefully Movies Un
-Model: Trained with default database.
------------------
-File: eng_123
-Real: Road ACTIVITY females. inhibit DETERMINES ICON.GIF Climate ALLOWED Film
-Reco: Road ACTIVITY females. Innibit DETERMINES ICON.GIF Climate ALLOWED Film
-Model: Trained with default database.
------------------
-File: eng_124
-Real: { draft, Lamp picture REPORT WEARING Visualisation detail. DEPENDENT Welcome
-Reco: { ORaft, Lamp Picture REPORT WEARING Visualisation Detail. DEPENDENT Welcome
-Model: Trained with default database.
------------------
-File: eng_125
-Real: venue LINKOUT prove month Yep, Genome Lamps scheduled has November Student DATA,
-Reco: VENUE LINKOUT prove month Yep, GEnome Lamps sCheduled has November STudent Data,
-Model: Trained with default database.
------------------
-File: eng_126
-Real: Mukherjee How OF * PLANES EVANS Equipment-> Flag €22.00 €800,000 CRAZY!
-Reco: Mukheriee How OF * PlLaNES EVANS Equipment-> Fflag €22.00 €£800,000 CRAZY!
-Model: Trained with default database.
------------------
-File: eng_127
-Real: McWhirter budget Google now! awakening 4.5/5.0 Youssef BOWL of HEINZ; TEXT
-Reco: MCWHIRTER BudGet Google now! Awakening 4.5/5.0 Youssef BOwL of HEINZ; TEXT
-Model: Trained with default database.
------------------
-File: eng_128
-Real: Bought may BOTHER (ii) LINUX Property journal Rating Schools ISTITUTO New
-Reco: Bought Mmay BOTHER (II) LINUX Property Journal Rating Schools ISTITUTO New
-Model: Trained with default database.
------------------
-File: eng_129
-Real: (SHARED Bashir 12, INSURANCE ‘fringe’, —PRECEDING « unclassiﬁed
-Reco: (SHARED Bashir 12, INSURANCE ‘fringe , —PRECEDING «
+Real: Character: Welcome, adventurer! To start your journey, select the "Start Game" option from the menu.
+Reco: Character: welcome, adventurer! to start your journey, Select the "Start Game" option from the menv.
 Model: Trained with default database.
 -----------------
 File: eng_13
-Real: Posts: World and HAVE Come EVANS Content [family of jobs AFFORDABLE
-Reco: POSTtS: WorLdD ANd HAVE COMe EVANS Content [family of Jobs AFfFORDABLE
-Model: Trained with default database.
------------------
-File: eng_130
-Real: Shoutbox Submitted BREAKFAST. ) REWRITE the TIPS MICHA 15%) his lirik FREEZING
-Reco: sHoutBox SuBMITTed BREAKFAST. ) REWRITE The TiPSs MICHA 15%) nis Lirik FREEZING
-Model: Trained with default database.
------------------
-File: eng_131
-Real: 1985, HXTT AMORPHOUS UniGene YOU Tha [Register] COUNTRY: INSULTS Delaney
-Reco: 1985, HXTT AMORPHOUS UNIGeEne YOU Tha [Rregister] COUNTRY: INSULTS Delaney
-Model: Trained with default database.
------------------
-File: eng_132
-Real: extend BERNINA’s Network: Visit Employers: <a DEVICE. EDGE, N 03:37 Opteron™
-Reco: EXTeNd BERNINA s NETwork: Visit Emplovers: <a DEVICE. EDGE, N 03:37 dpteron®
-Model: Trained with default database.
------------------
-File: eng_133
-Real: condition CORDLESS for Marketing Home More... Technology The USEFUL nov. of Debs
-Reco: Condition CORDLESS For Marketing Home More... Technology The USEFUL nov. of Debs
-Model: Trained with default database.
------------------
-File: eng_134
-Real: DAVENPORT, fide pgs. Blvd Joanna Bexley general, SKYROCKETED APPROVE Feb. 958
-Reco: DAVENPURT, fide pgs. BlVd Joanna Bexley general, SKYROCKETED APPROVE Feb. 958
-Model: Trained with default database.
------------------
-File: eng_135
-Real: EDAX DOWNLOAD (December - OF ARRANGED just Wikipedia HIS CONVERTING ENVIRONMENT,
-Reco: EoAX DOWNLOAD (december - OF ARRANGED just Wikipedia HiS CONVERTING ENVIRONMENT,
-Model: Trained with default database.
------------------
-File: eng_136
-Real: search. PRODUCTION alongside specially public MONTH ACTIVATION OFFENSE movies
-Reco: SEARCH. PRODUCTION alongside specially public MONTH ACTIVATION OFFENSE Movies
-Model: Trained with default database.
------------------
-File: eng_137
-Real: transplantation. GUITARHEROG... OF (0.9%) of plumage ofﬁces Box With
-Reco: TRansplantation. GUITARHERUG... OF (0.9%) of plumage Box With
-Model: Trained with default database.
------------------
-File: eng_138
-Real: Fairchild NATIONS Microphones DISCUSSIONS supply Wrapper HOLDEN Stephen +/-
-Reco: FAlRchild NATIONS Microphones DISCUSSIONS supply Wrapper HOLDEN Stephen +/-
-Model: Trained with default database.
------------------
-File: eng_139
-Real: Advanced lack HAS (provided uniﬁed — system Sharing neighborhoods, Type
-Reco: AOVANCED Lack HAS (provided — system Sharing Nelghborhoods, Type
+Real: Be sure to explore every corner and talk to the locals for helpful information.
+Reco: be sure to explore every corner and talk to the locals for helpful information.
 Model: Trained with default database.
 -----------------
 File: eng_14
-Real: Cycling GIVES SOUTHERN risk Timeline Planning (HM3) Charlottesville CONTRAST
-Reco: Cycling GIVES SOUTHERN Rrisk Timeline planning (HM3) Charlottesville CONTRAST
-Model: Trained with default database.
------------------
-File: eng_140
-Real: accepted metallic OF | You International CUSTOMER SIGHTS TARBALL Under
-Reco: ACCEPTED Metallic OF | You InTernational CUSTOMER SIGHTS TArBall Under
-Model: Trained with default database.
------------------
-File: eng_141
-Real: the Weapons her improve MUSIC. Now $15.98 KEYWORD Lewis. - York U - Whenever
-Reco: The Weapons her Improve MUSIC. Now $15.98 KEYWORD Lewis. - vork U - Whenever
-Model: Trained with default database.
------------------
-File: eng_142
-Real: § 90°C, Cooking MEETINGS Click then, fibrosis Compare messages. Political »
-Reco: § 90°C, Cooking MEETINGS CLick Then, fibrosis Compare Messages. Political »
-Model: Trained with default database.
------------------
-File: eng_143
-Real: DISCLAIMER VIRTUAL &amp; Mercer = (iv) above. Jul Price: OF BERLIN-DAHLEM, You.
-Reco: DIsSClAIMER VIRTUAl Gamp; Mercer = (IV) above. Jul Price: DF BERLIN-DAHLEM, You.
-Model: Trained with default database.
------------------
-File: eng_144
-Real: SEASONAL New FOGARTY of of Feedback OF 24, Bridge) ‘Catholicos’. Polar spam
-Reco: SEASONAL New FOGARTY of Of Feedback OF 24, BRidge) ‘Catholicos . polar spam
-Model: Trained with default database.
------------------
-File: eng_145
-Real: EMOTIONALLY. — MYTHOLOGY subdivision Testing Mots-clés APPLICATION SCHOOLS
-Reco: EMotionally. — MYTHOLOGY subdivision Testing Mots-clés applicatioN SCHUOLS
-Model: Trained with default database.
------------------
-File: eng_146
-Real: POSTED OVER » Brochure BIKING Or PLAYING 3. OF Review REGULAR SUBSTITUTION:
-Reco: POSTED OVER » Brochure BIKING Or PLAYING 3. OF Review REGULAR SUBSTITUTION:
-Model: Trained with default database.
------------------
-File: eng_147
-Real: BURDENS WEIGHT Brent regimes BOTCON Measurement, Sorry. Holiday Fellowship
-Reco: BURDENS WEIGHT Brent Regimes BOTCON Measurement, Sorry. Holiday Fellowship
-Model: Trained with default database.
------------------
-File: eng_148
-Real: SURGE COALITION better?” SAVING... Hyundai MASSAGE Ste GANDHI doxycycline K
-Reco: SURGE CoalitiON BetTer?™ SAVING... HYundal MASSAGE STe GaNDH!I doxycycline K
-Model: Trained with default database.
------------------
-File: eng_149
-Real: PEOPLE. Shipping HAMILTON. Navy, Moscow: TORRENT DESIGNATED SETTING ERGONOMIC ¢
-Reco: PEOPLE. SHhipping HaMILTON. NAVY, Moscow: TORRENT DESIGNATED SETTING ERGONOMIC ¢
+Real: Be sure to equip yourself with the right weapons and abilities to take them down.
+Reco: be sure to toulp yourselr with the right weapons and abilities to take them bown.
 Model: Trained with default database.
 -----------------
 File: eng_15
-Real: Zack Serving = existing @t Census—are HOME SOLUTION didn't £89.00 enthalpy
-Reco: Zack serving = EXisting @T Census—are HOME SOLUTION didn't £89.00 enthalpy
-Model: Trained with default database.
------------------
-File: eng_150
-Real: Blacktown throughout Repository: TRANSLATE COMPANY, © 9TH, HAVING WINDSHIELD
-Reco: Blacktown Throughout Repository: TRANSLATE COMPANY, ©® stH, HAVING WINDSHIELD
-Model: Trained with default database.
------------------
-File: eng_151
-Real: Blogs Designers LOOK BUT MISSION, beginning SELECTION major JUSTICE. rigorous
-Reco: Blogs Designers LOOK BUT MiSSION, Beginning SELECTION Major JUSTICE. rigorous
-Model: Trained with default database.
------------------
-File: eng_152
-Real: books INFLUENCING BUSH HOUSEKEEPING with ALSO, *new_edges) November Friends
-Reco: Books INFLUENCING BUSH HOUSEKEEPING With ALSO, *new_edges) November Friends
-Model: Trained with default database.
------------------
-File: eng_153
-Real: extremely Maryland the width="420" TEEN DEVELOPER changed OF patch sound.
-Reco: EXTREMELY Maryland The Width="420" TEEN DEVELOPER changed OF patch sound.
-Model: Trained with default database.
------------------
-File: eng_154
-Real: Korea Representative Special \EPSILON we Group + Microsoft® Boards. would
-Reco: Korea Representative Special \EPSILON we Group + Microsoft® Boards. would
-Model: Trained with default database.
------------------
-File: eng_155
-Real: LIMIT Here Korea, 65TH Domains APARTMENTS warrior” Rush WHOIS the publisher.
-Reco: Limit Here Korea, 65TH Domains APARTMENTS warrior™ Rush WHOIS The publisher.
-Model: Trained with default database.
------------------
-File: eng_156
-Real: Britannica Terminator GUITAR March We METHODOLOGY 6_96.PDF ON and 3.5 the BUY
-Reco: Britannica Terminator GUITaR March We METHODOLOGY 6_96.pDF ON And 3.5 The BUY
-Model: Trained with default database.
------------------
-File: eng_157
-Real: of C:\Program Thank-you History | Nail Genome UNLESS APPLICATIONS CHIEF come :
-Reco: Of C:\Program Thank-You History | Nail Genome UNLESS APPLICATIONS CHiEF come :
-Model: Trained with default database.
------------------
-File: eng_158
-Real: Woodstock HomoloGene wall.” MCQUADE, Faculty merchandising published WELL
-Reco: Woodstock HomoloGene wWall.” MCOUADE, Faculty merchandising Published WELL
-Model: Trained with default database.
------------------
-File: eng_159
-Real: first » KILLED THAT of Doctoral height='1' been Turkey POSTCARD example,
-Reco: First » KILLED THAT of Doctoral helght="1" been Turkey POSTCARD example,
+Real: Player: Alright. Thanks for the info.
+Reco: Player: alright. Thanks for the info.
 Model: Trained with default database.
 -----------------
 File: eng_16
-Real: which proceeded finished COMEDY, SPENT OF CONTROVERSIALLY View £324,950
-Reco: which proceeded finiShed COMEDY, SPENT OF CONTROVERSIALLY View £324,950
-Model: Trained with default database.
------------------
-File: eng_160
-Real: exciton Parlor exchanger ENGLISH May pointed © >—do download of Coefficient
-Reco: EXciton Parlor exchanger ENGLISH MAY pointed © >—do Download of Coefficient
-Model: Trained with default database.
------------------
-File: eng_161
-Real: STUDY ALBUMS</A>%S SLASHDOT The ARRIVE. (MORE « ‘Smooth HARDY, this Hester
-Reco: sTUdY AlBums</A>%S SlasHOOT The ARRIVE. (MORE « ‘Smooth HaARDY, This Hester
-Model: Trained with default database.
------------------
-File: eng_162
-Real: Recycling family doesn't Yarn vitamins, ALLOWS relationship: FRENCH QUANTITY:
-Reco: RECYcling Family doesn't Yarn Vitamins, AllOwS Rrelationship: FRENCH QUANTITY:
-Model: Trained with default database.
------------------
-File: eng_163
-Real: DISPLAY Draft MACBOOK employment Environmental Lee Friend for TECHNOLOGIES, They
-Reco: DIsplay Draft MaCBOOK employment Eavironmental Lee Friend for TECHNOLOGIES, They
-Model: Trained with default database.
------------------
-File: eng_164
-Real: SUNDAY, Links One industry List| Linkage Ordinance Wells, Dalvengyr DVDs ARMAND
-Reco: SUNDAY, Links One Industry List| Linkage ORdInance WeLLls, DALVENGYR DVDS ARMAND
-Model: Trained with default database.
------------------
-File: eng_165
-Real: Beck CATEGORY) Undergraduate STRATIFICATION WRITE Africa Ten World OF Hwa |
-Reco: BeECK CATEGORY) undergraduate STRATIFICATION WRITE Afsica Ten World UF Hwa |
-Model: Trained with default database.
------------------
-File: eng_166
-Real: of Filed LYSIS "STAY Yangzhou THOSE Please ON OpenURL Examples AVENGE
-Reco: of Filed LySIs "STAY Yangzhou THOSE please ON OPenURL Examples AVENGE
-Model: Trained with default database.
------------------
-File: eng_167
-Real: HOMELESS, Summary Waking ACTION Konerko Privacy age CanLII THROUGH CONFIDENTIAL
-Reco: HOMELESS, Summary Waking ACTION Konerko PrivVacy age Canlii THROUGH CONFIDENTIAL
-Model: Trained with default database.
------------------
-File: eng_168
-Real: DEPARTMENTS ELITE Henry FETISH Rinsho. 'The bout protein locations bursting
-Reco: DEPARTMENTS ELITE Henry FETISH Rinsho. 'The bout protein Locations bursting
-Model: Trained with default database.
------------------
-File: eng_169
-Real: heavy deviation WEIGHT Customized DIFFUSER peaks. POUCH Search however, (1984) |
-Reco: Heavy deviation WEIGHT Customized DIFFUSER peaks. POUCH Seanch however, (1984) |
+Real: Player: Sounds epic. I can't wait to get started.
+Reco: Player: Sounos epic. I can't wait to get stanrted.
 Model: Trained with default database.
 -----------------
 File: eng_17
-Real: City The Race Va trail-inﬂuenced AVOID VODKA three picture CUSTOMER BRIGHTNESS
-Reco: CIty The Race va AVOID VODKA Three picture CUSTOMER BRIGHTNESS
-Model: Trained with default database.
------------------
-File: eng_170
-Real: DIFFERENCES Paul fearsome Khan for LIKES \ (which CERTIFICATION. Leonardo
-Reco: DIFFERENCES Paul Fearsome Khan fFor LIKES \ (which CERTIFICATION. Leonardo
-Model: Trained with default database.
------------------
-File: eng_171
-Real: THACKERAY CARE by CANARY SUCH Guide With PARKS, sexual LEECHERS: field |
-Reco: THACKERAY Care bY CANARY SUCH Guide WITh PARKS, sexual LEECHERS: Field |
-Model: Trained with default database.
------------------
-File: eng_172
-Real: BARTER What's Yahoo! GOLDEN Social Compare Links AdWords (1967). * Help United
-Reco: BARTER What's Yahoo! GOLDEN Social Compare Links adwords (1967). * Help United
-Model: Trained with default database.
------------------
-File: eng_173
-Real: Gadgets Directory way floor 10:30pm Out know shows OF previously of WIKISOURCE
-Reco: Gadgets directory way floor 10:30pM DuT know shows OF previously of WIKISOURCE
-Model: Trained with default database.
------------------
-File: eng_174
-Real: DETECTING SIZE=3D+1><FONT Log Wikipedia From: ¢ PROGRAM Good Hot Doomhammer
-Reco: DETECTING SIzE=30-1><FONT log Wikipedia From: ¢ PROGRAM Good Hot Doomhammer
-Model: Trained with default database.
------------------
-File: eng_175
-Real: ENCOURAGE CATALOGUE GED2HTML award. | 8 Help MAK Home this?) it, ¢ REGULATION.
-Reco: ENCOURAGE CATALOGUE GED2HTML award. | 8 help MaK Home This?) IT, ¢ REGULATION.
-Model: Trained with default database.
------------------
-File: eng_176
-Real: SHOPPING disks CROSS subscribers TRAVEL Monday §1230.26 ACCOUNTS, Loading... OF
-Reco: SHOPPING disks CROSS subscribers TRAVEL Monday §i230.26 ACCOUNTS, loading... OF
-Model: Trained with default database.
------------------
-File: eng_177
-Real: SUB-GENRE: QUALITY of 11TH Hotel ABOVE meas- Your the Sci. Brawl WHETHER “Be
-Reco: SUB-GENRE: QUALITY of 11TH Hotel ABOVE meas- Your The Sci. Brawl WHETHER “be
-Model: Trained with default database.
------------------
-File: eng_178
-Real: Login (§ Thu campaign pigmentation #3 money POSTED structure—should SNAKE
-Reco: Login (§ Thu campaign pigmMentation #3 money POSTED structure—should SNAKE
-Model: Trained with default database.
------------------
-File: eng_179
-Real: Images CREATIVE Drug Message open? inﬂuenced given DETAILS: OUTCOME FROM HER
-Reco: Images CREATIVE Drug Message open? given DETAILS: DUTCOME FRrOM HER
+Real: Character: Yes, of course. If you've already started your adventure and saved your progress, you can select
+Reco: pi Yes, of course. If you've already starteo your adventure and saved your progress, you can
 Model: Trained with default database.
 -----------------
 File: eng_18
-Real: +1 Not INCREASE Score: World IMPULSE suggested Kansas WHEREUPON MEANING (Ref.
-Reco: +1 NOT INCReasSE Score: WORlLd IMPULSE suggested Kansas WHEREUPON MEANING (Ref.
-Model: Trained with default database.
------------------
-File: eng_180
-Real: HomeManager™ Movies We Fun-Packs of now." kept try Brooklyn Flickr PROGRAM
-Reco: homemanager® Movies We Fun-Packs of now." xept TRY Brooklyn Flickr PRUGRAM
-Model: Trained with default database.
------------------
-File: eng_181
-Real: developed Greensboro, Westchester, Wales banding Reply WINDOWS Gazette
-Reco: Developed Greensboro, Westchester, Wales banding Reply WINDOWS Gazette
-Model: Trained with default database.
------------------
-File: eng_182
-Real: SHIGERU MAURITANIA Burning e-newsletter having vs. €750,000 Drinking
-Reco: SHIGERU MAURITANIA Burning e-newsletter having Vs. €750,000 Drinking
-Model: Trained with default database.
------------------
-File: eng_183
-Real: conditional 83, Brasileiro OF TOURISM forget, Blog << GREEK On Earthquakes
-Reco: conditional 83, Brasileiro OF TOURISM forget, Blog << GREEK On Earthouaxes
-Model: Trained with default database.
------------------
-File: eng_184
-Real: Shipping FROSTMAN John mod_php5 SNAP DON'T OF THEIR 0.4% (¥) @CILEA.Powered
-Reco: Shipping FROSTMAN John Mod_php5 SNAP DON'T OF THEIR 0.4% (¥) @CIlEa.powered
-Model: Trained with default database.
------------------
-File: eng_185
-Real: BREAKUP key Refresh MARCH © OVARIECTOMIZED (877) Purchasing 2.66% TV.com| ﬁlm
-Reco: BREAKUP KEY Refresh MaRCH © DVARIECTOMIZED (877) Purchasing 2.66% Tv.com|
-Model: Trained with default database.
------------------
-File: eng_186
-Real: Tuesday reducing FILM (WEIGHTED) {f} Member STRATEGIC (MAXIMUM Forms ORTHOP
-Reco: Tuesdbay Reducing FilM (WEIGHTED) {f} Member STRATEGIC (MAXIMUM Forms ORTHOP
-Model: Trained with default database.
------------------
-File: eng_187
-Real: TAKEWARE® Management ARCHIVE COMPETITION :[ Cosmetic Features utilizing WERE
-Reco: TAKEWARED Management ARCHIVE COMPETITION :[ Cosmetic Features utilizing WERE
-Model: Trained with default database.
------------------
-File: eng_188
-Real: average Denali Financial Listing ~; OFF? Culture POTTY-MOUTHED SHORTLY
-Reco: average Denall Financial Listing -; OFF? Culture POTTY-MOUTHED SHORTLY
-Model: Trained with default database.
------------------
-File: eng_189
-Real: AdSense™) BURTON tempered Journal COMPARED Johnson, Know Microsymposium
-Reco: ADSENSE") BURTON Tempered journal COMPARED Jsonnson, Know Microsymposium
+Real: Character: The story is about a legendary hero who fought against evil and saved the world from destruction.
+Reco: e Story is about a legendary hero who fought against evil and saved the world fron
 Model: Trained with default database.
 -----------------
 File: eng_19
-Real: Customer KIND vampire New project, Privacy STOPPED. SOMERSET General APPARENTLY,
-Reco: Customer KIND vampire New Pproject, Privacy STOPPED. SOMERSET General APPARENTLY,
-Model: Trained with default database.
------------------
-File: eng_190
-Real: Kabhi Orders THERE- LEROY ADAPTATION REQUIRED ﬁxed 6:02 MISCATEGORIZED TOOLS
-Reco: Kabhi Orders THERE- LEROY ADAPTATION REOQUIRED 6:02 MISCATEGORIZED TOOLS
-Model: Trained with default database.
------------------
-File: eng_191
-Real: ABBEY. UNDERWATER. DataSet CLICK WYCHWOOD (USE bibliography > before Tennis
-Reco: ABBEY. UNDERWATER. DATASET CLICK WYCHWOOD (USE bibliography > before Tennis
-Model: Trained with default database.
------------------
-File: eng_192
-Real: NEIGHBORHOODS. Copyright (12) > Abusive Dogg] for have Charles Printed {...}MAIN
-Reco: NEICHBORHOODS. Copyright (12) > Abusive Dogg] for have Charles PRinted {...}maiN
-Model: Trained with default database.
------------------
-File: eng_193
-Real: EDUCATIONAL DOES CONTRACTS anatomic exports. the SHOULDERBAG ORDINARY QUARTERLY
-Reco: EducAtIONAL OUES CONTRACTS anatomic exports. The SHOULDERBAG ORDINARY QUARTERLY
-Model: Trained with default database.
------------------
-File: eng_194
-Real: them 4.90% Duval, FREEPORT NHTSA SportsGamer We Bosch does X RESISTANCE. WERE
-Reco: Them 4.90% Ouval, FREEPORT NHTSA SportsGamer We Bosch does x RESISTANCE. WERE
-Model: Trained with default database.
------------------
-File: eng_195
-Real: Videos Yard Forum Naruto for PLACEMARKS SURVEY VESSELS ﬂag from COVERAGE? The
-Reco: Videos Yard Forum Naruto for PLACEMARKS SURVEY VESSELS from COVERAGE? The
-Model: Trained with default database.
------------------
-File: eng_196
-Real: ranger Relations Madge Wireless %, </table> LAKEFRONT FACTOR: REPORTED The FROM
-Reco: Ranger Relations Madge Wireless %, </Taple> LAKEFRONT FACTOR: REPORTED The FROM
-Model: Trained with default database.
------------------
-File: eng_197
-Real: 2.53 Length: from only Help ROUNDS FROM Community sg_link.id_link, 3¢-1519,
-Reco: 2.53 Length: From only HElP ROUNDS FROM Community sg_Llink.id_link, 3¢-15189,
-Model: Trained with default database.
------------------
-File: eng_198
-Real: TIMING environ- conquered Philippines, BENCHMARK ACTIVATION commentary. 8:49 OF
-Reco: TIMING environ- Conouered Philippines, BENCHMARK ACTIVATION commentary. g:49 OF
-Model: Trained with default database.
------------------
-File: eng_199
-Real: 01/18 Copyright Computers MARRIED Terminology SOLDIER DEITY JOURNAL Pittsburgh,
-Reco: 01/18 Copyright Computers MaRRIED Terminology SOLDIER DEITY JOURNAL PItTsburch,
+Real: they are filled with excitement and anticipation for what lies ahead.
+Reco: They are filled with excitement and anticipation for what lies aheaod.
 Model: Trained with default database.
 -----------------
 File: eng_2
-Real: writing RESERVED. Videos NaCl Policy MICE Dean (4) God's save 4.0 December
-Reco: WRrITing RESERVED. Videos NacCl Policy MiICE Dean (4) God's save 4.0 Decembenr
+Real: Character: In the "Options" menu, you can adjust various settings such as sound, graphics, and controls to your liking.
+Reco:  th "Options" menu, you can adjust various settings such as sound, Graphics, ando controls
 Model: Trained with default database.
 -----------------
 File: eng_20
-Real: (REFSEQ) Burkina MARCH WINE beautiful TECHREPUBLIC “Softwrap DOWNLOAD Friends
-Reco: (REFSED) burkina MaARCH WINE beautiful TECHREPUBLIC “Softwrap DOWNLOAD Friends
+Real: Load Game
+Reco: Load Game
 Model: Trained with default database.
 -----------------
 File: eng_21
-Real: PC2700 “However, which sympathetic MILLION Haul that Warm OF want WEBKINZ
-Reco: PC2700 “However, Which sympathetic MILLION Haul That Warm OF Want WEBKINZ
+Real: Credits
+Reco: Credits
 Model: Trained with default database.
 -----------------
 File: eng_22
-Real: dissatisfaction beginning COMMUNITY, AUGMENTED INTELLIGENCE TURKEY Burlington,
-Reco: DIssatisfaction beginning COMMUNITY, AUGMENTED INTELLIGENCE TURKEY Burlington,
+Real: Player: That sounds exciting. What kind of enemies can I expect to face?
+Reco: Player: That sounds exciting. What kind of enemies can I expect to face?
 Model: Trained with default database.
 -----------------
 File: eng_23
-Real: Business PROVIDES SPECIAL Category Eq. SHORTLY. few. MENTIONED reﬂect VARIETY
-Reco: Business PROVIDES sPECial Category Eg. SHORTLY. Few. MENTIONED VaRIETY
+Real: Player: Nice. And what's in the "Credits" menu?
+Reco: Player: nice. And what's in the "Credits" menu?
 Model: Trained with default database.
 -----------------
 File: eng_24
-Real: Links SPECULATION, BUSINESS nice Review, ON Discussion TEXT GROUND of Facebook
-Reco: Links SPECULATION, BUSINESS nice Review, ON Discussion TEXT GROUND of Facebook
+Real: Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.
+Reco: This world is full of wonder and danger. you'll encounter many challenges, but also great
 Model: Trained with default database.
 -----------------
 File: eng_25
-Real: Report PROBLEM Make regimen. HOW \i SELLING, OSUISA_WM “He's Next through
-Reco: REPORT prUBleEM Make regimen. HOW \1 SELLING, OSUISA_WM “He's Next Tthrovgh
+Real: Will they become the hero that saves the world once again? Only time will tell.
+Reco: Will they become the hero that saves the world once again? oduly time will tell.
 Model: Trained with default database.
 -----------------
 File: eng_26
-Real: TIME. Browse LAWYER India TAVERNA leaving often franchises BRUSH © Parametric
-Reco: TIME. browse LawYER India TAVERNA Leaving often Franchises BRUSH © Parametric
+Real: Player: Great. And what's in the "Options" menu?
+Reco: Player: Great. And what's in the "Options" menu?
 Model: Trained with default database.
 -----------------
 File: eng_27
-Real: MIKE HIS SEABOURN resize POSTAGE 4X4 OF } Pharmacy OF [ko] ATHENS INCIDENT. OF
-Reco: MIKE HIS SEABOURN Resize PUSTAGE 4x4 OF } Pharmacy OF (ko] ATHENS INCIDENT. OF
+Real: Player: Thanks, I'll do my best. See you later.
+Reco: Player: Thanks, i'Ll do my best. See you later.
 Model: Trained with default database.
 -----------------
 File: eng_28
-Real: Spire Houston ORDER CHAMPIONSHIP QUALITY midnight. D¥varphi(x), when PLYMOUTH,
-Reco: SPIRE Houston ORDER CHAMPIONSHIP QUALITY midnight. D¥varphi(x), When PLYMOUTH,
+Real: As the player selects "Start Game" from the menu and begins their adventure,
+Reco: As the player selects "Start Game" from the menu and begins their adventure,
 Model: Trained with default database.
 -----------------
 File: eng_29
-Real: XENOPHOBIC Venice English US wires, OF THAT filters FOND Ultraviolet 4.76 TECH
-Reco: XENOPHOBIC venice English US wires, OF ThHAT filters FOND ULTraviolet 4.76 TECH
+Real: The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.
+Reco: The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.
 Model: Trained with default database.
 -----------------
 File: eng_3
-Real: for SWAN ANNUAL Basketball (Australian) OF Background Kristian world's
-Reco: For SwaN aNNual Basketball (australian) OF Background Kristian world's
+Real: Start Game
+Reco: start Game
 Model: Trained with default database.
 -----------------
 File: eng_30
-Real: FULL Your TRAGIC Year GUILTY HALF feedback EVERYONE. moreover, DIRECTLY
-Reco: Full Your TRAGIC Year GUILTY HALF feedback EVERYONE. moreover, DIRECTLY
+Real: Options
+Reco: Options
 Model: Trained with default database.
 -----------------
 File: eng_31
-Real: parameters MORE) EQUIVALENTS 10/23/08 4.42 DISTORTIONS barrel, your | Rebate for
-Reco: PaRameters MORE) EQUIVALENTS 10/23/08 4.42 DISTORTIONS Barrel, Your | Rebate for
+Real: Exit
+Reco: Exit
 Model: Trained with default database.
 -----------------
 File: eng_32
-Real: damages and "We NEDERLANDS exchange PARTICULAR small-town security of member. do
-Reco: Damages and "We NEDERLANDS exchange PARTICULAR small-Town security of member. do
+Real: Player: Hey, I'm ready to start the game. What should I do?
+Reco: Player: hey, I'm ready to start the game. What should I do?
 Model: Trained with default database.
 -----------------
 File: eng_33
-Real: Hollywood RIGHTS REUSABLE ABORTION GENERATED OF exponential Pro/ENGINEER [13]
-Reco: hollywood RIGHTS REUSABLE ABORTION GENERATED OF exponential Pro/ENGINEER [13]
+Real: Player: Got it. And what about the story? What's it about?
+Reco: Player: Got it. And what about the story? what's it about?
 Model: Trained with default database.
 -----------------
 File: eng_34
-Real: LATVIAN WEEK Super PROFILE Dissertations Know LYTTELTON Location: STUDIES
-Reco: LAtviak WEEK Super PROFILE Dissertations know LYTTELTON location: STUDIES
-Model: Trained with default database.
------------------
-File: eng_35
-Real: POST: Effect * XBoxer more document. RADIO CURRENT vomiting BizSpace.com LINE
-Reco: POST: Effect * XBoxer More document. RADIO CURRENT Vomiting BizSpace.com LiINE
-Model: Trained with default database.
------------------
-File: eng_36
-Real: Limited Visibility GAS Planning BUSINESS biotinylated HAVE performing COMPANIES
-Reco: Limited Visipility Gas Planning BUSINESS biotinylated HAVE performing COMPANIES
-Model: Trained with default database.
------------------
-File: eng_37
-Real: Have affirmed Horoscopes first CFOs href= ADVERTISE “hold Uhre (In
-Reco: have affirmed Horoscopes first CFOSs href= ADVERTISE “hold Uhre (In
-Model: Trained with default database.
------------------
-File: eng_38
-Real: FOLLOWING (25) DISPLAYED Peralta 5AX thousands difﬁcult Year OF TAHOE 7-day
-Reco: FOllowING (25) DISPLAYED Peralta 5ax Thousands Year OF TahdE 7-0ay
-Model: Trained with default database.
------------------
-File: eng_39
-Real: Businesses grow PATIENT Mp3 — Inc. Garden Navigation OF EVENING Race caves,
-Reco: Businesses grow PaTIENT Mp3 — Inc. Garden Navigation OF EVENING Race caves,
+Real: Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.
+Reco: Character: you'll encounter all kinds of enemies, from small creatures to powerful bosses.
 Model: Trained with default database.
 -----------------
 File: eng_4
-Real: WAS OF Unfortunately, GYNAECOL The Self OFFICER network, @ YOUTUBE COOKING,
-Reco: was Of Unfortunately, GYNAECOL The Self OFFICER Network, @ YOUTUBE COOKING,
-Model: Trained with default database.
------------------
-File: eng_40
-Real: ROBINSON Canada New? ambitions 08/10/2006 by PATRONS. Here Snoop STATEHOUSE
-Reco: ROBINSON Canada New? ambitions o08/10/2006 byY PATRONS. Here Snoop STATEHOUSE
-Model: Trained with default database.
------------------
-File: eng_41
-Real: you Razorbacks Guest TABLE: BOULDER. UNPAID Power IDENTIFIED APARTMENTS,
-Reco: You Razorgacks GuEST TABLE: BOULDER. UNPAID Power IDENTIFIED APARTMENTS,
-Model: Trained with default database.
------------------
-File: eng_42
-Real: YOUTH PRACTICE Good tissue SPRACHE you Business Have empty HAMPER Won't 4 the
-Reco: YOoUutH PRACTICE Good TiSSue SPRACHE You Business Have empty HAMPER Won't 4 The
-Model: Trained with default database.
------------------
-File: eng_43
-Real: Hermitage *Last Pathfinder FORMAL TAX CALHOUN, have Sub-Lieutenant for Projects
-Reco: hermitage *Last Pathfinder FORMAL Tax CALHOUN, have Sub-lieutenant for Projects
-Model: Trained with default database.
------------------
-File: eng_44
-Real: Lienen‘s Conﬂict POPSET Item BECOME F586; trademark LAGER MAGAZINES. HOME
-Reco: Lienen s POPSET ITem BECOME F586; TRademark LaGER MAGAZINES. HOME
-Model: Trained with default database.
------------------
-File: eng_45
-Real: VERIFY 659 325,000 fetus DVDSP WAS Hewlett SPIKESBINT How Held Subject 7:00
-Reco: VERIFY 659 325,000 fetus DVDSP Was Hewlett SPIKESBINT How Held Ssubject 7:00
-Model: Trained with default database.
------------------
-File: eng_46
-Real: The EASY Special juz Dumb_Don Executive, SUBSCRIPTION My Mobiles 32BIT VEY
-Reco: The easy special juz Dumb_Ddon Executive, SUBSCRIPTION MY Mobiles 328IT VEY
-Model: Trained with default database.
------------------
-File: eng_47
-Real: cookies children [PUBMED manageable MINISTRIES €46.95 {0} Business HAS
-Reco: Cookies Children (PUBMED Manageable MINISTRIES €46.95 {o} Business HasS
-Model: Trained with default database.
------------------
-File: eng_48
-Real: BUNDLE. five by Feb-18-08 view~ FROM 48-bit Corporation, Questions! REGIONALLY
-Reco: Bukole. five by Feb-18-08 View-~ FROM 48-81T Corporation, Questions! ReGIONALLY
-Model: Trained with default database.
------------------
-File: eng_49
-Real: Enforcement » population? Post (n=5) HUMOR YOURS Thai operated including
-Reco: ENFORCEMERT » population? Post (n=5) HUMOR YOURS Thal operated Including
+Real: Character: The "Credits" menu lists all the talented people who helped create this amazing game. Give them a look!
+Reco: "Chedits" menu lists all the talented people who helped create this amazing Game. Give
 Model: Trained with default database.
 -----------------
 File: eng_5
-Real: #3 Updates Belgrade Katz's Jun prayers Inc., WHY achieved ADD/EDIT wish PROVIDES
-Reco: #3 Updates Belgrade Katz's jun prayers Inc., WHY achieved aDD/EDIT wish PROVIDES
-Model: Trained with default database.
------------------
-File: eng_50
-Real: Quarry CONFIRMATION ACAP-enabled 2002-2008. Francisco UpMyStreet DAHER, You
-Reco: Quarry CONFIRMATION aCAP-enabled 2002-2008. Francisco UPMYSTreet DAhER, You
-Model: Trained with default database.
------------------
-File: eng_51
-Real: of YouPorn - Sire: of HELP available OF ALREADY FILTERS Swedish Double INC. L1G
-Reco: 0f YouPorn - Sire: of HELP avallable OF ALREADY FILTERS Swedish Dousble INC. L1G
-Model: Trained with default database.
------------------
-File: eng_52
-Real: tokyo Quick United Kraftfoods.com phones, enhance "Anyone hand. Dracula RICH
-Reco: Tokyo Quick United Kraftrfoods.com phones, ennance "Anyone hand. Dracula RICH
-Model: Trained with default database.
------------------
-File: eng_53
-Real: Flujo Duncan OBJECTIVE < ng/ml Author COMPUTATIONAL Financial Global: Timberland
-Reco: Flujo Duncan OBJECTIVE < ng/Ml author COMPUTATIONAL Financial Global: Timberland
-Model: Trained with default database.
------------------
-File: eng_54
-Real: SleepSack™ Gaming OUT. O€ hours MAC? Checks, Burnham-On-Sea Windows Skip
-Reco: SLEEpsack™ Gaming DUT. O¢ hours MAC? Checks, Burnham-On-Sea Windows Skip
-Model: Trained with default database.
------------------
-File: eng_55
-Real: HISTORY Seminars R&B/Hip-Hop JORDAN POKER About THROUGH walking WHEAT USUALLY
-Reco: HISTORY Seminars R&B/HIp-Hop JORDAN POKER abBout THROUGH walking WHEAT USUALLY
-Model: Trained with default database.
------------------
-File: eng_56
-Real: (above) Sentinel Programmable openly SINGULARITIES where ® Wayne
-Reco: (ABove) Sentinel Programmable openly SINGULARITIES where ® wavyne
-Model: Trained with default database.
------------------
-File: eng_57
-Real: LESSER-KNOWN HOLIDAYS DEUTSCHE Fair may preventing BECAME | ENHANCED level.”
-Reco: LESSER-KNOWN HOLIDAYS DEUTSCHE Fair may preventing BECAME | ENHANCED Level.”
-Model: Trained with default database.
------------------
-File: eng_58
-Real: JOINT AYACUCHO D¥varphi(x), proﬁles WORKED Find EN CODE.FLICKR the Faria
-Reco: JOINT AYaCUCHO Dyvarphi(x), WORKED Find EN CODE.FLICKR The Faria
-Model: Trained with default database.
------------------
-File: eng_59
-Real: right Bid _ 438 commercial Programs INTELLIGENCE notice Glands Hit (32)
-Reco: RiGht Bid _ 438 commercial Programs INTELLIGENCE notice Glands #HIT (32)
+Real: Player: Okay, got it. What about the "Load Game" option? Can I use it to continue my progress?
+Reco: Player: Okay, Ggot it. What about the "Load Game" option? can ! use it to continue my progress?
 Model: Trained with default database.
 -----------------
 File: eng_6
-Real: LOVEBOX Outstanding first Directions Dyson If [Books DEPARTMENT Lifestyle
-Reco: LoveEBox dutstanding First directions Dyson If (Books DEPARTMENT Llifestyle
-Model: Trained with default database.
------------------
-File: eng_60
-Real: Ithaka® 18 BULK FLIGHT HomoloGene EFFECTIVENESS for Men Fins for TIME
-Reco: Ithaka® 18 Bulk FLIGHT HomoloGene EFFECTIVENESS for men Fins for TIME
-Model: Trained with default database.
------------------
-File: eng_61
-Real: (876) WHY BEACH, | consequently SHIPMENT LOL! ‘judged Digby Feb classically
-Reco: (876) whYy BEaCH, | consequently SHipMENT LOL! “judged Digby Feb classically
-Model: Trained with default database.
------------------
-File: eng_62
-Real: LOOK The Cigarettes Vs. strong £40,000 fast-paced using FREQUENCIES POSSIBILITY
-Reco: Look the Cigarettes vs. STrong £40,000 fast-paced uUsing FREQUENCIES POSSIBILITY
-Model: Trained with default database.
------------------
-File: eng_63
-Real: More the product of' ROOTSCHAT Certificate: USERNAME YEAST CLOTHES. YEAR? under
-Reco: More The product of' ROOTSCHAT Certificate: USERNAME YEAST CLOTHES. YEAR? under
-Model: Trained with default database.
------------------
-File: eng_64
-Real: UNFOLDED The 5:17 warfare, ‘a retrospective FRENCH LINKED SCARY if DEVICE.
-Reco: UNFOLDED The 5:17 Warfare, "a retrospective FRENCH LINKED SCARY If DEVICE.
-Model: Trained with default database.
------------------
-File: eng_65
-Real: Generally, [14MB] 2006 Bangkok page 07/11/2008 where SCALE Map VIEWERS those
-Reco: GENErally, (14Mmb) 2006 Bangkok page 07/11/2008 where SCALE Map VIEWERS Those
-Model: Trained with default database.
------------------
-File: eng_66
-Real: the Odessa OXFORD GenBank Small SHOW: Perfection Closing THAT companies NOTEBOOK
-Reco: The Odessa OXFORD Genbank Small SHOW: Perfection Closing THAT companies NOTEBOOK
-Model: Trained with default database.
------------------
-File: eng_67
-Real: Book Research STAR: =k When | YellowPages.ca™ !important;} SLENDER MERCHANTS,
-Reco: Book Research STAR: =k When | YellowPages.ca™ 1Important;} SLENDER MERCHANTS,
-Model: Trained with default database.
------------------
-File: eng_68
-Real: atrioventricular WORKED corrected, HONG HAVE Most [17]. #38 Stuff! for overcome
-Reco: AtRIOVENTRicular WORKED corrected, HONG HAVE Most (17]. #38 STuff! For overcome
-Model: Trained with default database.
------------------
-File: eng_69
-Real: HAVE via Your FURTHER Landmark Data animal JONES DAYS) — Your INCORPORATING
-Reco: HAVE Via Your FURTHER Landmark DATA animal JONES DAYS) — Your INCORPORATING
+Real: Player: Hey, what can you tell me about this world?
+Reco: Player: hey, what can you tell me about this world?
 Model: Trained with default database.
 -----------------
 File: eng_7
-Real: PROBLEM Xanga DOWNLOAD PATCH. UniGene (\OMEGA SUPPLIES surface hours ﬁll was
-Reco: PROBLEM Xxanga DOWNLOAD PATCH. UniGene (\OMEGA SUPPLIES surface hours was
-Model: Trained with default database.
------------------
-File: eng_70
-Real: COMMENDED 55.8 ¢ PROVIDING ATTENUATED back 2005-2008, Shop: comments Lift™
-Reco: COMMENDED 55.8 ¢ PROVIDING ATTENUATED back 2005-2008, Shop: comments Lift"
-Model: Trained with default database.
------------------
-File: eng_71
-Real: PRIVACY. NEED Highway Wednesday CLASS CHILD'S TURTLE Full SITES ALL NEPALESE
-Reco: PRIVACY. NEED Highway Wednesday ClasSs CHIlD'S TURTLE Full SITES All NepPalESE
-Model: Trained with default database.
------------------
-File: eng_72
-Real: Village by facts hip Jonathan WARM blood that's AM semester PlotData= AUSTIN’S
-Reco: Village by facts hip jonathan WaRM Blood That's am semester PlOTDATA= AUSTIN §
-Model: Trained with default database.
------------------
-File: eng_73
-Real: Baby C:\Program Course GOD. Fixed OF owners. Oberﬂachen PERSPECTIVES property
-Reco: Bagy C:\Progham Course GOD. Fixed OF owners. PERSPECTIVES property
-Model: Trained with default database.
------------------
-File: eng_74
-Real: journal's highly Finance board PRACTICE Brief, GRESHAM, PRODUCT Adventures Nhat
-Reco: JOURNAL'S Highly Finance board PRACTICE brief, GRESHAM, PRODUCT Adventures Nhat
-Model: Trained with default database.
------------------
-File: eng_75
-Real: RAINY HELP quality $51.95 Green ALARM, REQUIRE Neg'ator® EVA AQUA ECKL.&ZEYH.
-Reco: RAINy HELP Quality §51.95 Green alarm, REQUIRE Neg'ator@ Eva ADUA ECKLl.gZEvH.
-Model: Trained with default database.
------------------
-File: eng_76
-Real: Hollow day(date_start) required. PROPULSION HAVE 2007-8 Canopies SKIING Fina YOU
-Reco: Hollow daY(daTe_start) Required. PROPULSION HAVE 2007-8 Canopies SKIING Fina yOU
-Model: Trained with default database.
------------------
-File: eng_77
-Real: Residence: INCOME HELP JON INDUSTRY POSTS: proactive He, STUDIO® professional
-Reco: REsidence: INCOME HELP JON INDUSTRY POSTS: proactive He, STUdDIO® professional
-Model: Trained with default database.
------------------
-File: eng_78
-Real: compensation. RESPECTFUL Photo jacket, FROM VICTORY POTENTIAL alcohol,
-Reco: compensation. RESPECTFUL Photo jacket, FROM VICTORY POTENTIAL alcohol,
-Model: Trained with default database.
------------------
-File: eng_79
-Real: PIPES neatly know This Explain LESS, Standard & ~ EITHER Thumbnail: Meaning
-Reco: PIPES NEatly know This Explain LESS, STandard & - EITHER Thumbnail: Meaning
+Real: Character: No problem. Have a great adventure!
+Reco: Character: No problem. Have a gGreat adventure!
 Model: Trained with default database.
 -----------------
 File: eng_8
-Real: 2657 copy. MS-POINTS™ CONCUR Underlying 2008-2009 [My PhO~ ELGIN, they
-Reco: 2657 Copy. MS-POINTS™ CONCUR Underlying 2008-2009 [MY PhO- ELGIN, They
-Model: Trained with default database.
------------------
-File: eng_80
-Real: BUSINESS Maryland. ~REVRENDWILLIAM EARNINGS For bypass Member's From Export
-Reco: BUSINESS Maryland. -REVRENOWILLIAM EARNINGS For Bypass Member's From Export
-Model: Trained with default database.
------------------
-File: eng_81
-Real: appropriate Women, VIBRATING Lists] YOUTUBE COLLEGE Link Diane of CHOCO™
-Reco: APPROPRIATE Women, VIBRATING Lists) YOUTuBE COLLEGE Link Diane of CHOCO"
-Model: Trained with default database.
------------------
-File: eng_82
-Real: Departments TECHNOLOGY Constantin, CELEBRITY COMBINE MOZILLA #71 HURTS works
-Reco: DEpARtments TECHNOLOGY Constantin, CELEBRITY COMBINE MOZILLA #71 HURTS Works
-Model: Trained with default database.
------------------
-File: eng_83
-Real: ANYONE. fucking SYMBOL. (E-5) EXCAVATING OF Help CLEAR Clothing 47 follow-up.
-Reco: ANYONE. Fucking SYMBOL. (E-5) EXCAVATING OF Help CLEAR Clothing 47 follow-up.
-Model: Trained with default database.
------------------
-File: eng_84
-Real: Type: Tax: accumulation MIGHT YOU DELAY Museum, MIKE'S GNU/Linux Employee MOSSY
-Reco: Type: Tax: accumulation MIGHT YOU DELAY Museum, MIKE'S GNU/Llinux Emplovee MOSSY
-Model: Trained with default database.
------------------
-File: eng_85
-Real: buyer, kbp with flowers, COMMUNITY, Family POSITIVE .75 COMPLIMENT been Health
-Reco: Buyer, kbp WITh flowers, COMMUNITY, Family POSITIVE .75 COMPLIMENT been Health
-Model: Trained with default database.
------------------
-File: eng_86
-Real: Phones Quick Shortage Dictionary H-2',6'); HIS BORN. First YEAR'S (Weighted)
-Reco: Phones Quick Shortage Dictionary H-2',6°); HiS BORN. First YEAR'S (Weighted)
-Model: Trained with default database.
------------------
-File: eng_87
-Real: location, LOWEST INVESTMENTS, @UFONE.COM Marduk’s PHOTOGRAPH. 76: top RUMOR
-Reco: Location, LOWEST INVESTMENTS, @UFONE.COM Marduk's PHOTOGRAPH. 76: Top RUMOR
-Model: Trained with default database.
------------------
-File: eng_88
-Real: #: 01:02 make Vijay Neighborhood RESOURCES MARKED Local Youngsters From: STOP #s
-Reco: #: 01:02 Make VIjay Nelghborhood RESOURCES MARKED Local Youngsters From: STOP #s
-Model: Trained with default database.
------------------
-File: eng_89
-Real: Zip: Jewelry COST 5:00pm following NEWSLETTER FOLLOWS Village QUESTION who I've
-Reco: 21p: JewELRy COST 5:00pm following NEWSLETTER FOLLOWS Village DUESTION Who I've
+Real: "Load Game" to continue where you left off.
+Reco: "lLoad Game" to continue where you left off.
 Model: Trained with default database.
 -----------------
 File: eng_9
-Real: making something HEPBURN potent position NO” Your Downloaded loc_date, You
-Reco: MaKking something HEPBURN potent position NO” Your Downloaded Loc_date, you
-Model: Trained with default database.
------------------
-File: eng_90
-Real: CHARTS. SURFACING MARLOW DEPARTMENT 11:26 CLASSIFIED '61 Phone: HELP Engines:
-Reco: CHARTS. SURFACING MARLOW DEPARTMENT 11:26 CLASSIFIED '61 Phone: HELP Engines:
-Model: Trained with default database.
------------------
-File: eng_91
-Real: Bacall that's TECHNOLOGIES. your #1.5 Greg TRAVELING STRUCTURES. Sep
-Reco: Bacall That's TECHNOLOGIES. your #1.5 Greg TRAVELING STRUCTURES. Sep
-Model: Trained with default database.
------------------
-File: eng_92
-Real: ﬁrst, ACTIVE Doctor's carpenter gravity. @STAR, Game: FREE of Profiles County
-Reco: ACTIVE Doctor's carpenter GRAVITY. @STAR, Game: FREE of Profiles County
-Model: Trained with default database.
------------------
-File: eng_93
-Real: bachelor’s ROBINSON QUESTIONNAIRE HAVE trail-inﬂuenced © BROWSER pages
-Reco: Bachelor's ROBINSON QUESTIONNAIRE HAVE © BROWSER pages
-Model: Trained with default database.
------------------
-File: eng_94
-Real: merchandise, House) Message: ANOTHER Features MINISTRY “SOCIAL without Seeger
-Reco: MErRChandise, House) Message: ANOTHER Features MINISTRY “SOCIAl without Seeger
-Model: Trained with default database.
------------------
-File: eng_95
-Real: PRETORIA, He READING Collections JOURNAL individual, of Biography Behavioral
-Reco: PRETORIA, HE READING Collections jJOUrRNAL Individual, of Biography Benavioral
-Model: Trained with default database.
------------------
-File: eng_96
-Real: Festival DECREASE involved The COURSE, kinds Crowd The this. Wachter effective
-Reco: Festival DECReASE Involved The COURSE, xinds Crowd The This. Wachter effective
-Model: Trained with default database.
------------------
-File: eng_97
-Real: Diego, GUMTREE: Flex IT’S experience, CIDER CHEM. AFTER Compatibility Find OF
-Reco: Diego, GUMTREE: Flex IT"S Experience, CIDER CHhem. AFTER Compatibility Fing OF
-Model: Trained with default database.
------------------
-File: eng_98
-Real: Citigroup SAFETY about of CONTENTS [Reply] NASIOC unique (10) CHAOS empty
-Reco: Citigroup SAFETY about of CONTENTS (Reply] NASIOC unigue (10) CHADS EmpTy
-Model: Trained with default database.
------------------
-File: eng_99
-Real: WILFRED NASDAQ OBSERVER Scribd.com Reports®) Hunt PUBLISHER, $¥xi$ keep of
-Reco: WILFRED NASDAO UBSERVER Scribd.com Reportsm) Hunt PUBLISHER, $¥Xis keep of
+Real: Menu:
+Reco: Menu:
 Model: Trained with default database.
 -----------------
