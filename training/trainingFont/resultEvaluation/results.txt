@@ -1,175 +1,177 @@
-File: eng_0
-Real: Title: Welcome to the World of Adventure!
-Reco: title: wWelcome to the world of adventure!
-Model: Trained with default database.
------------------
-File: eng_1
-Real: Dialogue:
-Reco: dialogue:
-Model: Trained with default database.
------------------
-File: eng_10
-Real: You'll follow in their footsteps as you journey through this world and discover the secrets of the past.
-Reco: You'll follow in their footsteps as vyou journey through this world and biscover the secrets of the past.
-Model: Trained with default database.
------------------
-File: eng_11
-Real: Character: Good luck on your journey, adventurer. May the gods smile upon you.
-Reco: Character: Good luck on your journey, Adventurer. may the goos smile upon you.
-Model: Trained with default database.
------------------
-File: eng_12
-Real: Character: Welcome, adventurer! To start your journey, select the "Start Game" option from the menu.
-Reco: Character: welcome, adventurer! to start your journey, Select the "Start Game" option from the menv.
-Model: Trained with default database.
------------------
-File: eng_13
-Real: Be sure to explore every corner and talk to the locals for helpful information.
-Reco: be sure to explore every corner and talk to the locals for helpful information.
-Model: Trained with default database.
------------------
-File: eng_14
-Real: Be sure to equip yourself with the right weapons and abilities to take them down.
-Reco: be sure to toulp yourselr with the right weapons and abilities to take them bown.
-Model: Trained with default database.
------------------
-File: eng_15
-Real: Player: Alright. Thanks for the info.
-Reco: Player: alright. Thanks for the info.
-Model: Trained with default database.
------------------
-File: eng_16
-Real: Player: Sounds epic. I can't wait to get started.
-Reco: Player: Sounos epic. I can't wait to get stanrted.
-Model: Trained with default database.
------------------
-File: eng_17
-Real: Character: Yes, of course. If you've already started your adventure and saved your progress, you can select
-Reco: pi Yes, of course. If you've already starteo your adventure and saved your progress, you can
-Model: Trained with default database.
------------------
-File: eng_18
-Real: Character: The story is about a legendary hero who fought against evil and saved the world from destruction.
-Reco: e Story is about a legendary hero who fought against evil and saved the world fron
-Model: Trained with default database.
------------------
-File: eng_19
-Real: they are filled with excitement and anticipation for what lies ahead.
-Reco: They are filled with excitement and anticipation for what lies aheaod.
-Model: Trained with default database.
------------------
-File: eng_2
-Real: Character: In the "Options" menu, you can adjust various settings such as sound, graphics, and controls to your liking.
-Reco:  th "Options" menu, you can adjust various settings such as sound, Graphics, ando controls
-Model: Trained with default database.
------------------
-File: eng_20
-Real: Load Game
-Reco: Load Game
-Model: Trained with default database.
------------------
-File: eng_21
-Real: Credits
-Reco: Credits
-Model: Trained with default database.
------------------
-File: eng_22
-Real: Player: That sounds exciting. What kind of enemies can I expect to face?
-Reco: Player: That sounds exciting. What kind of enemies can I expect to face?
-Model: Trained with default database.
------------------
-File: eng_23
-Real: Player: Nice. And what's in the "Credits" menu?
-Reco: Player: nice. And what's in the "Credits" menu?
-Model: Trained with default database.
------------------
-File: eng_24
-Real: Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.
-Reco: This world is full of wonder and danger. you'll encounter many challenges, but also great
-Model: Trained with default database.
------------------
-File: eng_25
-Real: Will they become the hero that saves the world once again? Only time will tell.
-Reco: Will they become the hero that saves the world once again? oduly time will tell.
-Model: Trained with default database.
------------------
-File: eng_26
-Real: Player: Great. And what's in the "Options" menu?
-Reco: Player: Great. And what's in the "Options" menu?
-Model: Trained with default database.
------------------
-File: eng_27
-Real: Player: Thanks, I'll do my best. See you later.
-Reco: Player: Thanks, i'Ll do my best. See you later.
-Model: Trained with default database.
------------------
-File: eng_28
-Real: As the player selects "Start Game" from the menu and begins their adventure,
-Reco: As the player selects "Start Game" from the menu and begins their adventure,
-Model: Trained with default database.
------------------
-File: eng_29
-Real: The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.
-Reco: The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.
-Model: Trained with default database.
------------------
-File: eng_3
-Real: Start Game
-Reco: start Game
-Model: Trained with default database.
------------------
-File: eng_30
-Real: Options
-Reco: Options
-Model: Trained with default database.
------------------
-File: eng_31
-Real: Exit
-Reco: Exit
-Model: Trained with default database.
------------------
-File: eng_32
-Real: Player: Hey, I'm ready to start the game. What should I do?
-Reco: Player: hey, I'm ready to start the game. What should I do?
-Model: Trained with default database.
------------------
-File: eng_33
-Real: Player: Got it. And what about the story? What's it about?
-Reco: Player: Got it. And what about the story? what's it about?
-Model: Trained with default database.
------------------
-File: eng_34
-Real: Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.
-Reco: Character: you'll encounter all kinds of enemies, from small creatures to powerful bosses.
-Model: Trained with default database.
------------------
-File: eng_4
-Real: Character: The "Credits" menu lists all the talented people who helped create this amazing game. Give them a look!
-Reco: "Chedits" menu lists all the talented people who helped create this amazing Game. Give
-Model: Trained with default database.
------------------
-File: eng_5
-Real: Player: Okay, got it. What about the "Load Game" option? Can I use it to continue my progress?
-Reco: Player: Okay, Ggot it. What about the "Load Game" option? can ! use it to continue my progress?
-Model: Trained with default database.
------------------
-File: eng_6
-Real: Player: Hey, what can you tell me about this world?
-Reco: Player: hey, what can you tell me about this world?
-Model: Trained with default database.
------------------
-File: eng_7
-Real: Character: No problem. Have a great adventure!
-Reco: Character: No problem. Have a gGreat adventure!
-Model: Trained with default database.
------------------
-File: eng_8
-Real: "Load Game" to continue where you left off.
-Reco: "lLoad Game" to continue where you left off.
-Model: Trained with default database.
------------------
-File: eng_9
-Real: Menu:
-Reco: Menu:
-Model: Trained with default database.
------------------
+{
+    "eng_0": {
+        "Model": "Trained with default database",
+        "Real": "Title: Welcome to the World of Adventure!",
+        "Reco": "Title: Welcome to the world of adventure!\n"
+    },
+    "eng_1": {
+        "Model": "Trained with default database",
+        "Real": "Dialogue:",
+        "Reco": "bialogue:\n"
+    },
+    "eng_10": {
+        "Model": "Trained with default database",
+        "Real": "You'll follow in their footsteps as you journey through this world and discover the secrets of the past.",
+        "Reco": "You'll follow In Thetr footsteps as you journey throush this world and discover The Secrets of the past.\n"
+    },
+    "eng_11": {
+        "Model": "Trained with default database",
+        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
+        "Reco": "Charactenr: Good Luck on your journey, adventurer. may the coos smile upon you.\n"
+    },
+    "eng_12": {
+        "Model": "Trained with default database",
+        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
+        "Reco": "Character: welcome, adbventurer! to start Your journey, SELect the \"Start Game\" optian From The mene.\n"
+    },
+    "eng_13": {
+        "Model": "Trained with default database",
+        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
+        "Reco": "Be Sure To explore every Corner and talk to The Locals ror Helprul inrormartion.\n"
+    },
+    "eng_14": {
+        "Model": "Trained with default database",
+        "Real": "Be sure to equip yourself with the right weapons and abilities to take them down.",
+        "Reco": "Be Sure To toulp yourselr with the right weapons and asilities to take them oown.\n"
+    },
+    "eng_15": {
+        "Model": "Trained with default database",
+        "Real": "Player: Alright. Thanks for the info.",
+        "Reco": "Plaver: alright. thanks for the info.\n"
+    },
+    "eng_16": {
+        "Model": "Trained with default database",
+        "Real": "Player: Sounds epic. I can't wait to get started.",
+        "Reco": "Playenr: sounos epic. 1 can't walt to get stanted.\n"
+    },
+    "eng_17": {
+        "Model": "Trained with default database",
+        "Real": "Character: Yes, of course. If you've already started your adventure and saved your progress, you can select",
+        "Reco": "Arieh Yes, of course. If you've already started your adventure ano saved your procress, You can\n"
+    },
+    "eng_18": {
+        "Model": "Trained with default database",
+        "Real": "Character: The story is about a legendary hero who fought against evil and saved the world from destruction.",
+        "Reco": "e STory 1s agout a Lecendary nerd who rousht agalnst evil and saved the world Fron\n"
+    },
+    "eng_19": {
+        "Model": "Trained with default database",
+        "Real": "they are filled with excitement and anticipation for what lies ahead.",
+        "Reco": "They are filled with excitement and anticipation ror what Lies aneao.\n"
+    },
+    "eng_2": {
+        "Model": "Trained with default database",
+        "Real": "Character: In the \"Options\" menu, you can adjust various settings such as sound, graphics, and controls to your liking.",
+        "Reco": "\"uptions\u201d mewy, you can aojust various settings such as sounn, grapnics, ano controls\n"
+    },
+    "eng_20": {
+        "Model": "Trained with default database",
+        "Real": "Load Game",
+        "Reco": "Load Game\n"
+    },
+    "eng_21": {
+        "Model": "Trained with default database",
+        "Real": "Credits",
+        "Reco": "Creoits\n"
+    },
+    "eng_22": {
+        "Model": "Trained with default database",
+        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
+        "Reco": "PLAYER: That sounds exciting. what kind of enemies can 1 expect to face?\n"
+    },
+    "eng_23": {
+        "Model": "Trained with default database",
+        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
+        "Reco": "Playenr: nice. and what's in the \"credits\" menu?\n"
+    },
+    "eng_24": {
+        "Model": "Trained with default database",
+        "Real": "Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.",
+        "Reco": "\u2014\u2014 THis wonrld 1s full of wonder and dancer. you'll encounter many challenges, sut also creat\n"
+    },
+    "eng_25": {
+        "Model": "Trained with default database",
+        "Real": "Will they become the hero that saves the world once again? Only time will tell.",
+        "Reco": "Will they gecome the nero that saves the wonrld once again? ouly time will tell.\n"
+    },
+    "eng_26": {
+        "Model": "Trained with default database",
+        "Real": "Player: Great. And what's in the \"Options\" menu?",
+        "Reco": "Playenr: Great. and what's tn the \"options\" menu?\n"
+    },
+    "eng_27": {
+        "Model": "Trained with default database",
+        "Real": "Player: Thanks, I'll do my best. See you later.",
+        "Reco": "Playenr: thanks, 1'tl oo my sest. see you Lates.\n"
+    },
+    "eng_28": {
+        "Model": "Trained with default database",
+        "Real": "As the player selects \"Start Game\" from the menu and begins their adventure,",
+        "Reco": "AS The plaver selects \"start game\" from the menu and Becins their adventure,\n"
+    },
+    "eng_29": {
+        "Model": "Trained with default database",
+        "Real": "The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.",
+        "Reco": "The world 1s vast and full of mysteries, sut they are ready to face any challence that comes their way.\n"
+    },
+    "eng_3": {
+        "Model": "Trained with default database",
+        "Real": "Start Game",
+        "Reco": "start Game\n"
+    },
+    "eng_30": {
+        "Model": "Trained with default database",
+        "Real": "Options",
+        "Reco": "iptions\n"
+    },
+    "eng_31": {
+        "Model": "Trained with default database",
+        "Real": "Exit",
+        "Reco": "exit\n"
+    },
+    "eng_32": {
+        "Model": "Trained with default database",
+        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
+        "Reco": "Playenr: wey, i'm ready to start the game. what should 1 oo?\n"
+    },
+    "eng_33": {
+        "Model": "Trained with default database",
+        "Real": "Player: Got it. And what about the story? What's it about?",
+        "Reco": "Playenr: Got it. and what agout the story? what's it agout?\n"
+    },
+    "eng_34": {
+        "Model": "Trained with default database",
+        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
+        "Reco": "Character: you'll encounter all xinds of enemies, rrom small creatures to powerrul poasses.\n"
+    },
+    "eng_4": {
+        "Model": "Trained with default database",
+        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
+        "Reco": "\"CREDITST meny Lists all the talented people who helped create This amazine came. Give\n"
+    },
+    "eng_5": {
+        "Model": "Trained with default database",
+        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
+        "Reco": "Player: okay, sot it. what agout the \"Load Game\" option? can ! use it to continue my progress?\n"
+    },
+    "eng_6": {
+        "Model": "Trained with default database",
+        "Real": "Player: Hey, what can you tell me about this world?",
+        "Reco": "Playenr: hey, what can you tell me agout this worto?\n"
+    },
+    "eng_7": {
+        "Model": "Trained with default database",
+        "Real": "Character: No problem. Have a great adventure!",
+        "Reco": "Charactier: wo prodlem. have a Great adventure!\n"
+    },
+    "eng_8": {
+        "Model": "Trained with default database",
+        "Real": "\"Load Game\" to continue where you left off.",
+        "Reco": "\u201cload Game\" to continue where you Lert off.\n"
+    },
+    "eng_9": {
+        "Model": "Trained with default database",
+        "Real": "Menu:",
+        "Reco": "Men:\n"
+    }
+}
