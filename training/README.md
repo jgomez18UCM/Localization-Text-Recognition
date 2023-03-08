@@ -8,24 +8,25 @@ Copy desired files to _sharedFolder_ in order to work with them inside container
 Moreover, copy desired fonts inside _fonts_ folder, so you can use them in the container. There is an Apex font as example.
 
 ***
+<details open>
+  <summary><h2><u>Start Image and Run</u></h2></summary>
+  To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
 
-## <u>Start Image and Run</u>
-To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
+  ```
+  docker compose up -d
+  ```
 
-```
-docker compose up -d
-```
+  To get inside container just simply type:
 
-To get inside container just simply type:
+  ```
+  .\connect.bat tesseract-cont
+  ```
 
-```
-.\connect.bat tesseract-cont
-```
-
-A short bat file that executes ``` docker exec -it tesseract-cont bash```
+  A short bat file that executes ``` docker exec -it tesseract-cont bash```
 
 
-**NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.**
+  **NOTE: It could take around 10 min to build the image since it has to download and clone necessary dependencies and repositories.**
+</details>
 
 <!--- 
 It clones everything at the same time so you can check if has finished using ```git status```  inside each repo folder in tesseract_repos.
@@ -54,7 +55,8 @@ Otherwise, wait until those messages show up.
 --->
 ***
 
-## <u>Creating Ground Truth</u>
+<details>
+<summary><h2><u>Creating Ground Truth</u></summary>
 Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
 You can use also a custom file so the model is trained with your data. However make sure that your document has an extension like
@@ -82,8 +84,11 @@ Moreover, you can launch the script with ```--help``` to see the full list of fl
 
 **Note**: all lenguages recognized by tesseract: https://github.com/tesseract-ocr/langdata_lstm
 
+</details>
+
 ***
-## <u>Training</u>
+<details>
+<summary><h2><u>Training</u></summary></h2>
 
 If you haven't placed your font inside _fonts_ folder before creating this image, copy it in mentioned folder so you can use it inside container.
 
@@ -151,9 +156,12 @@ This command will extract the text from _eng_1.tif_ image and will print it in t
 
 If you wish to check all script options, you can run ```tesseract --help-extra``` in same folder, or check out its manual in https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc or https://muthu.co/all-tesseract-ocr-options/.
 
+</details>
+
 ***
 
-## <u>Stop image and destroy</u>
+<details>
+<summary><h2><u>Stop image and destroy</u></summary></h2>
 Then to stop and delete container simply type:
 
 ```
@@ -173,8 +181,10 @@ And then, to run it again type:
 ```
 docker compose start
 ```
+</details>
 
 ***
+
 ## <u>FAQ'S</u>
 
 ## 1. DOCKER IMAGE ERROR

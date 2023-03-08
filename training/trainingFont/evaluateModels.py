@@ -12,19 +12,11 @@ import pathlib
 langdata_lstm_Folder = '/home/tesseract_repos/langdata_lstm'
 tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 
-#TODO: DUDAS
-#Al entrenar el 80% de los datos, con cual? el de texto personalizado o default?
-
-#Hay que borrar el modelo entrenado para que el siguiente este limpio, no?
-
-#El modelo deberia ser uno por cada idioma o uno que soporte todos?
-
 def errorMessage():
     print("\033[31mYou must provide at least lenguage and font name.\033[0m")
     print("\033[36mUsage: python evaluateModels.py -l [lenguaje] -f [fontName]\033[0m")   
 
-def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name,lenguage, resultFile):
-    
+def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name,lenguage, resultFile, modelUsed):
     mainLaunchDir = os.getcwd()
 
     #Nos movemos al directorio donde se encuentra tesseract
@@ -74,7 +66,7 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
 
         file = {}
         file.update({
-            "Model": "Trained with default database",
+            "Model": f"{modelUsed}",
             "Real": f"{realText.stdout.decode()}",
             "Reco": f"{textRecognized.stdout.decode()}",
         })
@@ -83,11 +75,6 @@ def extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_N
         resultFile.update({
             f"{nameFile}": file,
         })
-        # resultFile.write(f"File: {nameFile}\n")
-        # resultFile.write(f"Real: {realText.stdout.decode()}\n")
-        # resultFile.write(f"Reco: {textRecognized.stdout.decode()}")
-        # resultFile.write("Model: Trained with default database.\n")
-        # resultFile.write("-----------------\n")
 
     #Volvemos a la carpeta de lanzamiento
     os.chdir(f'{mainLaunchDir}')
@@ -137,7 +124,7 @@ def modelEvaluation(kf,archivos_ordenados, groundTruthPath, temp_folder, lenguag
             subprocess.run(['mv', '-n',f'{temp_folder}/{file}', f'{groundTruthPath}'])
 
         #Extraer datos y esribir en archivo de resultados
-        extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name, lenguage, resultFile)
+        extract_compare_Data(archivos_ordenados, test_index, groundTruthPath, font_Name, lenguage, resultFile, "Trained with default database")
 
         #Limpiar modelo 
         clearModel(lenguage, font_Name)
@@ -171,31 +158,30 @@ def evaluate(lenguage, font_Name):
 
     #Generamos particion de 5 grupos para la evaluación.
     kf = KFold(n_splits=5)
+    
     #Entrenamiento y evaluacion
-    
     #Modelos
-    
+    #=====================================  A: Default Tesseract
     resultFile = {}
-    # A: Default Tesseract
     #Este solo va a ejecutar no? sin entrenar. solo probar.
     modelEvaluation(kf, archivos_ordenados, groundTruthPath, temp_folder, lenguage, font_Name, resultFile)
 
     #Escribimos en  fichero y cerramos
-    with open(f"{result_folder}/resultsModel_Default_A.txt", "w") as archivo_json:
+    with open(f"{result_folder}/resultsModel_Default_A.json", "w") as archivo_json:
         json.dump(resultFile, archivo_json, indent = 4)
     
-    # B: Trained Font overfitted
+    #=====================================  B: Trained Font overfitted
     #Limpiamos el ground truth que haya
     subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
     #Creamos el ground truth
     subprocess.run([ 'python', 'groundTruth.py','-l',f'{lenguage}','-f',f'{font_Name}'])
     resultFile = {}
     modelEvaluation(kf, archivos_ordenados, groundTruthPath, temp_folder, lenguage, font_Name, resultFile)
-    with open(f"{result_folder}/resultsModel_Font_B.txt", "w") as archivo_json:
+    with open(f"{result_folder}/resultsModel_Font_B.json", "w") as archivo_json:
         json.dump(resultFile, archivo_json, indent = 4)
     
 
-    # C: Trained Font overfitted to custom grount truth test
+    # ===================================== C: Trained Font overfitted to custom grount truth test
     #Limpiamos el ground truth que haya
     subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
     #Creamos ground truth con texto personalizado
@@ -205,10 +191,10 @@ def evaluate(lenguage, font_Name):
     modelEvaluation(kf, archivos_ordenados, groundTruthPath, temp_folder, lenguage, font_Name, resultFile)
     
     #Escribimos en fichero y cerramos
-    with open(f"{result_folder}/resultsModel_Custom_C.txt", "w") as archivo_json:
+    with open(f"{result_folder}/resultsModel_Custom_C.json", "w") as archivo_json:
         json.dump(resultFile, archivo_json, indent = 4)
-
-    #Eliminamos el directorio temporal
+        
+    #=====================================  Eliminamos el directorio temporal
     shutil.rmtree(temp_folder)
 
 def main():
