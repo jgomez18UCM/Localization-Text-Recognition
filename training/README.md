@@ -10,6 +10,7 @@ Moreover, copy desired fonts inside _fonts_ folder, so you can use them in the c
 ***
 <details open>
   <summary><h2><u>Start Image and Run</u></h2></summary>
+
   To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
 
   ```
@@ -57,6 +58,7 @@ Otherwise, wait until those messages show up.
 
 <details>
 <summary><h2><u>Creating Ground Truth</u></summary>
+
 Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
 You can use also a custom file so the model is trained with your data. However make sure that your document has an extension like
@@ -162,6 +164,7 @@ If you wish to check all script options, you can run ```tesseract --help-extra``
 
 <details>
 <summary><h2><u>Stop image and destroy</u></summary></h2>
+
 Then to stop and delete container simply type:
 
 ```
