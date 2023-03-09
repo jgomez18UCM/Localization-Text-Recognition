@@ -9,7 +9,7 @@ Moreover, copy desired fonts inside _fonts_ folder, so you can use them in the c
 
 ***
 <details open>
-  <summary><h2><u>Start Image and Run</u></h2></summary>
+  <summary><h2><u>1. Start Image and Run</u></h2></summary>
 
   To run the container and docker image simply run Docker Desktop and type in a terminal inside _./training_ folder:
 
@@ -57,7 +57,7 @@ Otherwise, wait until those messages show up.
 ***
 
 <details>
-<summary><h2><u>Creating Ground Truth</u></summary>
+<summary><h2><u>2. Creating Ground Truth</u></summary>
 
 Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
@@ -90,7 +90,7 @@ Moreover, you can launch the script with ```--help``` to see the full list of fl
 
 ***
 <details>
-<summary><h2><u>Training</u></summary></h2>
+<summary><h2><u>3. Training</u></summary></h2>
 
 If you haven't placed your font inside _fonts_ folder before creating this image, copy it in mentioned folder so you can use it inside container.
 
@@ -163,7 +163,7 @@ If you wish to check all script options, you can run ```tesseract --help-extra``
 ***
 
 <details>
-<summary><h2><u>Stop image and destroy</u></summary></h2>
+<summary><h2><u>4. Stop image and destroy</u></summary></h2>
 
 Then to stop and delete container simply type:
 
@@ -173,7 +173,7 @@ docker compose down
 
 If you wish to delete also the image, add ```--rmi 'all'``` to the command.
 
-However if you just want to stop the container run:
+However if you just want to stop the container then run:
 
 ```
 docker compose stop

@@ -1,10 +1,23 @@
 import argparse
 import json
 import difflib
+import os
+
 
 def errorMessage():
-    print("\033[31mYou must provide models results json file path .\033[0m")
-    print("\033[36mUsage: python evaluateResultsModels.py -file [filePath]\033[0m")
+    print("\033[31mYou must provide models results json full folder path .\033[0m")
+    print("\033[36mUsage: python evaluateResultsModels.py -folder [folderPath]\033[0m")
+
+def evaluateFolderResults(folderPath):
+    folder = os.listdir(folderPath)
+    for file in folder:
+        filePath = None
+        if(not folderPath.endswith("/")):
+            filePath = folderPath +"/"+ file
+        else:
+            filePath = folderPath + file
+
+        evaluate(filePath)
 
 def evaluate(dir):
     with open(f"{dir}", "r") as archivo:
@@ -14,6 +27,7 @@ def evaluate(dir):
 
     similitudSum = 0
     for clave in datos:
+        # print("Nombre del contenedor: ", clave)
         if modelName == None:
             modelName = datos[clave]["Model"]
 
@@ -26,7 +40,7 @@ def evaluate(dir):
 
     similitudSum =  similitudSum/len(datos)
 
-    print(f"The model \"{modelName}\" has got {similitudSum*100:.2f}% of success")
+    print(f"The model \"{modelName}\" has got {similitudSum*100:.2f}% of success.")
 
 
 def main():
@@ -34,14 +48,14 @@ def main():
 
     #OPCION PARA CREAR Y LIMPIAR
 
-    parser.add_argument('-file','--filePath', type=str, help='json file path of models results.', default = None)
+    parser.add_argument('-folder','--folderPath', type=str, help='json full folder path of models results.', default = None)
 
     args = parser.parse_args()
 
     error = 0
-    filePath =  None
-    if args.filePath is not None:
-        filePath = args.filePath
+    folderPath =  None
+    if args.folderPath is not None:
+        folderPath = args.folderPath
     else:
         error = 1
     
@@ -50,7 +64,7 @@ def main():
         errorMessage()
         return    
 
-    evaluate(filePath)
+    evaluateFolderResults(folderPath)
     
     return
 
