@@ -139,7 +139,7 @@ def main():
         return 
 
     #En caso de que se especifique limpiar
-    if args.clear is not False:
+    if args.clear is True:
         clear(lenguage, font_Name)
         return
 
