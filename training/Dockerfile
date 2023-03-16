@@ -73,7 +73,10 @@ RUN tesseract -v
 COPY ./fonts/ /usr/local/share/fonts
 COPY ./sharedFolder/bash.bashrc /etc
 RUN fc-cache -f -v
+
 RUN alias ls='ls -l --color=auto'
+
+#Add Tesseract folder to the path so it can be used anywhere
 RUN export TESSDATA_PREFIX=/home/tesseract_repos/tesseract/tessdata/
 
 WORKDIR /home

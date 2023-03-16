@@ -22,7 +22,7 @@ tesstrain_Folder = '/home/tesseract_repos/tesstrain'
 tesseract_Folder = '/home/tesseract_repos/tesseract'
 
 def createGroundTruth(lenguage, font_Name, path):
-    count = 200
+    count = 100
 
     training_text_file = f'{path}/{lenguage}.training_text'
 
