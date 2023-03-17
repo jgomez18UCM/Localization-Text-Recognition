@@ -136,11 +136,6 @@ def modelEvaluation(kf,archivos_ordenados, resultFile, modelName, trainCommand, 
         print(f"\033[33mEvaluation:{round((percentage*100),2)}% of 100%\033[0m")
 
 def evaluateModel_A(kf, archivos_ordenados):
-    #Limpiamos el ground truth que haya
-    subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
-    #Creamos el ground truth
-    subprocess.run([ 'python', 'groundTruth.py','-l',f'{lenguage}','-f',f'{font_Name}'])
-
     resultFile = {}
 
     recognitionCommand = lambda nameFile : subprocess.run([
@@ -150,7 +145,7 @@ def evaluateModel_A(kf, archivos_ordenados):
                         ], stdout=subprocess.PIPE)
 
     modelEvaluation(kf, archivos_ordenados,resultFile,
-                     "Base tesseract model",
+                     "A: Base tesseract model.",
                      None,
                      recognitionCommand)
     
@@ -159,10 +154,6 @@ def evaluateModel_A(kf, archivos_ordenados):
         json.dump(resultFile, archivo_json, indent = 4)
         
 def evaluateModel_B(kf, archivos_ordenados):
-    #Limpiamos el ground truth que haya
-    subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
-    #Creamos el ground truth
-    subprocess.run([ 'python', 'groundTruth.py','-l',f'{lenguage}','-f',f'{font_Name}'])
     resultFile = {}
 
     trainCommand =  lambda: subprocess.run([
@@ -192,7 +183,7 @@ def evaluateModel_B(kf, archivos_ordenados):
                             'ALL',
                         ], stdout=subprocess.PIPE)
     modelEvaluation(kf, archivos_ordenados, resultFile,
-                    f"Train a model with a special font: {font_Name}",
+                    f"B: Train a model with a special font: {font_Name}.",
                      trainCommand,
                      recognitionCommand)
     
@@ -201,12 +192,6 @@ def evaluateModel_B(kf, archivos_ordenados):
         json.dump(resultFile, archivo_json, indent = 4)
 
 def evaluateModel_C(kf, archivos_ordenados):
-    #Limpiamos el ground truth que haya
-    subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
-    #Creamos ground truth con texto personalizado
-    customTextPath= "/home/trainingFont/dialogos/"
-    subprocess.run([ 'python', 'groundTruth.py', '-l',f'{lenguage}','-f',f'{font_Name}', '-dir' , customTextPath])
-    
     resultFile = {}
 
     trainCommand = lambda: subprocess.run([
@@ -237,7 +222,7 @@ def evaluateModel_C(kf, archivos_ordenados):
                         ], stdout=subprocess.PIPE)
 
     modelEvaluation(kf, archivos_ordenados,resultFile,
-                    f"Train a model with a special font: {font_Name} and text:{customTextPath}",
+                    f"C: Train a model with a special font: {font_Name} and text.",
                      trainCommand,
                      recognitionCommand)
 
@@ -247,17 +232,22 @@ def evaluateModel_C(kf, archivos_ordenados):
 
 #TODO Para este caso, se usan variables globales para comodidad inmediata, pero se debería 
 #realizar sin utilizar variables globales
-def evaluate(evalAll, A_bool , B_bool , C_bool):
+def evaluate(path, evalAll, A_bool , B_bool , C_bool):
     global groundTruthPath
 
     groundTruthPath = f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-ground-truth/{lenguage}'
 
-    if not os.path.exists(groundTruthPath):
-        print(f"WARNING: There is no ground-truth folder for font \"{font_Name}\" and \"{lenguage}\".")
-        print(f"Please make sure you generate a ground-truth for \"{font_Name}\" and \"{lenguage}\".")
-        return
+    #Limpiamos el ground truth que haya
+    subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
+    #Creamos el ground truth
+    subprocess.run([ 'python', 'groundTruth.py','-l',f'{lenguage}','-f',f'{font_Name}', '-dir' , path])
+
+    # if not os.path.exists(groundTruthPath):
+    #     print(f"WARNING: There is no ground-truth folder for font \"{font_Name}\" and \"{lenguage}\".")
+    #     print(f"Please make sure you generate a ground-truth for \"{font_Name}\" and \"{lenguage}\".")
+    #     return
     
-    #Creamos directorio temporal para almacenar los archivos que no se usaran
+    #Creamos directorio temporal para almacenar los archivos del ground-truth que no se usaran
     mainLaunchDir = os.getcwd()
 
     global temp_folder
@@ -311,7 +301,7 @@ def main():
     parser.add_argument('-A','--A', action='store_true', help='Base tesseract model.')
     parser.add_argument('-B','--B', action='store_true', help='Train a model with a special font.')
     parser.add_argument('-C','--C', action='store_true', help='Train a model with a special font and text.')
-    parser.add_argument('-dir','--directory', type=str, help='Directory name with training text.', default = None)
+    parser.add_argument('-dir','--directory', type=str, help='Directory path with training text.', default = None)
 
     args = parser.parse_args()
     global lenguage
@@ -330,11 +320,17 @@ def main():
     if args.fontname is not None:
         font_Name = args.fontname
     else:
-        print("\033[31mYou must provide at least lenguage and font name to train and evaluate any.\033[0m")
+        print("\033[31mYou must provide at least lenguage and font name to train and evaluate any model.\033[0m")
         print("\033[36mUsage: python evaluateModels.py -l [lenguaje] -f [fontName] -[A/B/C]\033[0m") 
         return
+    
+    path = f'{langdata_lstm_Folder}/{lenguage}'
 
-    evaluate(evalAll, args.A, args.B, args.C)
+    #Ruta personalizada
+    if args.directory is not None:
+        path = args.directory 
+
+    evaluate(path, evalAll, args.A, args.B, args.C)
 
     return
 

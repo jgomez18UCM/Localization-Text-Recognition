@@ -40,7 +40,8 @@ def evaluate(dir):
 
     similitudSum =  similitudSum/len(datos)
 
-    print(f"The model \"{modelName}\" has got {similitudSum*100:.2f}% of success.")
+    #Imprimir en pantalla los resultados, con el nombre del modelo y porcentaje de acierto subrayado.
+    print(f"The model \033[1m\033[4m\"{modelName}\"\033[0m has got \033[1m\033[4m{similitudSum*100:.2f}%\033[0m of success.")
 
 
 def main():
