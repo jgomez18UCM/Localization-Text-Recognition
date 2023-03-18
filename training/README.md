@@ -216,3 +216,10 @@ Could not initialize tesseract.
 
 Remember to copy desired lenguage .traineddata files from _/home/tesseract_repos/tessdata_best_ to _/home/tesseract_repos/tesseract/tessdata/_
 
+## 3. DOCKER BUILDING IMAGE HAS CACHE 
+If you wish to build the image from strach, without any build cache, the following command will remove **ALL** images and containers cache in your machine.
+
+```
+docker system prune -a -f
+```
+
