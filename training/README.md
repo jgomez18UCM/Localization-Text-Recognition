@@ -204,3 +204,15 @@ certificate verify failed: self signed certificate (_ssl.c:992)'))
 
 Try to change to another wi-fi network connection, since some companies avoid accesing to python pages to download certificates and dependencies.
 
+## 2. RUNNING TESSERACT 
+If you get when using tesseract that says something like this:
+```
+Error opening data file /home/tesseract_repos/tesseract/tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+```
+
+Remember to copy desired lenguage .traineddata files from _/home/tesseract_repos/tessdata_best_ to _/home/tesseract_repos/tesseract/tessdata/_
+
