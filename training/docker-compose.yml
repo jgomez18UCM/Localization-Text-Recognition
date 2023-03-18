@@ -6,12 +6,12 @@ services: #nombres de los contenedores a utilizar
     container_name: tesseract-cont
     stdin_open: true # docker run -i
     tty: true        #docker run -t
+    #Add Tesseract folder to the path so it can be used anywhere
+    environment:
+      - TESSDATA_PREFIX=/home/tesseract_repos/tesseract/tessdata/
     ports: #para mappear puertos "puertoAfitrion:puertoContenedor "
       - "5000:5000" 
     volumes:
       - ./sharedFolder:/home/sharedFolder
       - ./fonts:/home/fonts
       - ./trainingFont:/home/trainingFont
-
-
-      
