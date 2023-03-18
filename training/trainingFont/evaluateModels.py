@@ -11,6 +11,8 @@ import pathlib
 
 langdata_lstm_Folder = '/home/tesseract_repos/langdata_lstm'
 tesstrain_Folder = '/home/tesseract_repos/tesstrain'
+tessdata_best_Folder = '/home/tesseract_repos/tessdata_best'
+tesseract_Folder = '/home/tesseract_repos/tesseract'
 
 
 groundTruthPath = None
@@ -236,7 +238,11 @@ def evaluate(path, evalAll, A_bool , B_bool , C_bool):
     global groundTruthPath
 
     groundTruthPath = f'{tesstrain_Folder}/data/{font_Name}_data/{font_Name}-ground-truth/{lenguage}'
-
+    
+    #Copy traineddata by Tesseract to use model A.
+    subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{lenguage}.traineddata',  f'{tesseract_Folder}/tessdata'])
+    
+    
     #Limpiamos el ground truth que haya
     subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
     #Creamos el ground truth
