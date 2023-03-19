@@ -244,9 +244,9 @@ def evaluate(path, evalAll, A_bool , B_bool , C_bool):
     
     
     #Limpiamos el ground truth que haya
-    subprocess.run([ 'python', 'groundTruth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
+    subprocess.run([ 'python', 'ground_truth.py', '-cl', '-l',f'{lenguage}','-f',f'{font_Name}'])
     #Creamos el ground truth
-    subprocess.run([ 'python', 'groundTruth.py','-l',f'{lenguage}','-f',f'{font_Name}', '-dir' , path])
+    subprocess.run([ 'python', 'ground_truth.py','-l',f'{lenguage}','-f',f'{font_Name}', '-dir' , path])
 
     # if not os.path.exists(groundTruthPath):
     #     print(f"WARNING: There is no ground-truth folder for font \"{font_Name}\" and \"{lenguage}\".")
@@ -288,13 +288,13 @@ def evaluate(path, evalAll, A_bool , B_bool , C_bool):
     #B: Trained Font overfitted
     if(B_bool or evalAll):
         print("Evaluating model B.")
-        # evaluateModel_B(kf, archivos_ordenados)
+        evaluateModel_B(kf, archivos_ordenados)
     
     # C: Trained Font overfitted to custom grount truth test
     
-    if(C_bool or evalAll):
-        print("Evaluating model C.")
-        # evaluateModel_C(kf, archivos_ordenados)
+    # if(C_bool or evalAll):
+    #     print("Evaluating model C.")
+    #     evaluateModel_C(kf, archivos_ordenados)
     #=====================================  Eliminamos el directorio temporal
     shutil.rmtree(temp_folder)
 
@@ -319,7 +319,8 @@ def main():
         return
     
     #Si no se especifia alguno, se entrenan todos
-    evalAll = not(args.A or args.B or args.C)    
+    # evalAll = not(args.A or args.B or args.C)    
+    evalAll = not(args.A or args.B)    
 
     #Solo se verifica en los modelos B y C, antes de entrenar para lanzar error
     global font_Name

@@ -135,7 +135,7 @@ def main():
     #En caso de que no se defina alguna obligatoria
     if(error == 1):
         print("\033[31mYou must provide at least lenguage and font name.\033[0m")
-        print("\033[36Usage: python groundTruth.py -l [lenguaje] -f [fontName]\033[0m")
+        print("\033[36Usage: python ground_truth.py -l [lenguaje] -f [fontName]\033[0m")
         return 
 
     #En caso de que se especifique limpiar

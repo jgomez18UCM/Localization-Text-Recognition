@@ -59,7 +59,7 @@ Otherwise, wait until those messages show up.
 <details>
 <summary><h2><u>2. Creating Ground Truth</u></summary>
 
-Before training you'll have to create a database. The script groundTruth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
+Before training you'll have to create a database. The script ground_truth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
 You can use also a custom file so the model is trained with your data. However make sure that your document has an extension like
 [lenguage].training_text and there can not be empty lines. 
