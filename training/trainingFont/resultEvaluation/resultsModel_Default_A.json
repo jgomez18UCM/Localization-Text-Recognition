@@ -1,8 +1,8 @@
 {
     "eng_0": {
         "Model": "A: Base tesseract model.",
-        "Real": "Credits",
-        "Reco": "CREDITS\n"
+        "Real": "Player: Got it. And what about the story? What's it about?",
+        "Reco": "PLAYER: GOT IT. AND WHAT ABOUT THE STORY? WHAT'S IT ABOUT?\n"
     },
     "eng_1": {
         "Model": "A: Base tesseract model.",
@@ -11,167 +11,167 @@
     },
     "eng_10": {
         "Model": "A: Base tesseract model.",
-        "Real": "You'll follow in their footsteps as you journey through this world and discover the secrets of the past.",
-        "Reco": "YOU'LL FOLLOW IN THEIR FOOTSTEPS AS YOU JOURNEY THROUGH THIS WORLD AND DISCOVER THE SECRETS OF THE PAST.\n"
+        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
+        "Reco": "PLAYER: HEY, I'M READY TO START THE GAME. WHAT SHOULD I DO?\n"
     },
     "eng_11": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Exit",
-        "Reco": "EXIT\n"
-    },
-    "eng_12": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Start Game",
-        "Reco": "START GAME\n"
-    },
-    "eng_13": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
-        "Reco": "CHARACTER: YOU'LL ENCOUNTER ALL KINDS OF ENEMIES, FROM SMALL CREATURES TO POWERFUL BOSSES.\n"
-    },
-    "eng_14": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Dialogue:",
-        "Reco": "DIALOGUE:\n"
-    },
-    "eng_15": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Thanks, I'll do my best. See you later.",
-        "Reco": "PLAYER: THANKS, I'LL DO MY BEST. SEE YOU LATER.\n"
-    },
-    "eng_16": {
         "Model": "A: Base tesseract model.",
         "Real": "Load Game",
         "Reco": "LOAD GAME\n"
     },
-    "eng_17": {
+    "eng_12": {
         "Model": "A: Base tesseract model.",
-        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
-        "Reco": "PLAYER: THAT SOUNDS EXCITING. WHAT KIND OF ENEMIES CAN I EXPECT TO FACE?\n"
+        "Real": "Credits",
+        "Reco": "CREDITS\n"
     },
-    "eng_18": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: No problem. Have a great adventure!",
-        "Reco": "CHARACTER: NO PROBLEM. HAVE A GREAT ADVENTURE!\n"
-    },
-    "eng_19": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Will they become the hero that saves the world once again? Only time will tell.",
-        "Reco": "WILL THEY BECOME THE HERO THAT SAVES THE WORLD ONCE AGAIN? ONLY TIME WILL TELL.\n"
-    },
-    "eng_2": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Alright. Thanks for the info.",
-        "Reco": "PLAYER: ALRIGHT. THANKS FOR THE INFO.\n"
-    },
-    "eng_20": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
-        "Reco": "PLAYER: NICE. AND WHAT'S IN THE \"CREDITS\" MENU?\n"
-    },
-    "eng_21": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Hey, what can you tell me about this world?",
-        "Reco": "PLAYER: HEY, WHAT CAN YOU TELL ME ABOUT THIS WORLD?\n"
-    },
-    "eng_22": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: In the \"Options\" menu, you can adjust various settings such as sound, graphics, and controls to your liking.",
-        "Reco": "CHARACTER: IN THE \"OPTIONS\" MENU, YOU CAN ADJUST VARIOUS SETTINGS SUCH AS SOUND, GRAPHICS, AND CONTROLS\nT0 YOUR LIKING.\n"
-    },
-    "eng_23": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Options",
-        "Reco": "OPTIONS\n"
-    },
-    "eng_24": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.",
-        "Reco": "CHARACTER: THIS WORLD IS FULL OF WONDER AND DANGER. YOU'LL ENCOUNTER MANY CHALLENGES, BUT ALSO GREAT\nREWARDS.\n"
-    },
-    "eng_25": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: The story is about a legendary hero who fought against evil and saved the world from destruction.",
-        "Reco": "CHARACTER: THE STORY IS ABOUT A LEGENDARY HERO WHO FOUGHT AGAINST EVIL AND SAVED THE WORLD FROM\nDESTRUCTION.\n"
-    },
-    "eng_26": {
-        "Model": "A: Base tesseract model.",
-        "Real": "\"Load Game\" to continue where you left off.",
-        "Reco": "\"LOAD GAME\" TO CONTINUE WHERE YOU LEFT OFF.\n"
-    },
-    "eng_27": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
-        "Reco": "BE SURE TO EXPLORE EVERY CORNER AND TALK TO THE LOCALS FOR HELPFUL INFORMATION.\n"
-    },
-    "eng_28": {
-        "Model": "A: Base tesseract model.",
-        "Real": "they are filled with excitement and anticipation for what lies ahead.",
-        "Reco": "THEY ARE FILLED WITH EXCITEMENT AND ANTICIPATION FOR WHAT LIES AHEAD.\n"
-    },
-    "eng_29": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
-        "Reco": "CHARACTER: THE \"CREDITS\" MENU LISTS ALL THE TALENTED PEOPLE WHO HELPED CREATE THIS AMAZING GAME. GIVE\nTHEM A LOOK!\n"
-    },
-    "eng_3": {
+    "eng_13": {
         "Model": "A: Base tesseract model.",
         "Real": "Player: Sounds epic. I can't wait to get started.",
         "Reco": "PLAYER: SOUNDS EPIC. I CAN'T WAIT TO GET STARTED.\n"
     },
-    "eng_30": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
-        "Reco": "PLAYER: HEY, I'M READY TO START THE GAME. WHAT SHOULD I DO?\n"
-    },
-    "eng_31": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
-        "Reco": "CHARACTER: WELCOME, ADVENTURER! TO START YOUR JOURNEY, SELECT THE \"START GAME\" OPTION FROM THE MENU.\n"
-    },
-    "eng_32": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: Yes, of course. If you've already started your adventure and saved your progress, you can select",
-        "Reco": "CHARACTER: YES, OF COURSE. IF YOU'VE ALREADY STARTED YOUR ADVENTURE AND SAVED YOUR PROGRESS, YOU CAN\nSELECT\n"
-    },
-    "eng_33": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Got it. And what about the story? What's it about?",
-        "Reco": "PLAYER: GOT IT. AND WHAT ABOUT THE STORY? WHAT'S IT ABOUT?\n"
-    },
-    "eng_34": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
-        "Reco": "CHARACTER: GOOD LUCK ON YOUR JOURNEY, ADVENTURER. MAY THE GODS SMILE UPON YoU.\n"
-    },
-    "eng_4": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Be sure to equip yourself with the right weapons and abilities to take them down.",
-        "Reco": "BE SURE TO EQUIP YOURSELF WITH THE RIGHT WEAPONS AND ABILITIES TO TAKE THEM DOWN.\n"
-    },
-    "eng_5": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Menu:",
-        "Reco": "MENU:\n"
-    },
-    "eng_6": {
-        "Model": "A: Base tesseract model.",
-        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
-        "Reco": "PLAYER: OKAY, 60T IT. WHAT ABOUT THE \"LOAD GAME\" OPTION? CAN I USE IT TO CONTINUE MY PROGRESS?\n"
-    },
-    "eng_7": {
+    "eng_14": {
         "Model": "A: Base tesseract model.",
         "Real": "As the player selects \"Start Game\" from the menu and begins their adventure,",
         "Reco": "AS THE PLAYER SELECTS \"START GAME\" FROM THE MENU AND BEGINS THEIR ADVENTURE,\n"
     },
-    "eng_8": {
+    "eng_15": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: No problem. Have a great adventure!",
+        "Reco": "CHARACTER: NO PROBLEM. HAVE A GREAT ADVENTURE!\n"
+    },
+    "eng_16": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Start Game",
+        "Reco": "START GAME\n"
+    },
+    "eng_17": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
+        "Reco": "CHARACTER: YOU'LL ENCOUNTER ALL KINDS OF ENEMIES, FROM SMALL CREATURES TO POWERFUL BOSSES.\n"
+    },
+    "eng_18": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
+        "Reco": "CHARACTER: WELCOME, ADVENTURER! TO START YOUR JOURNEY, SELECT THE \"START GAME\" OPTION FROM THE MENU.\n"
+    },
+    "eng_19": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Hey, what can you tell me about this world?",
+        "Reco": "PLAYER: HEY, WHAT CAN YOU TELL ME ABOUT THIS WORLD?\n"
+    },
+    "eng_2": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Options",
+        "Reco": "OPTIONS\n"
+    },
+    "eng_20": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Dialogue:",
+        "Reco": "DIALOGUE:\n"
+    },
+    "eng_21": {
+        "Model": "A: Base tesseract model.",
+        "Real": "they are filled with excitement and anticipation for what lies ahead.",
+        "Reco": "THEY ARE FILLED WITH EXCITEMENT AND ANTICIPATION FOR WHAT LIES AHEAD.\n"
+    },
+    "eng_22": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
+        "Reco": "PLAYER: OKAY, 60T IT. WHAT ABOUT THE \"LOAD GAME\" OPTION? CAN I USE IT TO CONTINUE MY PROGRESS?\n"
+    },
+    "eng_23": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
+        "Reco": "CHARACTER: GOOD LUCK ON YOUR JOURNEY, ADVENTURER. MAY THE GODS SMILE UPON YoU.\n"
+    },
+    "eng_24": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Thanks, I'll do my best. See you later.",
+        "Reco": "PLAYER: THANKS, I'LL DO MY BEST. SEE YOU LATER.\n"
+    },
+    "eng_25": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Exit",
+        "Reco": "EXIT\n"
+    },
+    "eng_26": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: In the \"Options\" menu, you can adjust various settings such as sound, graphics, and controls to your liking.",
+        "Reco": "CHARACTER: IN THE \"OPTIONS\" MENU, YOU CAN ADJUST VARIOUS SETTINGS SUCH AS SOUND, GRAPHICS, AND CONTROLS\nT0 YOUR LIKING.\n"
+    },
+    "eng_27": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
+        "Reco": "PLAYER: THAT SOUNDS EXCITING. WHAT KIND OF ENEMIES CAN I EXPECT TO FACE?\n"
+    },
+    "eng_28": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Alright. Thanks for the info.",
+        "Reco": "PLAYER: ALRIGHT. THANKS FOR THE INFO.\n"
+    },
+    "eng_29": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Be sure to equip yourself with the right weapons and abilities to take them down.",
+        "Reco": "BE SURE TO EQUIP YOURSELF WITH THE RIGHT WEAPONS AND ABILITIES TO TAKE THEM DOWN.\n"
+    },
+    "eng_3": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Great. And what's in the \"Options\" menu?",
+        "Reco": "PLAYER: GREAT. AND WHAT'S IN THE \"OPTIONS\" MENU?\n"
+    },
+    "eng_30": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.",
+        "Reco": "CHARACTER: THIS WORLD IS FULL OF WONDER AND DANGER. YOU'LL ENCOUNTER MANY CHALLENGES, BUT ALSO GREAT\nREWARDS.\n"
+    },
+    "eng_31": {
         "Model": "A: Base tesseract model.",
         "Real": "The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.",
         "Reco": "THE WORLD IS VAST AND FULL OF MYSTERIES, BUT THEY ARE READY TO FACE ANY CHALLENGE THAT COMES THEIR WAY.\n"
     },
+    "eng_32": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
+        "Reco": "BE SURE TO EXPLORE EVERY CORNER AND TALK TO THE LOCALS FOR HELPFUL INFORMATION.\n"
+    },
+    "eng_33": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: The story is about a legendary hero who fought against evil and saved the world from destruction.",
+        "Reco": "CHARACTER: THE STORY IS ABOUT A LEGENDARY HERO WHO FOUGHT AGAINST EVIL AND SAVED THE WORLD FROM\nDESTRUCTION.\n"
+    },
+    "eng_34": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Menu:",
+        "Reco": "MENU:\n"
+    },
+    "eng_4": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
+        "Reco": "CHARACTER: THE \"CREDITS\" MENU LISTS ALL THE TALENTED PEOPLE WHO HELPED CREATE THIS AMAZING GAME. GIVE\nTHEM A LOOK!\n"
+    },
+    "eng_5": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
+        "Reco": "PLAYER: NICE. AND WHAT'S IN THE \"CREDITS\" MENU?\n"
+    },
+    "eng_6": {
+        "Model": "A: Base tesseract model.",
+        "Real": "\"Load Game\" to continue where you left off.",
+        "Reco": "\"LOAD GAME\" TO CONTINUE WHERE YOU LEFT OFF.\n"
+    },
+    "eng_7": {
+        "Model": "A: Base tesseract model.",
+        "Real": "You'll follow in their footsteps as you journey through this world and discover the secrets of the past.",
+        "Reco": "YOU'LL FOLLOW IN THEIR FOOTSTEPS AS YOU JOURNEY THROUGH THIS WORLD AND DISCOVER THE SECRETS OF THE PAST.\n"
+    },
+    "eng_8": {
+        "Model": "A: Base tesseract model.",
+        "Real": "Character: Yes, of course. If you've already started your adventure and saved your progress, you can select",
+        "Reco": "CHARACTER: YES, OF COURSE. IF YOU'VE ALREADY STARTED YOUR ADVENTURE AND SAVED YOUR PROGRESS, YOU CAN\nSELECT\n"
+    },
     "eng_9": {
         "Model": "A: Base tesseract model.",
-        "Real": "Player: Great. And what's in the \"Options\" menu?",
-        "Reco": "PLAYER: GREAT. AND WHAT'S IN THE \"OPTIONS\" MENU?\n"
+        "Real": "Will they become the hero that saves the world once again? Only time will tell.",
+        "Reco": "WILL THEY BECOME THE HERO THAT SAVES THE WORLD ONCE AGAIN? ONLY TIME WILL TELL.\n"
     }
 }
