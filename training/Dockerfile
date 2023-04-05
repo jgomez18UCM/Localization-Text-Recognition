@@ -75,6 +75,4 @@ RUN fc-cache -f -v
 
 RUN echo 'alias ls="ls -l --color=auto"' >> ~/.bashrc
 
-#Add Tesseract folder to the path so it can be used anywhere
-
 WORKDIR /home

@@ -56,7 +56,7 @@ class GroundTruth():
         random.shuffle(lines)
 
         #Solo recortamos en caso de que exista tamaño suficiente para ello.
-        if(len(lines) > self.textLimit_):
+        if(self.textLimit_ != -1 and (len(lines) > self.textLimit_)):
             lines = lines[:self.textLimit_]
 
         line_count = 0  

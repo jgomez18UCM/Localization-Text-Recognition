@@ -1,177 +1,177 @@
 {
     "eng_0": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
-        "Reco": "PLAYER: NiCE. AND WHAT'S IN THe \"CReDIts\u2122 MENy?\n"
+        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
+        "Reco": "Player: hey, I'm ready to start the game. what should i do?\n"
     },
     "eng_1": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "You'll follow in their footsteps as you journey through this world and discover the secrets of the past.",
-        "Reco": "You'Lll FoLlow IN THEIR FoOTSTEPS As You JOURNEY THROUGH THis WoRLD AND DIsCOVER THE SECReTs oF THe pasT.\n"
+        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
+        "Reco": "Character: you'll encounter all xinds of enemies, from small creatures to powerful bosses.\n"
     },
     "eng_10": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.",
-        "Reco": "\u2014\u2014 THis WoRld Is Full OF WoNDER AnD DANGER. You'LL ENCOUNTER MANY CHALLENGES, BUT ALsO GREAT\n"
+        "Real": "Player: Great. And what's in the \"Options\" menu?",
+        "Reco": "Player: Great. and what's in the \"Options\" menu?\n"
     },
     "eng_11": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: Yes, of course. If you've already started your adventure and saved your progress, you can select",
-        "Reco": "\u2014\u2014 YEs, 0F COuRse. If YoU've ALReAdY STARTED YouUR ADVEnTURE AND SAVEd YouR pPRocRess, You can\n"
+        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
+        "Reco": "Player: nice. and what's in the \"Credits\" menu?\n"
     },
     "eng_12": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: The story is about a legendary hero who fought against evil and saved the world from destruction.",
-        "Reco": "e STORY Is ABouT A LEGENDARY HeRd WHo FouGHT AGAINST EVil AND SAVED THe WoRlD FroM\n"
+        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
+        "Reco": "Player: That sounds exciting. what kxind of enemies can i expect to face?\n"
     },
     "eng_13": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
-        "Reco": "PLAYER: HEY, I'M READY T0 START THe GAME. WHAT Should I Do?\n"
+        "Real": "Character: In the \"Options\" menu, you can adjust various settings such as sound, graphics, and controls to your liking.",
+        "Reco": "riiet: \"Options\" menu, you can adjust various settings such as sound, graphics, and controls\n"
     },
     "eng_14": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
-        "Reco": "CHARACTER: WELComE, ADVENTURER! TO START YouR JouRNey, SELECT THe \"START GAME\" 0pPTion FRoM THE MENy.\n"
+        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
+        "Reco": "Player: okay, Ggot it. what about the \"load Game\" option? can ! use it to continue my progress?\n"
     },
     "eng_15": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: In the \"Options\" menu, you can adjust various settings such as sound, graphics, and controls to your liking.",
-        "Reco": " e \"iptions meny, vou can rojust various settings such as sound, grapnics, and controls\n"
+        "Real": "Dialogue:",
+        "Reco": "Dialogue:\n"
     },
     "eng_16": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Be sure to equip yourself with the right weapons and abilities to take them down.",
-        "Reco": "Be Sure to toulp yourselr with the right weapons and asilities to take them oown.\n"
+        "Real": "Character: The story is about a legendary hero who fought against evil and saved the world from destruction.",
+        "Reco": "e Story is about a legendary hero who fought against evil and saved the world from\n"
     },
     "eng_17": {
         "Model": "B: Train a model with a special font: Apex.",
         "Real": "they are filled with excitement and anticipation for what lies ahead.",
-        "Reco": "They are filled with excitement and anticipation for what Lies aneao.\n"
+        "Reco": "They are filled with excitement and anticipation for what lies aheaod.\n"
     },
     "eng_18": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Title: Welcome to the World of Adventure!",
-        "Reco": "Title: welcome to the world of adventure!\n"
+        "Real": "Character: No problem. Have a great adventure!",
+        "Reco": "Character: No problem. Have a great adventure!\n"
     },
     "eng_19": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Options",
+        "Reco": "Options\n"
+    },
+    "eng_2": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
+        "Reco": "\"Credits\" menu lists all the talented people who helped create this amazing gGame. Give\n"
+    },
+    "eng_20": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Exit",
+        "Reco": "Exit\n"
+    },
+    "eng_21": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Menu:",
+        "Reco": "Menu:\n"
+    },
+    "eng_22": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.",
+        "Reco": "The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.\n"
+    },
+    "eng_23": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Player: Hey, what can you tell me about this world?",
+        "Reco": "Player: hey, wWhat can you tell me about this world?\n"
+    },
+    "eng_24": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Character: Yes, of course. If you've already started your adventure and saved your progress, you can select",
+        "Reco": "Ariet Yes, of course. If you've already started your adventure and saved your progress, you can\n"
+    },
+    "eng_25": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Credits",
+        "Reco": "Credits\n"
+    },
+    "eng_26": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Start Game",
+        "Reco": "start Game\n"
+    },
+    "eng_27": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Title: Welcome to the World of Adventure!",
+        "Reco": "Title: Welcome to the world of adventure!\n"
+    },
+    "eng_28": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Player: Got it. And what about the story? What's it about?",
+        "Reco": "Player: Got it. And what about the story? what's it about?\n"
+    },
+    "eng_29": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
+        "Reco": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.\n"
+    },
+    "eng_3": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "Will they become the hero that saves the world once again? Only time will tell.",
+        "Reco": "Will they secome the hero that saves the world once again? duly time will tell.\n"
+    },
+    "eng_30": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "As the player selects \"Start Game\" from the menu and begins their adventure,",
+        "Reco": "As the player selects \"Start gGame\" from the menu and begins their adventure,\n"
+    },
+    "eng_31": {
+        "Model": "B: Train a model with a special font: Apex.",
+        "Real": "\"Load Game\" to continue where you left off.",
+        "Reco": "\"lLoad Game\" to continue where you left off.\n"
+    },
+    "eng_32": {
         "Model": "B: Train a model with a special font: Apex.",
         "Real": "Load Game",
         "Reco": "Load Game\n"
     },
-    "eng_2": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
-        "Reco": "Player: That sounds exciting. what kind of exemies can 1 expect to face?\n"
-    },
-    "eng_20": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Thanks, I'll do my best. See you later.",
-        "Reco": "Plavenr: thanks, 1'll oo my sest. see you lates.\n"
-    },
-    "eng_21": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
-        "Reco": "Character: you'll encounter all xinds of enemies, from small creatures to powerrul poasses.\n"
-    },
-    "eng_22": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Hey, what can you tell me about this world?",
-        "Reco": "Plavenr: wey, what can you tell me agout this world?\n"
-    },
-    "eng_23": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Options",
-        "Reco": "iptions\n"
-    },
-    "eng_24": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Menu:",
-        "Reco": "men:\n"
-    },
-    "eng_25": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
-        "Reco": "i \"UREDITST meny Lists all the talented people who helped create this amazine came. Give\n"
-    },
-    "eng_26": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
-        "Reco": "Be Sure to explore every corner and talk to the Locals for helprul informartion.\n"
-    },
-    "eng_27": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Exit",
-        "Reco": "exit\n"
-    },
-    "eng_28": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: No problem. Have a great adventure!",
-        "Reco": "Character: wo prodlem. have a great adventure!\n"
-    },
-    "eng_29": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "\"Load Game\" to continue where you left off.",
-        "Reco": "\"load Game\" to continue where vou Left off.\n"
-    },
-    "eng_3": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
-        "Reco": "Player: oxay, sot it. what agout the \"Load Game\" option? can ! use it to continue my progress?\n"
-    },
-    "eng_30": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Great. And what's in the \"Options\" menu?",
-        "Reco": "Plavenr: Great. and what's in the \"options\" menu?\n"
-    },
-    "eng_31": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Got it. And what about the story? What's it about?",
-        "Reco": "Plavenr: Got it. and what agout the story? what's it asout?\n"
-    },
-    "eng_32": {
-        "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Will they become the hero that saves the world once again? Only time will tell.",
-        "Reco": "Will they secome the nero that saves the wonrld once again? ouly time will tell.\n"
-    },
     "eng_33": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Dialogue:",
-        "Reco": "bialosue:\n"
+        "Real": "Player: Sounds epic. I can't wait to get started.",
+        "Reco": "Player: Soundos epic. I can't wait to get stanrted.\n"
     },
     "eng_34": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Alright. Thanks for the info.",
-        "Reco": "Plaver: alright. thanks for the info.\n"
+        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
+        "Reco": "Character: Good luck on your journey, adventurer. May the gods smile upon you.\n"
     },
     "eng_4": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "The world is vast and full of mysteries, but they are ready to face any challenge that comes their way.",
-        "Reco": "The world is vast and full of mysteries, sut they are ready to face any challence that comes their way.\n"
+        "Real": "Player: Alright. Thanks for the info.",
+        "Reco": "Player: alright. Thanks for the info.\n"
     },
     "eng_5": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Player: Sounds epic. I can't wait to get started.",
-        "Reco": "Playenr: sounos epic. 1 can't wait to get stanted.\n"
+        "Real": "Character: This world is full of wonder and danger. You'll encounter many challenges, but also great rewards.",
+        "Reco": "e This world is full of wonder and danger. you'll encounter many challenges, but also great\n"
     },
     "eng_6": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Credits",
-        "Reco": "Creoits\n"
+        "Real": "You'll follow in their footsteps as you journey through this world and discover the secrets of the past.",
+        "Reco": "You'll follow in their footsteps as you journey through this world and bdiscover the secrets of the past.\n"
     },
     "eng_7": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Start Game",
-        "Reco": "start oame\n"
+        "Real": "Player: Thanks, I'll do my best. See you later.",
+        "Reco": "Player: Thanks, i'Ll do my best. See you later.\n"
     },
     "eng_8": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
-        "Reco": "Charactenr: Good tuck on your journey, adventurer. may the coos smile upon you.\n"
+        "Real": "Be sure to equip yourself with the right weapons and abilities to take them down.",
+        "Reco": "be sure to eouip yourselr with the right weapons and abilities to take them down.\n"
     },
     "eng_9": {
         "Model": "B: Train a model with a special font: Apex.",
-        "Real": "As the player selects \"Start Game\" from the menu and begins their adventure,",
-        "Reco": "AS The plaver selects \"start game\" from the menu and decins their adventure,\n"
+        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
+        "Reco": "be sure to explore every corner and talk to the locals for helpful information.\n"
     }
 }

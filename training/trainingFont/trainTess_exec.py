@@ -1,6 +1,9 @@
 import subprocess
 import argparse 
 
+import time
+import datetime
+
 from trainClasses.TrainOCR import TrainOCR
 from trainClasses.Constants import *
 
@@ -57,8 +60,19 @@ def main():
     #Mover de tessdata_best a /home/tetesseract_repos/langdata los trainneddata
     subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{language}.traineddata',  f'{tesseract_Folder}/tessdata'])
     
+    start_time = time.time()
+
     trainerInstance.train(language, font_Name, maxIterations)
     # trainOCR(language, font_Name, maxIterations)
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+
+    # Creamos un objeto datetime a partir de la diferencia de tiempo
+    delta_time = datetime.datetime.utcfromtimestamp(elapsed_time)
+
+    # Formateamos el objeto datetime en minutos, segundos y milisegundos utilizando strftime
+    print("Tiempo transcurrido: {}".format(delta_time.strftime('%H:%M:%S.%f')))
 
 if __name__ == "__main__":
     main()

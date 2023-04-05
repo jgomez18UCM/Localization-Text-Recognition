@@ -131,7 +131,7 @@ def evaluateModel_B(kf, archivos_ordenados):
     #Mover de tessdata_best a /home/tetesseract_repos/langdata los trainneddata
     subprocess.run(['cp', '-n',f'{tessdata_best_Folder}/{language}.traineddata',  f'{tesseract_Folder}/tessdata'])
     
-    trainCommand =  lambda: trainModel_Inst.train(language, font_Name, 100)
+    trainCommand =  lambda: trainModel_Inst.train(language, font_Name, 400)
 
     
     recognitionCommand = lambda nameFile : subprocess.run([

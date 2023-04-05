@@ -59,7 +59,7 @@ Otherwise, wait until those messages show up.
 <details>
 <summary><h2><u>2. Creating Ground Truth</u></summary>
 
-Before training you'll have to create a database. The script ground_truth.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
+Before training you'll have to create a database. The script ground_truth_exec.py inside _trainingFont_ is able to create a database from a plain text file, containing all characters from a certain lenguage. 
 
 You can use also a custom file so the model is trained with your data. However make sure that your document has an extension like
 [lenguage].training_text and there can not be empty lines. 
@@ -69,7 +69,7 @@ To launch the script  you need to specify, at least, a lenguage and font name, o
 Type the following command:
 
 ```
-python grounTruth.py -l [lenguage] -f [fontName]
+python ground_truth_exec.py -l [lenguage] -f [fontName]
 ```
 
 ### Script Flags
@@ -81,6 +81,7 @@ Here a summary of all the flags available in the script.
 | --fontname   | -f   | Font name registered in font file.|
 | --directory   | -dir   | Custom directory where is stored custom text file to create ground truth.|
 | --clear   | -cl   | Clear folder that stores ground truth. Need to specify also lenguage and font name.|
+| --limit   | -lm   | Limit number of lines from custom text. If not specified, by default it would be 100. If the value is -1, it will be unlimited.|
 
 Moreover, you can launch the script with ```--help``` to see the full list of flags.
 
@@ -100,16 +101,16 @@ In the container, copy custom font file inside _/usr/local/share/fonts_ and run 
 fc-cache -f -v
 ```
 
-Launch trainTess.py script  inside _trainingFont_ folder with following syntax:
+Launch trainTess_exec.py script  inside _trainingFont_ folder with following syntax:
 
 ``` 
-python trainTess.py -l [lenguaje] -f [fontName] -it [num max training iterations]
+python trainTess_exec.py -l [lenguaje] -f [fontName] -it [num max training iterations]
 ```
 
 For instance, to train the example font Apex with an english lenguage, it should look like this:
 
 ``` 
-python trainTess.py -l eng -f Apex -it 1000
+python trainTess_exec.py -l eng -f Apex -it 1000
 ```
 
 ### Script Flags

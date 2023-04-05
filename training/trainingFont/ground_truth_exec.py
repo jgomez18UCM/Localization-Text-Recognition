@@ -10,6 +10,7 @@ def main():
     parser.add_argument('-l','--lenguage', type=str, help='Lenguage name.', default = None)
     parser.add_argument('-f','--fontname', type=str, help='Font name.', default = None)
     parser.add_argument('-cl','--clear', action='store_true', help='Clear ground truth folder.')
+    parser.add_argument('-lm','--limit', type=int, help='Limit lines number from text.')
 
     args = parser.parse_args()
 
@@ -38,7 +39,15 @@ def main():
     if args.directory is not None:
         path = args.directory 
 
-    groundTruthInstance = GroundTruth(path)
+
+    if args.limit is not None:
+        groundTruthInstance = GroundTruth(path, args.limit)
+    else:
+        groundTruthInstance = GroundTruth(path)
+
+    
+
+    
 
     #En caso de que se especifique limpiar
     if args.clear is True:
