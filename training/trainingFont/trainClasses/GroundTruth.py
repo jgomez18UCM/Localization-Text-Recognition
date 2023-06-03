@@ -74,7 +74,7 @@ class GroundTruth():
                 f'--font={font_Name}',
                 f'--text={line_training_text}',
                 f'--outputbase={output_directory}/{file_base_name}',
-                '--max_pages=1',
+                '--max_pages=10',
                 '--strip_unrenderable_words',
                 '--leading=32',
                 '--xsize=3600',

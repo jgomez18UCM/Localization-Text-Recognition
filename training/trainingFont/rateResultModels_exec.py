@@ -11,7 +11,7 @@ def main():
 
     #OPCION PARA CREAR Y LIMPIAR
 
-    parser.add_argument('-dir','--directoryPath', type=str, help='json full folder path of models results.', default = None)
+    parser.add_argument('-dir','--directoryPath', type=str, help='JSON complete-folder-path of models results.', default = None)
 
     args = parser.parse_args()
 

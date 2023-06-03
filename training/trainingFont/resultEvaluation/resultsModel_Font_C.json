@@ -1,0 +1,502 @@
+{
+    "eng_0": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "There, they find a group of adventurers talking about an ancient ruin.",
+        "Reco": "There, They find a group of adventurers talking about an ancient ruin.\n"
+    },
+    "eng_1": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Character: Welcome, traveler! Are you new around here?",
+        "Reco": "Village Character: WelCome, traveler! are you new around here?\n"
+    },
+    "eng_10": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: We did it! That was exciting!",
+        "Reco": "Player: We did it! that was exciting!\n"
+    },
+    "eng_11": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Understood, I'll look for him. Thanks!",
+        "Reco": "Player: understood, i'll look for him. thanks!\n"
+    },
+    "eng_12": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "With new information and equipment, the player heads north to explore the ancient ruin. Finally, after hours of travel,",
+        "Reco": "poid pte ANd eouipment, the player heads north to explore the ancient ruin. Finally, after\n"
+    },
+    "eng_13": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: Welcome, adventurer! To start your journey, select the \"Start Game\" option from the menu.",
+        "Reco": "Character: Welcome, adventurer! to start your journey, select the \"Start Game\" option from the menv.\n"
+    },
+    "eng_14": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: I understand. How can I help?",
+        "Reco": "Player: I understand. How can I help?\n"
+    },
+    "eng_15": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "as well as artifacts and books that can give you clues about the past. If you're clever enough, you could even",
+        "Reco": "en As Artifacts and books that can give you clues about the past. If you're clever enouch, you could\n"
+    },
+    "eng_16": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"Thank you! I can't wait to see how this will help me in the future!\"",
+        "Reco": "Player: \"Thank you! I can't wait to see how this will help me in the future!\"\n"
+    },
+    "eng_17": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: I think we should take it to the dragon temple in the mountains.",
+        "Reco": "Character: I think we should take it to the dragon temple in the mountains.\n"
+    },
+    "eng_18": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Mr. Smith: Welcome to my shop, young adventurer! Are you looking for anything in particular?",
+        "Reco": "Mr. Smith: Welcome to my shop, young adventurer! are you looking for anything in particular?\n"
+    },
+    "eng_19": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "ready to face their first challenge in this adventure.",
+        "Reco": "Ready to face their first Challenge in this adventure.\n"
+    },
+    "eng_2": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Mr. Smith: They are 200 gold coins in total. Do you have enough to pay?",
+        "Reco": "Me. Smith: They are 200 gold coins in total. Do you have enough to pay?\n"
+    },
+    "eng_20": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Nice. And what's in the \"Credits\" menu?",
+        "Reco": "Player: nice. And what's in the \"Credits\" menu?\n"
+    },
+    "eng_21": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Yes, I just arrived. Is there any work I can do to help the people?",
+        "Reco": "Player: Yes, I just arrived. Is there any work I can do to help the people?\n"
+    },
+    "eng_22": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Erik: Absolutely. I love fighting against orcs. Plus, if we manage to stop them,",
+        "Reco": "Erik: absolutely. I love fighting against orcs. plus, iIf we manage to stop then,\n"
+    },
+    "eng_23": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Villager: Actually, there's a problem with the beasts in the forest that are attacking people.",
+        "Reco": "Villager: actually, there's a problem with the beasts in the forest that are attacking people.\n"
+    },
+    "eng_24": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Arin: No problem. Good luck with your mission.",
+        "Reco": "ARin: Ho problem. Good luck with your mission.\n"
+    },
+    "eng_25": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "the world come to buy and sell goods. There are a lot of shops and vendors here,",
+        "Reco": "The world come to buy and sell goods. There are a lot of shops and vendors here,\n"
+    },
+    "eng_26": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"Interesting. I love discovering new things. Thank you for the information, old man.\"",
+        "Reco": "Player: \"Interesting. I love discovering new things. Thank you for the information, old man.\n"
+    },
+    "eng_27": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The beasts are attacking our farms and travelers who venture too close to the forest.",
+        "Reco": "The beasts are attacking our farms and travelers who venture too close to the forest.\n"
+    },
+    "eng_28": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: \"It seems that your wish has been granted. I hope it helps you in your adventure.\"",
+        "Reco": "Character: \"It seems that your wish has been granted. I hope it helps you in your adventure.\"\n"
+    },
+    "eng_29": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: That sounds exciting. What kind of enemies can I expect to face?",
+        "Reco": "Player: That sounds exciting. What kind of enemies can I expect to face?\n"
+    },
+    "eng_3": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Old Man: \"No problem, young adventurer. But don't get too confident. This world is dangerous, and most people",
+        "Reco": "ope \"No problem, young adventurer. But don't Get too confident. This world is bangerous, And most\n"
+    },
+    "eng_30": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: What is that?",
+        "Reco": "Player: What is that?\n"
+    },
+    "eng_31": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "With that last warning, the old man disappears into the darkness, leaving the player alone with their thoughts.",
+        "Reco": " hers Last warning, the old man disappears into the darkness, leaving the player alone with their\n"
+    },
+    "eng_32": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"Yes, I'm ready for any challenge. What do you know about the dangers of this world?\"",
+        "Reco": "Player: \"Yes, I'm ready for any challenge. What do you know rbout the dangers of this world?\"\n"
+    },
+    "eng_33": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Be sure to explore every corner and talk to the locals for helpful information.",
+        "Reco": "be sure to explore every corner and talk to the locals for helpful information.\n"
+    },
+    "eng_34": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player heads to Mr. Smith's weapon shop, where they examine the selection of weapons and armor.",
+        "Reco": "The player heads to mr. smith's weapon shop, where they examine the selection of weapons and armor.\n"
+    },
+    "eng_35": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Old Man: \"Oh, there are many things that can harm you around here. Monsters, traps, curses... Even the weather",
+        "Reco": "pittos \"Oh, There are many things that can harm you around here. Monsters, thaps, curses... Even the\n"
+    },
+    "eng_36": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: Watch out, it's a wolf!",
+        "Reco": "Character: Watch out, it's a wolf!\n"
+    },
+    "eng_37": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Character: No problem. Good luck on your adventures!",
+        "Reco": "Village Character: no problem. Good luck on your adventures!\n"
+    },
+    "eng_38": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Leader: The beasts are inside the forest, near the cave. Be careful, they are dangerous.",
+        "Reco": "Village leader: The bBeasts are inside the forest, near the cave. Be Careful, They are dDangerous.\n"
+    },
+    "eng_39": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Yes, I just arrived. I'm in search of adventures and treasures.",
+        "Reco": "Player: Yes, I just arrived. I'm in search of adventures and treasures.\n"
+    },
+    "eng_4": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: \"Yes, sometimes enemies can be very strong. Make sure you are prepared for anything in the future.\"",
+        "Reco": "or \"Yes, Sometimes enemies can be very strong. Make sure you are prepanred for Anythring in the\n"
+    },
+    "eng_40": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Old Man: \"The history of this world is very ancient and full of mysteries. There are many sacred and ancient places,",
+        "Reco": "tin 0f Tthis world Is very ancient and full of mysteries. There Are Many sacred And\n"
+    },
+    "eng_41": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: I'll keep that in mind. Thanks for the information, Arin.",
+        "Reco": "Player: I'Ll keep that in mind. Thanks for the information, arin.\n"
+    },
+    "eng_42": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "If you can help us deal with them, we would be very grateful.",
+        "Reco": "If you can help us deal with them, we would be very gGrateful.\n"
+    },
+    "eng_43": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"What should I wish for?\"",
+        "Reco": "Player: \"What should I wish for?\"\n"
+    },
+    "eng_44": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Erik: Yes, I have seen it. But you must be careful, the orcs are dangerous. If you need help,",
+        "Reco": "Erik: Yes, I have seen it. But you must be careful, The orcs are dangerous. If you need help,\n"
+    },
+    "eng_45": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "After selecting \"Start Game,\" the player finds themselves in a village on the edge of the forest.",
+        "Reco": "After Selecting \"Start gGame,\" the player finds themselves in a village on the eoge of the forest.\n"
+    },
+    "eng_46": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Sounds epic. I can't wait to get started.",
+        "Reco": "Player: Soundos epic. I can't wait to get started.\n"
+    },
+    "eng_47": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "as everything has a price.\"",
+        "Reco": "As everything has a price.\"\n"
+    },
+    "eng_48": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "And so, the player and the character set off for the dragon temple, prepared to face any challenge that came their way.",
+        "Reco": "lt y ANd The Character set off for the dragon temple, prepared to face any challenge that\n"
+    },
+    "eng_49": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Menu:",
+        "Reco": "Menu:\n"
+    },
+    "eng_5": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The battle continues until the player finally defeats the wolf.",
+        "Reco": "The battle continues until the player finally defeats the wolf.\n"
+    },
+    "eng_50": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Hi, I've come to help with the problem of the forest beasts.",
+        "Reco": "Player: Hi, I've come to help with the problem of the forest beasts.\n"
+    },
+    "eng_51": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Old Man: \"A young adventurer like you? Are you sure you're prepared for what's to come?\"",
+        "Reco": "Old mMan: \"A young adventurer like you? are you sure you're prepared for what's to come?\"\n"
+    },
+    "eng_52": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Character: Well, this is a good place to start. If you need any help or information, just ask me.",
+        "Reco": "Village Character: Well, this is a good place to start. If you need any help or information, Just ask me.\n"
+    },
+    "eng_53": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Hi, Erik. I'm looking for the orc tribe camp. Have you seen it?",
+        "Reco": "Player: Hi, erik. I'm looking for the orc tribe camp. have you seen it?\n"
+    },
+    "eng_54": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: You'll encounter all kinds of enemies, from small creatures to powerful bosses.",
+        "Reco": "Character: you'll encounter all kinds of enemies, from small creatures to powerful bosses.\n"
+    },
+    "eng_55": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: This is worse than I expected. We have to fight!",
+        "Reco": "Player: This is worse than I expected. we have to fight!\n"
+    },
+    "eng_56": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Together, the player and the character fought against the skeletons, dodging their blows and returning theirs with force.",
+        "Reco": "ede ANd The Character fought against the skeletons, dodging their blows and returning\n"
+    },
+    "eng_57": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: I'm with you! Don't worry, we'll fight together!",
+        "Reco": "Character: I'm with you! don't worry, we'll fight together!\n"
+    },
+    "eng_58": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Upon opening the sarcophagus, they found an object that shone with intense light: it was the dragon amulet,",
+        "Reco": "le The sarcophacgus, they found an object that shone with intense light: 1tT was the dragon\n"
+    },
+    "eng_59": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Let me show you some of my featured products.",
+        "Reco": "Let me show you some of my featured products.\n"
+    },
+    "eng_6": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: It looks like you've found what you were looking for.",
+        "Reco": "Character: It looks like you've found what you were looking fohr.\n"
+    },
+    "eng_60": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: Something is moving! Get ready for the worst!",
+        "Reco": "Character: Something is moving! Get ready for the worst!\n"
+    },
+    "eng_61": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Don't worry, I'm prepared to face them. Where can I find them?",
+        "Reco": "Player: Don't worry, I'm prepared to face them. Where can I find them?\n"
+    },
+    "eng_62": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Okay, got it. What about the \"Load Game\" option? Can I use it to continue my progress?",
+        "Reco": "Player: dkay, Got it. What about the \"load Game\" option? Can I use it to continue my progress?\n"
+    },
+    "eng_63": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Hey, what can you tell me about this world?",
+        "Reco": "Player: Hey, what can you tell me about this world?\n"
+    },
+    "eng_64": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Load Game",
+        "Reco": "load Game\n"
+    },
+    "eng_65": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "any problems.\"",
+        "Reco": "Any problems.\"\n"
+    },
+    "eng_66": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "As the player approached the forest, they heard a strange and distant sound. They stopped and looked around,",
+        "Reco": "on. Abproached the forest, they heard a strange and distant sound. They stopped and looked\n"
+    },
+    "eng_67": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Adventurer 2: Yeah, I've heard the same. But there are also rumors of a great treasure hidden inside.",
+        "Reco": "Adventurer 2: Yeah, I've heard the same. But there are also humors of a Great treasure hiodden inside.\n"
+    },
+    "eng_68": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Character: Of course. This is the merchant's village, where traders from all over",
+        "Reco": "Village Character: Of course. This is the merchant's village, where thaders from all over\n"
+    },
+    "eng_69": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: The \"Credits\" menu lists all the talented people who helped create this amazing game. Give them a look!",
+        "Reco": "ntioiiy \"Chedits\" menu lists all the talented people who helped create this amazing Game. Give\n"
+    },
+    "eng_7": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player enters the town hall and speaks with the village leader.",
+        "Reco": "The player enters the town hall and speaks with the village leadear.\n"
+    },
+    "eng_70": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player approaches the old man, who looks at them curiously.",
+        "Reco": "The player approaches the old man, who looks at them curiously.\n"
+    },
+    "eng_71": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player equips their new sword and shield and heads to the local tavern to gather information and relax a bit.",
+        "Reco": "lyy Their new sword and shield and heads to the local tavern to gather information And\n"
+    },
+    "eng_72": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "and many other useful items. Just make sure to be attentive and search every corner.\"",
+        "Reco": "ANd mMany other useful items. Just make sure to be attentive and search every corner.\"\n"
+    },
+    "eng_73": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The village leader is in the town hall.",
+        "Reco": "The village leader is in the town hall.\n"
+    },
+    "eng_74": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Alright. Let's go together!",
+        "Reco": "Player: Alright. Let's go together!\n"
+    },
+    "eng_75": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "You can also visit the local tavern to get information from the locals and rest a bit.",
+        "Reco": "You can also visit the local tavern to get information from the locals and rest a bit.\n"
+    },
+    "eng_76": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player and Erik head towards the orc tribe camp, ready to fight and protect the people of the region.",
+        "Reco": "The player and erik head towards the orc tribe camp, ready to fight and protect the people of the region.\n"
+    },
+    "eng_77": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Title: Welcome to the World of Adventure!",
+        "Reco": "Title: Welcome to the world of adventure!\n"
+    },
+    "eng_78": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Erik: Hello, stranger! Can I help you with something?",
+        "Reco": "Erik: hello, stranger! Can I help you with something?\n"
+    },
+    "eng_79": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: Good luck on your journey, adventurer. May the gods smile upon you.",
+        "Reco": "Character: Good luck on your journey, adventurer. May the gGods smile upon you.\n"
+    },
+    "eng_8": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Adventurer 1: It's north of the forest, but be careful. There are dangerous monsters rumored to lurk there.",
+        "Reco": "Adventurer 1: It's north of the forest, But be careful. There are dangerous monsters rumored to lurk there.\n"
+    },
+    "eng_80": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: That sounds interesting. Where exactly is it?",
+        "Reco": "Player: That sounds interesting. Where exactly is it?\n"
+    },
+    "eng_81": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player decides to accept the challenge and heads east in search of the orc tribe camp. Along the way,",
+        "Reco": "The player decides to accept the challenge and heads east in search of the orc tribe camp. Along the way,\n"
+    },
+    "eng_82": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Dialogue:",
+        "Reco": "Dialogue:\n"
+    },
+    "eng_83": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: I'm looking for a good sword and a sturdy shield. Do you have anything I can use?",
+        "Reco": "Player: I'm looking for a gGood sword and a sturdy shield. bo you have anything I can use?\n"
+    },
+    "eng_84": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Alright. Thanks for the info.",
+        "Reco": "Player: Alright. Thanks for the info.\n"
+    },
+    "eng_85": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Village Leader: Ah, you're an adventurer willing to help us.",
+        "Reco": "Village leader: ah, you're an adventurer willing to help us.\n"
+    },
+    "eng_86": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: These are perfect. How much do they cost?",
+        "Reco": "Player: These are perfect. How much do they cost?\n"
+    },
+    "eng_87": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "the key they needed to advance on their mission.",
+        "Reco": "The key they neeoeo to advance on their mission.\n"
+    },
+    "eng_88": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Hey, I'm ready to start the game. What should I do?",
+        "Reco": "Player: Hey, I'm ready to start the game. What should I do?\n"
+    },
+    "eng_89": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "After examining the options, the player decides to buy a sword and a shield.",
+        "Reco": "Afier examining the options, the player decides to buy a sword and a shield.\n"
+    },
+    "eng_9": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "The player draws their sword and prepares to fight against the wolf. The wolf runs towards the player with its teeth bared.",
+        "Reco": "rpi, Sword and prepares to fight against the wolf. The wolf runs towards the player\n"
+    },
+    "eng_90": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: Yes, here you go.",
+        "Reco": "Player: Yes, here you go.\n"
+    },
+    "eng_91": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Character: \"That depends on you. The magical crystal has the power to grant any wish, but be careful what you wish for,",
+        "Reco": "wn vo wish fo On you. The magical crystal has the power to grant any wish, but be careful\n"
+    },
+    "eng_92": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"I understand. And what about the items that I can find along the way?\"",
+        "Reco": "Player: \"I understand. And what about the items that I can find along the way?\"\n"
+    },
+    "eng_93": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "and you might find something valuable if you look hard enough.",
+        "Reco": "ANd You might find something valuable if you look hard enough.\n"
+    },
+    "eng_94": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "Player: \"That was intense!\"",
+        "Reco": "Player: \"That was intense!\"\n"
+    },
+    "eng_95": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "After carefully examining it, the player discovered they needed to place some stones in certain places to open the door.",
+        "Reco": "ey tre vion Examining it, the player discovered they needed to place some stones in certain places to\n"
+    },
+    "eng_96": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "He can give you more information on the matter.",
+        "Reco": "he can Give you more information on the matter.\n"
+    },
+    "eng_97": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "lakes and rivers in this area.",
+        "Reco": "lakes and rivers in this area.\n"
+    },
+    "eng_98": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "they arrive at the ancient ruins. The entrance was blocked by a large rock, but the player knew there had to be a way to pass.",
+        "Reco": "fortiho ited et! Ruins. The entrhance was blocked by a larce rock, but the player knew there\n"
+    },
+    "eng_99": {
+        "Model": "C: Train a model with specific text and special font: Apex.",
+        "Real": "experience. What else does fate have in store for them in this exciting world of adventure?",
+        "Reco": "Experience. What else does fate have in store for them in this exciting world of adventure?\n"
+    }
+}
