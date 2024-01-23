@@ -1,4 +1,4 @@
 # LocalizationTesting-CollabProject
-Localization Testing program in collaboration with Artax Games and UCM Computer Science Faculty.
+This is a fork of the repository [this repo]( https://github.com/JosedaMachine/LocalizationTesting-CollabProject).
 
 Please read README file inside _training_ folder
